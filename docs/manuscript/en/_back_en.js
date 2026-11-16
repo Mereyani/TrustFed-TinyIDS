@@ -57,13 +57,34 @@ const CITE_ALIAS = { mcmahan2017: "mcmahan2017communication", li2020fedprox: "li
   lorden1971: "lorden1971procedures", moustakides1986: "moustakides1986optimal", shiryaev1963: "shiryaev1963optimum",
   roberts1966: "roberts1966comparison", zaykin2002tpm: "zaykin2002truncated", donoho2004hc: "donoho2004higher",
   reynolds1999bernoulli: "reynolds1999cusum", roberts1959ewma: "roberts1959control", lucas1990ewma: "lucas1990exponentially" };
+// IEEE style: journal, proceedings and book titles in italics. Returns [before, italic, after].
+const BOOK_TITLES = { vovk2005algorithmic: "Algorithmic Learning in a Random World",
+  vovk2022algorithmic: "Algorithmic Learning in a Random World",
+  tartakovsky2014sequential: "Sequential Analysis: Hypothesis Testing and Changepoint Detection" };
+function splitVenue(key, t) {
+  if (BOOK_TITLES[key]) {
+    const i = t.indexOf(BOOK_TITLES[key]);
+    if (i >= 0) return [t.slice(0, i), BOOK_TITLES[key], t.slice(i + BOOK_TITLES[key].length)];
+  }
+  const q = t.indexOf(",\" ");                       // end of the quoted article title
+  if (q < 0) return [t, "", ""];
+  let s = q + 3;
+  if (t.startsWith("in ", s)) s += 3;
+  if (t.startsWith("arXiv", s)) return [t, "", ""];   // preprints: no italic venue
+  const rest = t.slice(s + 1);
+  const m = /, (vol\.|no\.|pp\.|p\. |Art\. no\.|early access|PMLR|(19|20)\d\d)|\. \[Online\]/.exec(rest);
+  const e = m ? s + 1 + m.index : t.length;
+  return [t.slice(0, s), t.slice(s, e), t.slice(e)];
+}
 function secReferences(C) {
   C.push(H1("References"));
   const refs = loadRefs();
   CITE_ORDER.forEach((k, i) => {
     const t = refs[k];
     if (!t) throw new Error(`reference not found in the verified list: ${k}`);
+    const [a, v, b] = splitVenue(k, t);
     C.push(new Paragraph({ spacing: { after: 60, line: 252 }, indent: { left: 560, hanging: 560 },
-      children: [new TextRun({ text: `[${i + 1}]\t`, size: 19 }), new TextRun({ text: t, size: 19 })] }));
+      children: [new TextRun({ text: `[${i + 1}]\t`, size: 19 }), new TextRun({ text: a, size: 19 }),
+        new TextRun({ text: v, size: 19, italics: true }), new TextRun({ text: b, size: 19 })] }));
   });
 }
