@@ -1,0 +1,11 @@
+model,küme,parametre,tflite_int8_KB,tahmini_RAM_KB_int8,gecikme_int8_µs_colab
+FedAvg-IID · fedprox_kalici,cihaz,2749.0,10.016,2.807,1.402
+FedAvg-IID · fedprox_kalici,tümü,4829.0,12.891,4.869,1.88
+FedAvg-IID · orijinal,cihaz,2749.0,10.016,2.807,1.797
+FedAvg-IID · orijinal,tümü,4829.0,12.891,4.869,1.797
+FedAvg-IID · orijinal_kucuk_yigin,cihaz,2749.0,10.016,2.807,1.632
+FedAvg-IID · orijinal_kucuk_yigin,tümü,4829.0,12.891,4.869,1.781
+FedAvg-IID · yakinsama_kalici,cihaz,2749.0,10.016,2.807,1.459
+FedAvg-IID · yakinsama_kalici,tümü,4829.0,12.891,4.869,2.019
+Merkezi AE,cihaz,2749.0,10.016,2.807,1.842
+Merkezi AE,tümü,4829.0,12.891,4.869,1.752

@@ -1,0 +1,43 @@
+{
+  "cihaz_s\u00fctunlar\u0131": [
+    "proto",
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "conn_state",
+    "missed_bytes",
+    "src_pkts",
+    "src_ip_bytes",
+    "dst_pkts",
+    "dst_ip_bytes"
+  ],
+  "\u00f6znitelik": [
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "missed_bytes",
+    "src_pkts",
+    "src_ip_bytes",
+    "dst_pkts",
+    "proto=icmp",
+    "proto=tcp",
+    "conn_state=OTH",
+    "conn_state=RSTO",
+    "conn_state=RSTOS0",
+    "conn_state=RSTR",
+    "conn_state=RSTRH",
+    "conn_state=S0",
+    "conn_state=S1",
+    "conn_state=S2",
+    "conn_state=S3",
+    "conn_state=SF",
+    "conn_state=SH",
+    "conn_state=SHR"
+  ],
+  "e\u011fitimde_birebir_g\u00f6r\u00fclm\u00fc\u015f_pay": {
+    "benign_cal": 0.02927120669056153,
+    "benign_test": 0.028068080023887727,
+    "dev_test": 0.00029254429956536275,
+    "heldout_test": 0.0013616842987325861
+  }
+}

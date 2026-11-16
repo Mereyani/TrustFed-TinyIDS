@@ -1,0 +1,2201 @@
+model,tohum,yaygınlık,kapsama,seçici_risk
+AE merkezi,0,test kümesi,0.5,0.12126668209706577
+AE merkezi,0,test kümesi,0.55,0.1956077974317677
+AE merkezi,0,test kümesi,0.6,0.26147436771400323
+AE merkezi,0,test kümesi,0.65,0.31689767203058533
+AE merkezi,0,test kümesi,0.7,0.364622591127564
+AE merkezi,0,test kümesi,0.75,0.40211051725525354
+AE merkezi,0,test kümesi,0.8,0.4364500443868652
+AE merkezi,0,test kümesi,0.85,0.4678468250600146
+AE merkezi,0,test kümesi,0.9,0.495616772934758
+AE merkezi,0,test kümesi,0.95,0.5212201541831122
+AE merkezi,0,test kümesi,1.0,0.5442374538344558
+AE merkezi,0,π=%1,0.5,0.01658263692676595
+AE merkezi,0,π=%1,0.55,0.015129016884058764
+AE merkezi,0,π=%1,0.6,0.013919659581197001
+AE merkezi,0,π=%1,0.65,0.012880948118524038
+AE merkezi,0,π=%1,0.7,0.011970869934105465
+AE merkezi,0,π=%1,0.75,0.011255746972138452
+AE merkezi,0,π=%1,0.8,0.011016775739603347
+AE merkezi,0,π=%1,0.85,0.01113002319087643
+AE merkezi,0,π=%1,0.9,0.012545237263387127
+AE merkezi,0,π=%1,0.95,0.013077313450901401
+AE merkezi,0,π=%1,1.0,0.014255589052588006
+AE merkezi INT8,0,test kümesi,0.5,0.2115923913129507
+AE merkezi INT8,0,test kümesi,0.55,0.26138388040392946
+AE merkezi INT8,0,test kümesi,0.6,0.3152930858278476
+AE merkezi INT8,0,test kümesi,0.65,0.36568569903412906
+AE merkezi INT8,0,test kümesi,0.7,0.40662689909804406
+AE merkezi INT8,0,test kümesi,0.75,0.439903841784063
+AE merkezi INT8,0,test kümesi,0.8,0.4733743098387983
+AE merkezi INT8,0,test kümesi,0.85,0.5024528916425879
+AE merkezi INT8,0,test kümesi,0.9,0.5262862792051758
+AE merkezi INT8,0,test kümesi,0.95,0.5498800653136906
+AE merkezi INT8,0,test kümesi,1.0,0.5715022811210081
+AE merkezi INT8,0,π=%1,0.5,0.019246755017311983
+AE merkezi INT8,0,π=%1,0.55,0.017589232850266444
+AE merkezi INT8,0,π=%1,0.6,0.01616526945664501
+AE merkezi INT8,0,π=%1,0.65,0.015001038784881768
+AE merkezi INT8,0,π=%1,0.7,0.014056577219657427
+AE merkezi INT8,0,π=%1,0.75,0.013492581042089174
+AE merkezi INT8,0,π=%1,0.8,0.013273294370130976
+AE merkezi INT8,0,π=%1,0.85,0.013698754985021547
+AE merkezi INT8,0,π=%1,0.9,0.013496968609948177
+AE merkezi INT8,0,π=%1,0.95,0.014252016614191329
+AE merkezi INT8,0,π=%1,1.0,0.014850826269632052
+Federe AE · orijinal,0,test kümesi,0.5,0.34601667154713867
+Federe AE · orijinal,0,test kümesi,0.55,0.40547273161871317
+Federe AE · orijinal,0,test kümesi,0.6,0.4547907223699747
+Federe AE · orijinal,0,test kümesi,0.65,0.49639882778160904
+Federe AE · orijinal,0,test kümesi,0.7,0.5319420730957971
+Federe AE · orijinal,0,test kümesi,0.75,0.5624252060592015
+Federe AE · orijinal,0,test kümesi,0.8,0.5890960089718948
+Federe AE · orijinal,0,test kümesi,0.85,0.6110704270557668
+Federe AE · orijinal,0,test kümesi,0.9,0.6314277607924041
+Federe AE · orijinal,0,test kümesi,0.95,0.6507691458547447
+Federe AE · orijinal,0,test kümesi,1.0,0.6677710189007169
+Federe AE · orijinal,0,π=%1,0.5,0.01911006625581746
+Federe AE · orijinal,0,π=%1,0.55,0.017416865694910078
+Federe AE · orijinal,0,π=%1,0.6,0.015967192223660123
+Federe AE · orijinal,0,π=%1,0.65,0.01474456169228114
+Federe AE · orijinal,0,π=%1,0.7,0.013762975785900132
+Federe AE · orijinal,0,π=%1,0.75,0.012895268750455087
+Federe AE · orijinal,0,π=%1,0.8,0.012584108350547553
+Federe AE · orijinal,0,π=%1,0.85,0.012478455313063732
+Federe AE · orijinal,0,π=%1,0.9,0.011864152551390103
+Federe AE · orijinal,0,π=%1,0.95,0.014295970152881393
+Federe AE · orijinal,0,π=%1,1.0,0.016795761221735064
+Federe AE INT8 · orijinal,0,test kümesi,0.5,0.3486703943797204
+Federe AE INT8 · orijinal,0,test kümesi,0.55,0.4078696186711165
+Federe AE INT8 · orijinal,0,test kümesi,0.6,0.4570042142862268
+Federe AE INT8 · orijinal,0,test kümesi,0.65,0.4984733847630313
+Federe AE INT8 · orijinal,0,test kümesi,0.7,0.5338277271538563
+Federe AE INT8 · orijinal,0,test kümesi,0.75,0.5639246427623827
+Federe AE INT8 · orijinal,0,test kümesi,0.8,0.5902120729331225
+Federe AE INT8 · orijinal,0,test kümesi,0.85,0.612459415378738
+Federe AE INT8 · orijinal,0,test kümesi,0.9,0.6327572958577176
+Federe AE INT8 · orijinal,0,test kümesi,0.95,0.6519733382115901
+Federe AE INT8 · orijinal,0,test kümesi,1.0,0.668993048012166
+Federe AE INT8 · orijinal,0,π=%1,0.5,0.019684862695436733
+Federe AE INT8 · orijinal,0,π=%1,0.55,0.017951331494011374
+Federe AE INT8 · orijinal,0,π=%1,0.6,0.016465442963576202
+Federe AE INT8 · orijinal,0,π=%1,0.65,0.015199131943495904
+Federe AE INT8 · orijinal,0,π=%1,0.7,0.014178045920148125
+Federe AE INT8 · orijinal,0,π=%1,0.75,0.013257560842331534
+Federe AE INT8 · orijinal,0,π=%1,0.8,0.01283642254886773
+Federe AE INT8 · orijinal,0,π=%1,0.85,0.012829445373421395
+Federe AE INT8 · orijinal,0,π=%1,0.9,0.012192303550985606
+Federe AE INT8 · orijinal,0,π=%1,0.95,0.014674610434875618
+Federe AE INT8 · orijinal,0,π=%1,1.0,0.017104515989189866
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,0.5,0.17915266830870283
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,0.55,0.24656518601816807
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,0.6,0.30894298562684214
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,0.65,0.36121234361351734
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,0.7,0.4057825315318049
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,0.75,0.44427608421033177
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,0.8,0.4787009513677034
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,0.85,0.5087676650180533
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,0.9,0.5344800421344059
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,0.95,0.5556434825509381
+Federe AE · orijinal_kucuk_yigin,0,test kümesi,1.0,0.5773137084510103
+Federe AE · orijinal_kucuk_yigin,0,π=%1,0.5,0.015379885220449264
+Federe AE · orijinal_kucuk_yigin,0,π=%1,0.55,0.014120326623432626
+Federe AE · orijinal_kucuk_yigin,0,π=%1,0.6,0.012971997246165719
+Federe AE · orijinal_kucuk_yigin,0,π=%1,0.65,0.012001715406662047
+Federe AE · orijinal_kucuk_yigin,0,π=%1,0.7,0.011153694212141562
+Federe AE · orijinal_kucuk_yigin,0,π=%1,0.75,0.01043443884395368
+Federe AE · orijinal_kucuk_yigin,0,π=%1,0.8,0.00998887055210787
+Federe AE · orijinal_kucuk_yigin,0,π=%1,0.85,0.009919707209354263
+Federe AE · orijinal_kucuk_yigin,0,π=%1,0.9,0.010090510649945345
+Federe AE · orijinal_kucuk_yigin,0,π=%1,0.95,0.013307501740989611
+Federe AE · orijinal_kucuk_yigin,0,π=%1,1.0,0.014028818875408059
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,0.5,0.2013910631725252
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,0.55,0.2678003415452059
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,0.6,0.32832482762056486
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,0.65,0.3785366890785506
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,0.7,0.42230292886224535
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,0.75,0.4606963282655446
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,0.8,0.4940107604440846
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,0.85,0.5222714410170036
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,0.9,0.5465219480818078
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,0.95,0.568264171183046
+Federe AE INT8 · orijinal_kucuk_yigin,0,test kümesi,1.0,0.5893167499456876
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,0.5,0.015442157313722012
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,0.55,0.01405961187854239
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,0.6,0.013012318292766627
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,0.65,0.012076182376669154
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,0.7,0.011210903091146389
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,0.75,0.010473863812000286
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,0.8,0.010151076662102295
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,0.85,0.010045404088662058
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,0.9,0.010113351006116135
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,0.95,0.01344242133642154
+Federe AE INT8 · orijinal_kucuk_yigin,0,π=%1,1.0,0.014160857710359513
+Federe AE · yakinsama_kalici,0,test kümesi,0.5,0.18039430726168437
+Federe AE · yakinsama_kalici,0,test kümesi,0.55,0.2505332043963596
+Federe AE · yakinsama_kalici,0,test kümesi,0.6,0.3104631550063889
+Federe AE · yakinsama_kalici,0,test kümesi,0.65,0.36081700520777465
+Federe AE · yakinsama_kalici,0,test kümesi,0.7,0.40525407595028734
+Federe AE · yakinsama_kalici,0,test kümesi,0.75,0.44240842897473304
+Federe AE · yakinsama_kalici,0,test kümesi,0.8,0.4746787748446408
+Federe AE · yakinsama_kalici,0,test kümesi,0.85,0.5032233909641965
+Federe AE · yakinsama_kalici,0,test kümesi,0.9,0.5295907593192706
+Federe AE · yakinsama_kalici,0,test kümesi,0.95,0.5526008665371609
+Federe AE · yakinsama_kalici,0,test kümesi,1.0,0.5746524006082989
+Federe AE · yakinsama_kalici,0,π=%1,0.5,0.01658682066779822
+Federe AE · yakinsama_kalici,0,π=%1,0.55,0.015074814046439584
+Federe AE · yakinsama_kalici,0,π=%1,0.6,0.013842295829878379
+Federe AE · yakinsama_kalici,0,π=%1,0.65,0.012832556524572788
+Federe AE · yakinsama_kalici,0,π=%1,0.7,0.011998361462569634
+Federe AE · yakinsama_kalici,0,π=%1,0.75,0.011331505418868144
+Federe AE · yakinsama_kalici,0,π=%1,0.8,0.011329279479470386
+Federe AE · yakinsama_kalici,0,π=%1,0.85,0.011386006742233284
+Federe AE · yakinsama_kalici,0,π=%1,0.9,0.012755901742480131
+Federe AE · yakinsama_kalici,0,π=%1,0.95,0.013221872827055982
+Federe AE · yakinsama_kalici,0,π=%1,1.0,0.014590167095903918
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,0.5,0.22335388744031381
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,0.55,0.2690530262461766
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,0.6,0.3249133996637932
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,0.65,0.3587386052409551
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,0.7,0.4020307730378595
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,0.75,0.439456121722374
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,0.8,0.4713666777407025
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,0.85,0.5013318896330181
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,0.9,0.5268432525203881
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,0.95,0.5495470490106975
+Federe AE INT8 · yakinsama_kalici,0,test kümesi,1.0,0.5717466869432979
+Federe AE INT8 · yakinsama_kalici,0,π=%1,0.5,0.018963751165240926
+Federe AE INT8 · yakinsama_kalici,0,π=%1,0.55,0.018230323734921464
+Federe AE INT8 · yakinsama_kalici,0,π=%1,0.6,0.01727666975493721
+Federe AE INT8 · yakinsama_kalici,0,π=%1,0.65,0.016021912098751104
+Federe AE INT8 · yakinsama_kalici,0,π=%1,0.7,0.014915016388650337
+Federe AE INT8 · yakinsama_kalici,0,π=%1,0.75,0.01511372069999466
+Federe AE INT8 · yakinsama_kalici,0,π=%1,0.8,0.014231232037653446
+Federe AE INT8 · yakinsama_kalici,0,π=%1,0.85,0.013401057359627124
+Federe AE INT8 · yakinsama_kalici,0,π=%1,0.9,0.013606152319500278
+Federe AE INT8 · yakinsama_kalici,0,π=%1,0.95,0.014211704796324047
+Federe AE INT8 · yakinsama_kalici,0,π=%1,1.0,0.015148826742837414
+Federe AE · fedprox_kalici,0,test kümesi,0.5,0.35373428224327275
+Federe AE · fedprox_kalici,0,test kümesi,0.55,0.4106571610838406
+Federe AE · fedprox_kalici,0,test kümesi,0.6,0.45817520742017004
+Federe AE · fedprox_kalici,0,test kümesi,0.65,0.49745933554669247
+Federe AE · fedprox_kalici,0,test kümesi,0.7,0.5312887165136727
+Federe AE · fedprox_kalici,0,test kümesi,0.75,0.5594551568513485
+Federe AE · fedprox_kalici,0,test kümesi,0.8,0.5825979985522266
+Federe AE · fedprox_kalici,0,test kümesi,0.85,0.6032932523637736
+Federe AE · fedprox_kalici,0,test kümesi,0.9,0.624336320632704
+Federe AE · fedprox_kalici,0,test kümesi,0.95,0.6439082349016187
+Federe AE · fedprox_kalici,0,test kümesi,1.0,0.6616065609385183
+Federe AE · fedprox_kalici,0,π=%1,0.5,0.016068784192625495
+Federe AE · fedprox_kalici,0,π=%1,0.55,0.014690942231080126
+Federe AE · fedprox_kalici,0,π=%1,0.6,0.013482672078947756
+Federe AE · fedprox_kalici,0,π=%1,0.65,0.012451777973912974
+Federe AE · fedprox_kalici,0,π=%1,0.7,0.011613684972530564
+Federe AE · fedprox_kalici,0,π=%1,0.75,0.01111171329530085
+Federe AE · fedprox_kalici,0,π=%1,0.8,0.011237064834845217
+Federe AE · fedprox_kalici,0,π=%1,0.85,0.012905312139100783
+Federe AE · fedprox_kalici,0,π=%1,0.9,0.013680742238383316
+Federe AE · fedprox_kalici,0,π=%1,0.95,0.013792848167543191
+Federe AE · fedprox_kalici,0,π=%1,1.0,0.01525138992366943
+Federe AE INT8 · fedprox_kalici,0,test kümesi,0.5,0.35985621194844913
+Federe AE INT8 · fedprox_kalici,0,test kümesi,0.55,0.4152728367555202
+Federe AE INT8 · fedprox_kalici,0,test kümesi,0.6,0.4609294436136225
+Federe AE INT8 · fedprox_kalici,0,test kümesi,0.65,0.4993943067074526
+Federe AE INT8 · fedprox_kalici,0,test kümesi,0.7,0.5317436948133979
+Federe AE INT8 · fedprox_kalici,0,test kümesi,0.75,0.5610448446462872
+Federe AE INT8 · fedprox_kalici,0,test kümesi,0.8,0.5818417056063564
+Federe AE INT8 · fedprox_kalici,0,test kümesi,0.85,0.6027379416172549
+Federe AE INT8 · fedprox_kalici,0,test kümesi,0.9,0.6237790746655936
+Federe AE INT8 · fedprox_kalici,0,test kümesi,0.95,0.6433937550397857
+Federe AE INT8 · fedprox_kalici,0,test kümesi,1.0,0.6611177492939387
+Federe AE INT8 · fedprox_kalici,0,π=%1,0.5,0.016010808563307964
+Federe AE INT8 · fedprox_kalici,0,π=%1,0.55,0.01465083731430757
+Federe AE INT8 · fedprox_kalici,0,π=%1,0.6,0.01346939781447454
+Federe AE INT8 · fedprox_kalici,0,π=%1,0.65,0.012536228450385635
+Federe AE INT8 · fedprox_kalici,0,π=%1,0.7,0.012219989036332453
+Federe AE INT8 · fedprox_kalici,0,π=%1,0.75,0.012063727273133143
+Federe AE INT8 · fedprox_kalici,0,π=%1,0.8,0.012676994876809835
+Federe AE INT8 · fedprox_kalici,0,π=%1,0.85,0.013593162935361485
+Federe AE INT8 · fedprox_kalici,0,π=%1,0.9,0.014133056034597505
+Federe AE INT8 · fedprox_kalici,0,π=%1,0.95,0.01378258389615138
+Federe AE INT8 · fedprox_kalici,0,π=%1,1.0,0.015246012776544712
+AE merkezi,1,test kümesi,0.5,0.1729371171594057
+AE merkezi,1,test kümesi,0.55,0.24665213793667098
+AE merkezi,1,test kümesi,0.6,0.30855052496848034
+AE merkezi,1,test kümesi,0.65,0.36069094369322635
+AE merkezi,1,test kümesi,0.7,0.4049169982436277
+AE merkezi,1,test kümesi,0.75,0.44303940331131414
+AE merkezi,1,test kümesi,0.8,0.47636099023065676
+AE merkezi,1,test kümesi,0.85,0.5059639014851943
+AE merkezi,1,test kümesi,0.9,0.532680525569293
+AE merkezi,1,test kümesi,0.95,0.5557845731402429
+AE merkezi,1,test kümesi,1.0,0.5778025200955899
+AE merkezi,1,π=%1,0.5,0.016199994145975956
+AE merkezi,1,π=%1,0.55,0.01484733605116822
+AE merkezi,1,π=%1,0.6,0.013625455867275626
+AE merkezi,1,π=%1,0.65,0.012603774353692001
+AE merkezi,1,π=%1,0.7,0.011857682294343143
+AE merkezi,1,π=%1,0.75,0.011173055632494619
+AE merkezi,1,π=%1,0.8,0.010558605659814028
+AE merkezi,1,π=%1,0.85,0.009968594414478567
+AE merkezi,1,π=%1,0.9,0.009900429816533178
+AE merkezi,1,π=%1,0.95,0.012301352432934112
+AE merkezi,1,π=%1,1.0,0.01432950792217578
+AE merkezi INT8,1,test kümesi,0.5,0.16314778209384379
+AE merkezi INT8,1,test kümesi,0.55,0.23184479065209865
+AE merkezi INT8,1,test kümesi,0.6,0.29218322184005335
+AE merkezi INT8,1,test kümesi,0.65,0.3431454413162395
+AE merkezi INT8,1,test kümesi,0.7,0.388085734347657
+AE merkezi INT8,1,test kümesi,0.75,0.4281783760960577
+AE merkezi INT8,1,test kümesi,0.8,0.46259364194509195
+AE merkezi INT8,1,test kümesi,0.85,0.49246213840962705
+AE merkezi INT8,1,test kümesi,0.9,0.5192761670072085
+AE merkezi INT8,1,test kümesi,0.95,0.5441592249716124
+AE merkezi INT8,1,test kümesi,1.0,0.5655550727786226
+AE merkezi INT8,1,π=%1,0.5,0.01785821543863649
+AE merkezi INT8,1,π=%1,0.55,0.01644480454805931
+AE merkezi INT8,1,π=%1,0.6,0.015357329918610134
+AE merkezi INT8,1,π=%1,0.65,0.01426576828019859
+AE merkezi INT8,1,π=%1,0.7,0.013315129915979959
+AE merkezi INT8,1,π=%1,0.75,0.01267501811193147
+AE merkezi INT8,1,π=%1,0.8,0.012075721307569277
+AE merkezi INT8,1,π=%1,0.85,0.011795467794650115
+AE merkezi INT8,1,π=%1,0.9,0.012180576701537134
+AE merkezi INT8,1,π=%1,0.95,0.013621839667412866
+AE merkezi INT8,1,π=%1,1.0,0.015080716212590963
+Federe AE · orijinal,1,test kümesi,0.5,0.36237244195893636
+Federe AE · orijinal,1,test kümesi,0.55,0.41820730460065464
+Federe AE · orijinal,1,test kümesi,0.6,0.46617057454479977
+Federe AE · orijinal,1,test kümesi,0.65,0.5066959869154356
+Federe AE · orijinal,1,test kümesi,0.7,0.5408747060850928
+Federe AE · orijinal,1,test kümesi,0.75,0.5712319382851616
+Federe AE · orijinal,1,test kümesi,0.8,0.5965505690051389
+Federe AE · orijinal,1,test kümesi,0.85,0.6149064236620229
+Federe AE · orijinal,1,test kümesi,0.9,0.6354270022997054
+Federe AE · orijinal,1,test kümesi,0.95,0.654570801542925
+Federe AE · orijinal,1,test kümesi,1.0,0.6708668259830546
+Federe AE · orijinal,1,π=%1,0.5,0.01439430592344786
+Federe AE · orijinal,1,π=%1,0.55,0.013099213550729285
+Federe AE · orijinal,1,π=%1,0.6,0.01204614497815088
+Federe AE · orijinal,1,π=%1,0.65,0.011277752978376961
+Federe AE · orijinal,1,π=%1,0.7,0.011160321919337869
+Federe AE · orijinal,1,π=%1,0.75,0.010790406339712469
+Federe AE · orijinal,1,π=%1,0.8,0.010311357516253188
+Federe AE · orijinal,1,π=%1,0.85,0.009752247926803142
+Federe AE · orijinal,1,π=%1,0.9,0.011371565888367475
+Federe AE · orijinal,1,π=%1,0.95,0.013086148414237152
+Federe AE · orijinal,1,π=%1,1.0,0.01446732128971429
+Federe AE INT8 · orijinal,1,test kümesi,0.5,0.3617647682822995
+Federe AE INT8 · orijinal,1,test kümesi,0.55,0.4180703554613145
+Federe AE INT8 · orijinal,1,test kümesi,0.6,0.4660635740753222
+Federe AE INT8 · orijinal,1,test kümesi,0.65,0.5061552434584908
+Federe AE INT8 · orijinal,1,test kümesi,0.7,0.5406277983592414
+Federe AE INT8 · orijinal,1,test kümesi,0.75,0.5708146297302563
+Federe AE INT8 · orijinal,1,test kümesi,0.8,0.5963488782746952
+Federe AE INT8 · orijinal,1,test kümesi,0.85,0.6147006120099476
+Federe AE INT8 · orijinal,1,test kümesi,0.9,0.6352291097133673
+Federe AE INT8 · orijinal,1,test kümesi,0.95,0.6543421938235489
+Federe AE INT8 · orijinal,1,test kümesi,1.0,0.6707038887681946
+Federe AE INT8 · orijinal,1,π=%1,0.5,0.014379995611568979
+Federe AE INT8 · orijinal,1,π=%1,0.55,0.013103648868745685
+Federe AE INT8 · orijinal,1,π=%1,0.6,0.012093057313878846
+Federe AE INT8 · orijinal,1,π=%1,0.65,0.011463277219074518
+Federe AE INT8 · orijinal,1,π=%1,0.7,0.011121110446340956
+Federe AE INT8 · orijinal,1,π=%1,0.75,0.010449720417784652
+Federe AE INT8 · orijinal,1,π=%1,0.8,0.010323428548222189
+Federe AE INT8 · orijinal,1,π=%1,0.85,0.009750761715072446
+Federe AE INT8 · orijinal,1,π=%1,0.9,0.011358989451978383
+Federe AE INT8 · orijinal,1,π=%1,0.95,0.013087509439592224
+Federe AE INT8 · orijinal,1,π=%1,1.0,0.014465528907339384
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,0.5,0.2962570100014519
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,0.55,0.35727342580171323
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,0.6,0.4093875070266939
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,0.65,0.4522536315045823
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,0.7,0.48839446038468787
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,0.75,0.5196163979542483
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,0.8,0.5483391677975105
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,0.85,0.5661866711408012
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,0.9,0.5886418522602265
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,0.95,0.6100641720603905
+Federe AE · orijinal_kucuk_yigin,1,test kümesi,1.0,0.6295350858135998
+Federe AE · orijinal_kucuk_yigin,1,π=%1,0.5,0.015416927909292584
+Federe AE · orijinal_kucuk_yigin,1,π=%1,0.55,0.014113661840773761
+Federe AE · orijinal_kucuk_yigin,1,π=%1,0.6,0.01299661325475363
+Federe AE · orijinal_kucuk_yigin,1,π=%1,0.65,0.012174218713614172
+Federe AE · orijinal_kucuk_yigin,1,π=%1,0.7,0.011484940904357274
+Federe AE · orijinal_kucuk_yigin,1,π=%1,0.75,0.010994269659647284
+Federe AE · orijinal_kucuk_yigin,1,π=%1,0.8,0.011977682326821188
+Federe AE · orijinal_kucuk_yigin,1,π=%1,0.85,0.013142331941521083
+Federe AE · orijinal_kucuk_yigin,1,π=%1,0.9,0.013954748913986445
+Federe AE · orijinal_kucuk_yigin,1,π=%1,0.95,0.013526542963561749
+Federe AE · orijinal_kucuk_yigin,1,π=%1,1.0,0.01460327742656564
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,0.5,0.2536826403485512
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,0.55,0.3175754562910303
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,0.6,0.37181252519040003
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,0.65,0.41882775609649736
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,0.7,0.4590672686217566
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,0.75,0.49282530815369413
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,0.8,0.5222264792688214
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,0.85,0.547217896412815
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,0.9,0.5668559324331391
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,0.95,0.5891962953132439
+Federe AE INT8 · orijinal_kucuk_yigin,1,test kümesi,1.0,0.6097110580056485
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,0.5,0.015410003517415153
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,0.55,0.014203685863962857
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,0.6,0.01326216866642668
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,0.65,0.01239256062627034
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,0.7,0.011655166444110493
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,0.75,0.01099753343101953
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,0.8,0.011039248901461718
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,0.85,0.011916775249058632
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,0.9,0.013319518716347454
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,0.95,0.01352395171426368
+Federe AE INT8 · orijinal_kucuk_yigin,1,π=%1,1.0,0.014385204237618663
+Federe AE · yakinsama_kalici,1,test kümesi,0.5,0.1225382928171715
+Federe AE · yakinsama_kalici,1,test kümesi,0.55,0.1898431993418074
+Federe AE · yakinsama_kalici,1,test kümesi,0.6,0.254720233976565
+Federe AE · yakinsama_kalici,1,test kümesi,0.65,0.31118739441625826
+Federe AE · yakinsama_kalici,1,test kümesi,0.7,0.3570002278011131
+Federe AE · yakinsama_kalici,1,test kümesi,0.75,0.3973676169523251
+Federe AE · yakinsama_kalici,1,test kümesi,0.8,0.433527737774942
+Federe AE · yakinsama_kalici,1,test kümesi,0.85,0.46572876528861107
+Federe AE · yakinsama_kalici,1,test kümesi,0.9,0.49437638674884543
+Federe AE · yakinsama_kalici,1,test kümesi,0.95,0.5182559964200752
+Federe AE · yakinsama_kalici,1,test kümesi,1.0,0.5412774277645014
+Federe AE · yakinsama_kalici,1,π=%1,0.5,0.018340341782080223
+Federe AE · yakinsama_kalici,1,π=%1,0.55,0.016680863414383615
+Federe AE · yakinsama_kalici,1,π=%1,0.6,0.015316134129157338
+Federe AE · yakinsama_kalici,1,π=%1,0.65,0.014242955219773276
+Federe AE · yakinsama_kalici,1,π=%1,0.7,0.013380298278456241
+Federe AE · yakinsama_kalici,1,π=%1,0.75,0.012672509294462096
+Federe AE · yakinsama_kalici,1,π=%1,0.8,0.012359702507685574
+Federe AE · yakinsama_kalici,1,π=%1,0.85,0.012081309865197233
+Federe AE · yakinsama_kalici,1,π=%1,0.9,0.0131092518986112
+Federe AE · yakinsama_kalici,1,π=%1,0.95,0.014263124950994455
+Federe AE · yakinsama_kalici,1,π=%1,1.0,0.01510896313837287
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,0.5,0.14410971937283917
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,0.55,0.21703469316426005
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,0.6,0.2781442828088911
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,0.65,0.3322323491805871
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,0.7,0.37800934467394176
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,0.75,0.41862759706616914
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,0.8,0.4544523306374092
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,0.85,0.4852339714044531
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,0.9,0.5125401897131113
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,0.95,0.5368804875004106
+Federe AE INT8 · yakinsama_kalici,1,test kümesi,1.0,0.5589289593743211
+Federe AE INT8 · yakinsama_kalici,1,π=%1,0.5,0.020288925491308316
+Federe AE INT8 · yakinsama_kalici,1,π=%1,0.55,0.01844501094474042
+Federe AE INT8 · yakinsama_kalici,1,π=%1,0.6,0.016898931264912195
+Federe AE INT8 · yakinsama_kalici,1,π=%1,0.65,0.015609846514430916
+Federe AE INT8 · yakinsama_kalici,1,π=%1,0.7,0.014594642523869765
+Federe AE INT8 · yakinsama_kalici,1,π=%1,0.75,0.014066732016517574
+Federe AE INT8 · yakinsama_kalici,1,π=%1,0.8,0.01340724554120331
+Federe AE INT8 · yakinsama_kalici,1,π=%1,0.85,0.01271584561547267
+Federe AE INT8 · yakinsama_kalici,1,π=%1,0.9,0.01304168178971158
+Federe AE INT8 · yakinsama_kalici,1,π=%1,0.95,0.014922240052664352
+Federe AE INT8 · yakinsama_kalici,1,π=%1,1.0,0.016189073594583426
+Federe AE · fedprox_kalici,1,test kümesi,0.5,0.3274575450164242
+Federe AE · fedprox_kalici,1,test kümesi,0.55,0.384627729526515
+Federe AE · fedprox_kalici,1,test kümesi,0.6,0.43198045806730256
+Federe AE · fedprox_kalici,1,test kümesi,0.65,0.4724227545746243
+Federe AE · fedprox_kalici,1,test kümesi,0.7,0.5074856362430631
+Federe AE · fedprox_kalici,1,test kümesi,0.75,0.5349451478718857
+Federe AE · fedprox_kalici,1,test kümesi,0.8,0.5622182743390538
+Federe AE · fedprox_kalici,1,test kümesi,0.85,0.5823237792314422
+Federe AE · fedprox_kalici,1,test kümesi,0.9,0.6047490364892252
+Federe AE · fedprox_kalici,1,test kümesi,0.95,0.6255011020628822
+Federe AE · fedprox_kalici,1,test kümesi,1.0,0.6440636541386052
+Federe AE · fedprox_kalici,1,π=%1,0.5,0.014228675483488272
+Federe AE · fedprox_kalici,1,π=%1,0.55,0.01299566530371954
+Federe AE · fedprox_kalici,1,π=%1,0.6,0.01198685855489882
+Federe AE · fedprox_kalici,1,π=%1,0.65,0.01135304161519112
+Federe AE · fedprox_kalici,1,π=%1,0.7,0.010860284232751621
+Federe AE · fedprox_kalici,1,π=%1,0.75,0.01054692142654447
+Federe AE · fedprox_kalici,1,π=%1,0.8,0.011691935835624515
+Federe AE · fedprox_kalici,1,π=%1,0.85,0.012078569566912027
+Federe AE · fedprox_kalici,1,π=%1,0.9,0.012550795547754604
+Federe AE · fedprox_kalici,1,π=%1,0.95,0.012892027342656737
+Federe AE · fedprox_kalici,1,π=%1,1.0,0.01417247438904215
+Federe AE INT8 · fedprox_kalici,1,test kümesi,0.5,0.31647830548722305
+Federe AE INT8 · fedprox_kalici,1,test kümesi,0.55,0.3770948395710165
+Federe AE INT8 · fedprox_kalici,1,test kümesi,0.6,0.42620493097645085
+Federe AE INT8 · fedprox_kalici,1,test kümesi,0.65,0.46843267535369193
+Federe AE INT8 · fedprox_kalici,1,test kümesi,0.7,0.5018602972502417
+Federe AE INT8 · fedprox_kalici,1,test kümesi,0.75,0.5306844338942579
+Federe AE INT8 · fedprox_kalici,1,test kümesi,0.8,0.5578098612759351
+Federe AE INT8 · fedprox_kalici,1,test kümesi,0.85,0.57968848577168
+Federe AE INT8 · fedprox_kalici,1,test kümesi,0.9,0.6018994118596194
+Federe AE INT8 · fedprox_kalici,1,test kümesi,0.95,0.6227548518452265
+Federe AE INT8 · fedprox_kalici,1,test kümesi,1.0,0.6414295024983706
+Federe AE INT8 · fedprox_kalici,1,π=%1,0.5,0.01378254606795944
+Federe AE INT8 · fedprox_kalici,1,π=%1,0.55,0.012527571660638157
+Federe AE INT8 · fedprox_kalici,1,π=%1,0.6,0.011483400564466846
+Federe AE INT8 · fedprox_kalici,1,π=%1,0.65,0.01062894071583925
+Federe AE INT8 · fedprox_kalici,1,π=%1,0.7,0.010157069542682189
+Federe AE INT8 · fedprox_kalici,1,π=%1,0.75,0.010280682733588275
+Federe AE INT8 · fedprox_kalici,1,π=%1,0.8,0.010371006036986721
+Federe AE INT8 · fedprox_kalici,1,π=%1,0.85,0.01188255360463362
+Federe AE INT8 · fedprox_kalici,1,π=%1,0.9,0.011916918643577681
+Federe AE INT8 · fedprox_kalici,1,π=%1,0.95,0.012491705875895825
+Federe AE INT8 · fedprox_kalici,1,π=%1,1.0,0.013848185641004823
+AE merkezi,2,test kümesi,0.5,0.159969061594067
+AE merkezi,2,test kümesi,0.55,0.23244181847264356
+AE merkezi,2,test kümesi,0.6,0.2918997648065987
+AE merkezi,2,test kümesi,0.65,0.34074404006084147
+AE merkezi,2,test kümesi,0.7,0.3853536346008467
+AE merkezi,2,test kümesi,0.75,0.42347865811994095
+AE merkezi,2,test kümesi,0.8,0.4560426634726161
+AE merkezi,2,test kümesi,0.85,0.4854021069595474
+AE merkezi,2,test kümesi,0.9,0.5129355697322393
+AE merkezi,2,test kümesi,0.95,0.5368899202190209
+AE merkezi,2,test kümesi,1.0,0.559472083423854
+AE merkezi,2,π=%1,0.5,0.01540678856259028
+AE merkezi,2,π=%1,0.55,0.014040509043901622
+AE merkezi,2,π=%1,0.6,0.013114061296627814
+AE merkezi,2,π=%1,0.65,0.01237980693038232
+AE merkezi,2,π=%1,0.7,0.011608571338591774
+AE merkezi,2,π=%1,0.75,0.011120345895955985
+AE merkezi,2,π=%1,0.8,0.011601351653573502
+AE merkezi,2,π=%1,0.85,0.011839837348134373
+AE merkezi,2,π=%1,0.9,0.012135916596565528
+AE merkezi,2,π=%1,0.95,0.012567335970043912
+AE merkezi,2,π=%1,1.0,0.013832553005355784
+AE merkezi INT8,2,test kümesi,0.5,0.17787099981562096
+AE merkezi INT8,2,test kümesi,0.55,0.243658446511932
+AE merkezi INT8,2,test kümesi,0.6,0.2923746127727907
+AE merkezi INT8,2,test kümesi,0.65,0.34529170447462415
+AE merkezi INT8,2,test kümesi,0.7,0.3910752738305006
+AE merkezi INT8,2,test kümesi,0.75,0.4310599069168309
+AE merkezi INT8,2,test kümesi,0.8,0.4655702987703432
+AE merkezi INT8,2,test kümesi,0.85,0.49589697187371945
+AE merkezi INT8,2,test kümesi,0.9,0.5227011570638584
+AE merkezi INT8,2,test kümesi,0.95,0.5458148649367569
+AE merkezi INT8,2,test kümesi,1.0,0.567591787964371
+AE merkezi INT8,2,π=%1,0.5,0.017840928561389073
+AE merkezi INT8,2,π=%1,0.55,0.01640320462837325
+AE merkezi INT8,2,π=%1,0.6,0.015174516450469858
+AE merkezi INT8,2,π=%1,0.65,0.014067954844186086
+AE merkezi INT8,2,π=%1,0.7,0.013150540608945573
+AE merkezi INT8,2,π=%1,0.75,0.012309930788861306
+AE merkezi INT8,2,π=%1,0.8,0.011930984223766842
+AE merkezi INT8,2,π=%1,0.85,0.011573040327684374
+AE merkezi INT8,2,π=%1,0.9,0.011207217812232233
+AE merkezi INT8,2,π=%1,0.95,0.013364042183099896
+AE merkezi INT8,2,π=%1,1.0,0.014512497192991294
+Federe AE · orijinal,2,test kümesi,0.5,0.36048851599155834
+Federe AE · orijinal,2,test kümesi,0.55,0.41373994106331496
+Federe AE · orijinal,2,test kümesi,0.6,0.46076826757449135
+Federe AE · orijinal,2,test kümesi,0.65,0.5018645713845727
+Federe AE · orijinal,2,test kümesi,0.7,0.5368090629971298
+Federe AE · orijinal,2,test kümesi,0.75,0.5640524201068537
+Federe AE · orijinal,2,test kümesi,0.8,0.5857716585858412
+Federe AE · orijinal,2,test kümesi,0.85,0.6065459112477277
+Federe AE · orijinal,2,test kümesi,0.9,0.6274757814827221
+Federe AE · orijinal,2,test kümesi,0.95,0.6469970557849614
+Federe AE · orijinal,2,test kümesi,1.0,0.6643764935911363
+Federe AE · orijinal,2,π=%1,0.5,0.014277288895093682
+Federe AE · orijinal,2,π=%1,0.55,0.01305817165037889
+Federe AE · orijinal,2,π=%1,0.6,0.011988860204233669
+Federe AE · orijinal,2,π=%1,0.65,0.011087251295643558
+Federe AE · orijinal,2,π=%1,0.7,0.010375563973828402
+Federe AE · orijinal,2,π=%1,0.75,0.010143575378680197
+Federe AE · orijinal,2,π=%1,0.8,0.01027835571881061
+Federe AE · orijinal,2,π=%1,0.85,0.011271856102586353
+Federe AE · orijinal,2,π=%1,0.9,0.01271486560364823
+Federe AE · orijinal,2,π=%1,0.95,0.0128700160156356
+Federe AE · orijinal,2,π=%1,1.0,0.014395924725113845
+Federe AE INT8 · orijinal,2,test kümesi,0.5,0.3592199691332942
+Federe AE INT8 · orijinal,2,test kümesi,0.55,0.41388387516375785
+Federe AE INT8 · orijinal,2,test kümesi,0.6,0.4608862222083711
+Federe AE INT8 · orijinal,2,test kümesi,0.65,0.5017652528320032
+Federe AE INT8 · orijinal,2,test kümesi,0.7,0.5365550140123735
+Federe AE INT8 · orijinal,2,test kümesi,0.75,0.5637545133857411
+Federe AE INT8 · orijinal,2,test kümesi,0.8,0.585919503026963
+Federe AE INT8 · orijinal,2,test kümesi,0.85,0.6064826664793452
+Federe AE INT8 · orijinal,2,test kümesi,0.9,0.6274457426524097
+Federe AE INT8 · orijinal,2,test kümesi,0.95,0.6469947559155076
+Federe AE INT8 · orijinal,2,test kümesi,1.0,0.6643493373886595
+Federe AE INT8 · orijinal,2,π=%1,0.5,0.014934224422608871
+Federe AE INT8 · orijinal,2,π=%1,0.55,0.013574985544972903
+Federe AE INT8 · orijinal,2,π=%1,0.6,0.01248795078696373
+Federe AE INT8 · orijinal,2,π=%1,0.65,0.011538849660525643
+Federe AE INT8 · orijinal,2,π=%1,0.7,0.01081119757794137
+Federe AE INT8 · orijinal,2,π=%1,0.75,0.01050154617013184
+Federe AE INT8 · orijinal,2,π=%1,0.8,0.010493719076211666
+Federe AE INT8 · orijinal,2,π=%1,0.85,0.011541462555184406
+Federe AE INT8 · orijinal,2,π=%1,0.9,0.013252215731950425
+Federe AE INT8 · orijinal,2,π=%1,0.95,0.013196669902177598
+Federe AE INT8 · orijinal,2,π=%1,1.0,0.014690937894361024
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,0.5,0.10319565572837057
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,0.55,0.182271394010632
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,0.6,0.24690975610331933
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,0.65,0.3020043800965302
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,0.7,0.35083201149541
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,0.75,0.3925153635245991
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,0.8,0.42777934114905375
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,0.85,0.45849195583520747
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,0.9,0.4875053301206656
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,0.95,0.5086979981718079
+Federe AE · orijinal_kucuk_yigin,2,test kümesi,1.0,0.5309852270258527
+Federe AE · orijinal_kucuk_yigin,2,π=%1,0.5,0.01902707694287763
+Federe AE · orijinal_kucuk_yigin,2,π=%1,0.55,0.017361324854213277
+Federe AE · orijinal_kucuk_yigin,2,π=%1,0.6,0.01593565474496961
+Federe AE · orijinal_kucuk_yigin,2,π=%1,0.65,0.014731079058347167
+Federe AE · orijinal_kucuk_yigin,2,π=%1,0.7,0.013692584857434407
+Federe AE · orijinal_kucuk_yigin,2,π=%1,0.75,0.012996818312144259
+Federe AE · orijinal_kucuk_yigin,2,π=%1,0.8,0.013487278858392522
+Federe AE · orijinal_kucuk_yigin,2,π=%1,0.85,0.014866840569849766
+Federe AE · orijinal_kucuk_yigin,2,π=%1,0.9,0.01518713542419347
+Federe AE · orijinal_kucuk_yigin,2,π=%1,0.95,0.015420419138649033
+Federe AE · orijinal_kucuk_yigin,2,π=%1,1.0,0.015291056218000936
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,0.5,0.10302112218277193
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,0.55,0.18315259766714445
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,0.6,0.2475750559467157
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,0.65,0.3032467885419252
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,0.7,0.350296711428236
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,0.75,0.3917305680192873
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,0.8,0.4276712036375494
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,0.85,0.4573592642766272
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,0.9,0.4853736236578466
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,0.95,0.5084200800630988
+Federe AE INT8 · orijinal_kucuk_yigin,2,test kümesi,1.0,0.530577883988703
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,0.5,0.020135649635121627
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,0.55,0.01830745103142091
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,0.6,0.01690942004812585
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,0.65,0.01564960731100426
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,0.7,0.014602732848660167
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,0.75,0.013801145298049424
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,0.8,0.014590156530425922
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,0.85,0.015482402448118281
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,0.9,0.015801648286509772
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,0.95,0.016025605146087397
+Federe AE INT8 · orijinal_kucuk_yigin,2,π=%1,1.0,0.015877199061349666
+Federe AE · yakinsama_kalici,2,test kümesi,0.5,0.17857683703227958
+Federe AE · yakinsama_kalici,2,test kümesi,0.55,0.24720349411673576
+Federe AE · yakinsama_kalici,2,test kümesi,0.6,0.3072908277014942
+Federe AE · yakinsama_kalici,2,test kümesi,0.65,0.3593004504181195
+Federe AE · yakinsama_kalici,2,test kümesi,0.7,0.4030478892901883
+Federe AE · yakinsama_kalici,2,test kümesi,0.75,0.4416168381695681
+Federe AE · yakinsama_kalici,2,test kümesi,0.8,0.47424740893366596
+Federe AE · yakinsama_kalici,2,test kümesi,0.85,0.5015893631466273
+Federe AE · yakinsama_kalici,2,test kümesi,0.9,0.528601995629561
+Federe AE · yakinsama_kalici,2,test kümesi,0.95,0.5519502145175119
+Federe AE · yakinsama_kalici,2,test kümesi,1.0,0.5740278079513361
+Federe AE · yakinsama_kalici,2,π=%1,0.5,0.015978637061933174
+Federe AE · yakinsama_kalici,2,π=%1,0.55,0.014616666971483847
+Federe AE · yakinsama_kalici,2,π=%1,0.6,0.013470567619143834
+Federe AE · yakinsama_kalici,2,π=%1,0.65,0.012468190330526789
+Federe AE · yakinsama_kalici,2,π=%1,0.7,0.011728315140240026
+Federe AE · yakinsama_kalici,2,π=%1,0.75,0.01134718251895295
+Federe AE · yakinsama_kalici,2,π=%1,0.8,0.010961109870187401
+Federe AE · yakinsama_kalici,2,π=%1,0.85,0.011006028543828194
+Federe AE · yakinsama_kalici,2,π=%1,0.9,0.012063643790677654
+Federe AE · yakinsama_kalici,2,π=%1,0.95,0.013027828854101926
+Federe AE · yakinsama_kalici,2,π=%1,1.0,0.01428798439715711
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,0.5,0.18308506142493908
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,0.55,0.24685383424552282
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,0.6,0.3064532701941027
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,0.65,0.35879472167247095
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,0.7,0.40268028800119054
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,0.75,0.44073602772751114
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,0.8,0.47268391873416454
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,0.85,0.5022312155425205
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,0.9,0.5281504292064791
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,0.95,0.5511518732257309
+Federe AE INT8 · yakinsama_kalici,2,test kümesi,1.0,0.5732131218770368
+Federe AE INT8 · yakinsama_kalici,2,π=%1,0.5,0.01559989481141304
+Federe AE INT8 · yakinsama_kalici,2,π=%1,0.55,0.01452640983383381
+Federe AE INT8 · yakinsama_kalici,2,π=%1,0.6,0.013415762255054003
+Federe AE INT8 · yakinsama_kalici,2,π=%1,0.65,0.012528031048078796
+Federe AE INT8 · yakinsama_kalici,2,π=%1,0.7,0.011832818085125655
+Federe AE INT8 · yakinsama_kalici,2,π=%1,0.75,0.01111330161054659
+Federe AE INT8 · yakinsama_kalici,2,π=%1,0.8,0.010891108095948924
+Federe AE INT8 · yakinsama_kalici,2,π=%1,0.85,0.010569586020906638
+Federe AE INT8 · yakinsama_kalici,2,π=%1,0.9,0.011874539630808072
+Federe AE INT8 · yakinsama_kalici,2,π=%1,0.95,0.012660351199521871
+Federe AE INT8 · yakinsama_kalici,2,π=%1,1.0,0.013983710585639575
+Federe AE · fedprox_kalici,2,test kümesi,0.5,0.13616334453338588
+Federe AE · fedprox_kalici,2,test kümesi,0.55,0.21171902799266545
+Federe AE · fedprox_kalici,2,test kümesi,0.6,0.2752329314256452
+Federe AE · fedprox_kalici,2,test kümesi,0.65,0.3273215358205018
+Federe AE · fedprox_kalici,2,test kümesi,0.7,0.37277969514630477
+Federe AE · fedprox_kalici,2,test kümesi,0.75,0.413551246761086
+Federe AE · fedprox_kalici,2,test kümesi,0.8,0.44586540236104916
+Federe AE · fedprox_kalici,2,test kümesi,0.85,0.474655822528851
+Federe AE · fedprox_kalici,2,test kümesi,0.9,0.5027709289383516
+Federe AE · fedprox_kalici,2,test kümesi,0.95,0.5241905228791529
+Federe AE · fedprox_kalici,2,test kümesi,1.0,0.5468444492722138
+Federe AE · fedprox_kalici,2,π=%1,0.5,0.016671636662449633
+Federe AE · fedprox_kalici,2,π=%1,0.55,0.015174555683034389
+Federe AE · fedprox_kalici,2,π=%1,0.6,0.013947245176918388
+Federe AE · fedprox_kalici,2,π=%1,0.65,0.012895088501730642
+Federe AE · fedprox_kalici,2,π=%1,0.7,0.012047802248682356
+Federe AE · fedprox_kalici,2,π=%1,0.75,0.011891043789138305
+Federe AE · fedprox_kalici,2,π=%1,0.8,0.01265423819592379
+Federe AE · fedprox_kalici,2,π=%1,0.85,0.013607356440741658
+Federe AE · fedprox_kalici,2,π=%1,0.9,0.013921923163906691
+Federe AE · fedprox_kalici,2,π=%1,0.95,0.01410405590489075
+Federe AE · fedprox_kalici,2,π=%1,1.0,0.014284267170586513
+Federe AE INT8 · fedprox_kalici,2,test kümesi,0.5,0.14086778763998073
+Federe AE INT8 · fedprox_kalici,2,test kümesi,0.55,0.2149570300049894
+Federe AE INT8 · fedprox_kalici,2,test kümesi,0.6,0.27791191418386035
+Federe AE INT8 · fedprox_kalici,2,test kümesi,0.65,0.32951291006401445
+Federe AE INT8 · fedprox_kalici,2,test kümesi,0.7,0.3739048719801315
+Federe AE INT8 · fedprox_kalici,2,test kümesi,0.75,0.4135134046685603
+Federe AE INT8 · fedprox_kalici,2,test kümesi,0.8,0.44940086608587215
+Federe AE INT8 · fedprox_kalici,2,test kümesi,0.85,0.4779379856150015
+Federe AE INT8 · fedprox_kalici,2,test kümesi,0.9,0.5058044218756629
+Federe AE INT8 · fedprox_kalici,2,test kümesi,0.95,0.5270946341403698
+Federe AE INT8 · fedprox_kalici,2,test kümesi,1.0,0.5499402563545513
+Federe AE INT8 · fedprox_kalici,2,π=%1,0.5,0.017275680832722694
+Federe AE INT8 · fedprox_kalici,2,π=%1,0.55,0.0157078470779026
+Federe AE INT8 · fedprox_kalici,2,π=%1,0.6,0.014416905210196
+Federe AE INT8 · fedprox_kalici,2,π=%1,0.65,0.01337468431531167
+Federe AE INT8 · fedprox_kalici,2,π=%1,0.7,0.0125844670307692
+Federe AE INT8 · fedprox_kalici,2,π=%1,0.75,0.012112006041429561
+Federe AE INT8 · fedprox_kalici,2,π=%1,0.8,0.012538450209832647
+Federe AE INT8 · fedprox_kalici,2,π=%1,0.85,0.013167000400733668
+Federe AE INT8 · fedprox_kalici,2,π=%1,0.9,0.01407874997906888
+Federe AE INT8 · fedprox_kalici,2,π=%1,0.95,0.014410184173347334
+Federe AE INT8 · fedprox_kalici,2,π=%1,1.0,0.01461363433535274
+AE merkezi,3,test kümesi,0.5,0.2254359858048845
+AE merkezi,3,test kümesi,0.55,0.2880998492677645
+AE merkezi,3,test kümesi,0.6,0.3420879407244618
+AE merkezi,3,test kümesi,0.65,0.38876770334761257
+AE merkezi,3,test kümesi,0.7,0.4296141348040628
+AE merkezi,3,test kümesi,0.75,0.4663211679767612
+AE merkezi,3,test kümesi,0.8,0.4978420170877847
+AE merkezi,3,test kümesi,0.85,0.5255556272030616
+AE merkezi,3,test kümesi,0.9,0.5505178460788149
+AE merkezi,3,test kümesi,0.95,0.5728714271856133
+AE merkezi,3,test kümesi,1.0,0.5940419291766239
+AE merkezi,3,π=%1,0.5,0.014199989990103612
+AE merkezi,3,π=%1,0.55,0.012923046545691014
+AE merkezi,3,π=%1,0.6,0.011984921834331636
+AE merkezi,3,π=%1,0.65,0.011381247739493035
+AE merkezi,3,π=%1,0.7,0.011108952210324702
+AE merkezi,3,π=%1,0.75,0.01055549844967969
+AE merkezi,3,π=%1,0.8,0.010290416446923585
+AE merkezi,3,π=%1,0.85,0.010343545669057614
+AE merkezi,3,π=%1,0.9,0.010480731682289636
+AE merkezi,3,π=%1,0.95,0.011737597445400481
+AE merkezi,3,π=%1,1.0,0.01332690110030281
+AE merkezi INT8,3,test kümesi,0.5,0.21599850382027047
+AE merkezi INT8,3,test kümesi,0.55,0.2805582709448973
+AE merkezi INT8,3,test kümesi,0.6,0.33823740806923547
+AE merkezi INT8,3,test kümesi,0.65,0.38589298250266096
+AE merkezi INT8,3,test kümesi,0.7,0.4286922922909031
+AE merkezi INT8,3,test kümesi,0.75,0.46597267110848506
+AE merkezi INT8,3,test kümesi,0.8,0.4977899827037278
+AE merkezi INT8,3,test kümesi,0.85,0.5268546698182971
+AE merkezi INT8,3,test kümesi,0.9,0.5522812749641774
+AE merkezi INT8,3,test kümesi,0.95,0.5748545980781982
+AE merkezi INT8,3,test kümesi,1.0,0.595644145122746
+AE merkezi INT8,3,π=%1,0.5,0.015450510077035996
+AE merkezi INT8,3,π=%1,0.55,0.014412061184527404
+AE merkezi INT8,3,π=%1,0.6,0.013242941167505086
+AE merkezi INT8,3,π=%1,0.65,0.01223503749692662
+AE merkezi INT8,3,π=%1,0.7,0.011402836327041494
+AE merkezi INT8,3,π=%1,0.75,0.010683705664217278
+AE merkezi INT8,3,π=%1,0.8,0.010024033583152526
+AE merkezi INT8,3,π=%1,0.85,0.0098064353820569
+AE merkezi INT8,3,π=%1,0.9,0.00999212634949503
+AE merkezi INT8,3,π=%1,0.95,0.011370314417930582
+AE merkezi INT8,3,π=%1,1.0,0.013935149992942056
+Federe AE · orijinal,3,test kümesi,0.5,0.35140760249068004
+Federe AE · orijinal,3,test kümesi,0.55,0.40966156240377577
+Federe AE · orijinal,3,test kümesi,0.6,0.45849870657763064
+Federe AE · orijinal,3,test kümesi,0.65,0.49873615314768366
+Federe AE · orijinal,3,test kümesi,0.7,0.5320634790298816
+Federe AE · orijinal,3,test kümesi,0.75,0.5619199356897778
+Federe AE · orijinal,3,test kümesi,0.8,0.5845732362882727
+Federe AE · orijinal,3,test kümesi,0.85,0.6043268612244455
+Federe AE · orijinal,3,test kümesi,0.9,0.6256950121147062
+Federe AE · orijinal,3,test kümesi,0.95,0.6453456863776885
+Federe AE · orijinal,3,test kümesi,1.0,0.6626928090375842
+Federe AE · orijinal,3,π=%1,0.5,0.01600661458265897
+Federe AE · orijinal,3,π=%1,0.55,0.014681317054936438
+Federe AE · orijinal,3,π=%1,0.6,0.01349071852408409
+Federe AE · orijinal,3,π=%1,0.65,0.012466868542519343
+Federe AE · orijinal,3,π=%1,0.7,0.011580858511109526
+Federe AE · orijinal,3,π=%1,0.75,0.010914092878526587
+Federe AE · orijinal,3,π=%1,0.8,0.010715718531796
+Federe AE · orijinal,3,π=%1,0.85,0.011571051244830191
+Federe AE · orijinal,3,π=%1,0.9,0.013762544868318896
+Federe AE · orijinal,3,π=%1,0.95,0.013906861179044135
+Federe AE · orijinal,3,π=%1,1.0,0.015263339139502143
+Federe AE INT8 · orijinal,3,test kümesi,0.5,0.35159188373329864
+Federe AE INT8 · orijinal,3,test kümesi,0.55,0.40960902897092305
+Federe AE INT8 · orijinal,3,test kümesi,0.6,0.4573245304045888
+Federe AE INT8 · orijinal,3,test kümesi,0.65,0.4985551517368027
+Federe AE INT8 · orijinal,3,test kümesi,0.7,0.5309644016354561
+Federe AE INT8 · orijinal,3,test kümesi,0.75,0.560871354450916
+Federe AE INT8 · orijinal,3,test kümesi,0.8,0.5852096479789903
+Federe AE INT8 · orijinal,3,test kümesi,0.85,0.6046803352180007
+Federe AE INT8 · orijinal,3,test kümesi,0.9,0.6258817922559552
+Federe AE INT8 · orijinal,3,test kümesi,0.95,0.6455448908369423
+Federe AE INT8 · orijinal,3,test kümesi,1.0,0.6628829024549207
+Federe AE INT8 · orijinal,3,π=%1,0.5,0.016056539780541643
+Federe AE INT8 · orijinal,3,π=%1,0.55,0.014660179710999612
+Federe AE INT8 · orijinal,3,π=%1,0.6,0.013480021368508883
+Federe AE INT8 · orijinal,3,π=%1,0.65,0.012464426273392297
+Federe AE INT8 · orijinal,3,π=%1,0.7,0.011580183413414507
+Federe AE INT8 · orijinal,3,π=%1,0.75,0.01091845246678626
+Federe AE INT8 · orijinal,3,π=%1,0.8,0.010479845006791234
+Federe AE INT8 · orijinal,3,π=%1,0.85,0.01127873866763434
+Federe AE INT8 · orijinal,3,π=%1,0.9,0.01332375853792669
+Federe AE INT8 · orijinal,3,π=%1,0.95,0.013912052437210505
+Federe AE INT8 · orijinal,3,π=%1,1.0,0.015265430252272867
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,0.5,0.12124039120664871
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,0.55,0.1992212423971778
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,0.6,0.26234357010588877
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,0.65,0.3170198386760266
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,0.7,0.3589187404380023
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,0.75,0.4005338669798696
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,0.8,0.4370330410603156
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,0.85,0.46971653735860425
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,0.9,0.49809720518076506
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,0.95,0.5191499035276419
+Federe AE · orijinal_kucuk_yigin,3,test kümesi,1.0,0.5422007386487073
+Federe AE · orijinal_kucuk_yigin,3,π=%1,0.5,0.017769804462058076
+Federe AE · orijinal_kucuk_yigin,3,π=%1,0.55,0.016227221733454075
+Federe AE · orijinal_kucuk_yigin,3,π=%1,0.6,0.014901871328883414
+Federe AE · orijinal_kucuk_yigin,3,π=%1,0.65,0.013793179323963622
+Federe AE · orijinal_kucuk_yigin,3,π=%1,0.7,0.012830133692453059
+Federe AE · orijinal_kucuk_yigin,3,π=%1,0.75,0.012123367832367492
+Federe AE · orijinal_kucuk_yigin,3,π=%1,0.8,0.012145502127669202
+Federe AE · orijinal_kucuk_yigin,3,π=%1,0.85,0.01312154990041334
+Federe AE · orijinal_kucuk_yigin,3,π=%1,0.9,0.013053283435096192
+Federe AE · orijinal_kucuk_yigin,3,π=%1,0.95,0.014663930141330606
+Federe AE · orijinal_kucuk_yigin,3,π=%1,1.0,0.014823808072187675
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,0.5,0.11775667410842107
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,0.55,0.19243882723309955
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,0.6,0.25770491469732776
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,0.65,0.3139843323915524
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,0.7,0.3614564124585605
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,0.75,0.40344557591596747
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,0.8,0.438690653399454
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,0.85,0.4687461474994724
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,0.9,0.4979097160281589
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,0.95,0.5203991110720662
+Federe AE INT8 · orijinal_kucuk_yigin,3,test kümesi,1.0,0.5433412991527264
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,0.5,0.01607804551440899
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,0.55,0.014807040589619543
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,0.6,0.014078867562844993
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,0.65,0.01304395194382071
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,0.7,0.012112236574979247
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,0.75,0.011306123019062964
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,0.8,0.01061638418126128
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,0.85,0.010511243226969873
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,0.9,0.012695805938223876
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,0.95,0.013705192018672095
+Federe AE INT8 · orijinal_kucuk_yigin,3,π=%1,1.0,0.013950419049883025
+Federe AE · yakinsama_kalici,3,test kümesi,0.5,0.17011426441578548
+Federe AE · yakinsama_kalici,3,test kümesi,0.55,0.24337400242538948
+Federe AE · yakinsama_kalici,3,test kümesi,0.6,0.30299393309779377
+Federe AE · yakinsama_kalici,3,test kümesi,0.65,0.35245770794929926
+Federe AE · yakinsama_kalici,3,test kümesi,0.7,0.3970558629230411
+Federe AE · yakinsama_kalici,3,test kümesi,0.75,0.4367884209144282
+Federe AE · yakinsama_kalici,3,test kümesi,0.8,0.47117046943346474
+Federe AE · yakinsama_kalici,3,test kümesi,0.85,0.5016324253407719
+Federe AE · yakinsama_kalici,3,test kümesi,0.9,0.5281950669038471
+Federe AE · yakinsama_kalici,3,test kümesi,0.95,0.5501492254483705
+Federe AE · yakinsama_kalici,3,test kümesi,1.0,0.5719096241581577
+Federe AE · yakinsama_kalici,3,π=%1,0.5,0.017216546494675886
+Federe AE · yakinsama_kalici,3,π=%1,0.55,0.015741195864867937
+Federe AE · yakinsama_kalici,3,π=%1,0.6,0.014545015397267028
+Federe AE · yakinsama_kalici,3,π=%1,0.65,0.013483845528068096
+Federe AE · yakinsama_kalici,3,π=%1,0.7,0.012567760233085073
+Federe AE · yakinsama_kalici,3,π=%1,0.75,0.011865829858816285
+Federe AE · yakinsama_kalici,3,π=%1,0.8,0.011383617424920356
+Federe AE · yakinsama_kalici,3,π=%1,0.85,0.01113780084164165
+Federe AE · yakinsama_kalici,3,π=%1,0.9,0.011963682738030106
+Federe AE · yakinsama_kalici,3,π=%1,0.95,0.01408924443262919
+Federe AE · yakinsama_kalici,3,π=%1,1.0,0.01485530722556932
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,0.5,0.16969216709405646
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,0.55,0.24268684026566212
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,0.6,0.3046206918927388
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,0.65,0.35745908096366247
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,0.7,0.4028481325642417
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,0.75,0.4413330561717684
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,0.8,0.4758142921588733
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,0.85,0.505446088405555
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,0.9,0.5318501083188538
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,0.95,0.5545487748432969
+Federe AE INT8 · yakinsama_kalici,3,test kümesi,1.0,0.5762003041494678
+Federe AE INT8 · yakinsama_kalici,3,π=%1,0.5,0.01756508557105573
+Federe AE INT8 · yakinsama_kalici,3,π=%1,0.55,0.01596657838510062
+Federe AE INT8 · yakinsama_kalici,3,π=%1,0.6,0.014637783980391771
+Federe AE INT8 · yakinsama_kalici,3,π=%1,0.65,0.013516853242812144
+Federe AE INT8 · yakinsama_kalici,3,π=%1,0.7,0.012740588765042525
+Federe AE INT8 · yakinsama_kalici,3,π=%1,0.75,0.011908477809699378
+Federe AE INT8 · yakinsama_kalici,3,π=%1,0.8,0.011164795452427271
+Federe AE INT8 · yakinsama_kalici,3,π=%1,0.85,0.01057861981588313
+Federe AE INT8 · yakinsama_kalici,3,π=%1,0.9,0.010215601003910816
+Federe AE INT8 · yakinsama_kalici,3,π=%1,0.95,0.013134405845968504
+Federe AE INT8 · yakinsama_kalici,3,π=%1,1.0,0.01460719472846553
+Federe AE · fedprox_kalici,3,test kümesi,0.5,0.17739012042660496
+Federe AE · fedprox_kalici,3,test kümesi,0.55,0.2507645567656424
+Federe AE · fedprox_kalici,3,test kümesi,0.6,0.30711263942974093
+Federe AE · fedprox_kalici,3,test kümesi,0.65,0.35225296643987236
+Federe AE · fedprox_kalici,3,test kümesi,0.7,0.3949305126851898
+Federe AE · fedprox_kalici,3,test kümesi,0.75,0.43303642773520673
+Federe AE · fedprox_kalici,3,test kümesi,0.8,0.46453114836558085
+Federe AE · fedprox_kalici,3,test kümesi,0.85,0.494785926338449
+Federe AE · fedprox_kalici,3,test kümesi,0.9,0.519638293641448
+Federe AE · fedprox_kalici,3,test kümesi,0.95,0.541794706547312
+Federe AE · fedprox_kalici,3,test kümesi,1.0,0.5638713882250707
+Federe AE · fedprox_kalici,3,π=%1,0.5,0.01630349833579104
+Federe AE · fedprox_kalici,3,π=%1,0.55,0.01493822651427317
+Federe AE · fedprox_kalici,3,π=%1,0.6,0.013869027063221361
+Federe AE · fedprox_kalici,3,π=%1,0.65,0.012943042971824175
+Federe AE · fedprox_kalici,3,π=%1,0.7,0.012360942928299501
+Federe AE · fedprox_kalici,3,π=%1,0.75,0.012942141276214692
+Federe AE · fedprox_kalici,3,π=%1,0.8,0.012815146735153904
+Federe AE · fedprox_kalici,3,π=%1,0.85,0.012682025709502172
+Federe AE · fedprox_kalici,3,π=%1,0.9,0.013281155321602798
+Federe AE · fedprox_kalici,3,π=%1,0.95,0.013761451888838332
+Federe AE · fedprox_kalici,3,π=%1,1.0,0.01417625922912126
+Federe AE INT8 · fedprox_kalici,3,test kümesi,0.5,0.19079421942620178
+Federe AE INT8 · fedprox_kalici,3,test kümesi,0.55,0.256741615554306
+Federe AE INT8 · fedprox_kalici,3,test kümesi,0.6,0.31323614065752875
+Federe AE INT8 · fedprox_kalici,3,test kümesi,0.65,0.3397504191880752
+Federe AE INT8 · fedprox_kalici,3,test kümesi,0.7,0.3843823251661822
+Federe AE INT8 · fedprox_kalici,3,test kümesi,0.75,0.4227564989681436
+Federe AE INT8 · fedprox_kalici,3,test kümesi,0.8,0.45765528167897596
+Federe AE INT8 · fedprox_kalici,3,test kümesi,0.85,0.4886270585370659
+Federe AE INT8 · fedprox_kalici,3,test kümesi,0.9,0.514030372104147
+Federe AE INT8 · fedprox_kalici,3,test kümesi,0.95,0.5359138685352951
+Federe AE INT8 · fedprox_kalici,3,test kümesi,1.0,0.5581142733000217
+Federe AE INT8 · fedprox_kalici,3,π=%1,0.5,0.01653990348939148
+Federe AE INT8 · fedprox_kalici,3,π=%1,0.55,0.015450810350418351
+Federe AE INT8 · fedprox_kalici,3,π=%1,0.6,0.015474504883796533
+Federe AE INT8 · fedprox_kalici,3,π=%1,0.65,0.014937837443336559
+Federe AE INT8 · fedprox_kalici,3,π=%1,0.7,0.014648149088975057
+Federe AE INT8 · fedprox_kalici,3,π=%1,0.75,0.013673139735318758
+Federe AE INT8 · fedprox_kalici,3,π=%1,0.8,0.012819673151582856
+Federe AE INT8 · fedprox_kalici,3,π=%1,0.85,0.01215936908464073
+Federe AE INT8 · fedprox_kalici,3,π=%1,0.9,0.01274728819002614
+Federe AE INT8 · fedprox_kalici,3,π=%1,0.95,0.013750727150994175
+Federe AE INT8 · fedprox_kalici,3,π=%1,1.0,0.014112928385207894
+AE merkezi,4,test kümesi,0.5,0.17861177530849337
+AE merkezi,4,test kümesi,0.55,0.247042339902961
+AE merkezi,4,test kümesi,0.6,0.308456505333324
+AE merkezi,4,test kümesi,0.65,0.36054105300238376
+AE merkezi,4,test kümesi,0.7,0.4044460782332592
+AE merkezi,4,test kümesi,0.75,0.4429070493259659
+AE merkezi,4,test kümesi,0.8,0.4749718175364271
+AE merkezi,4,test kümesi,0.85,0.5037454538446983
+AE merkezi,4,test kümesi,0.9,0.5289742363673465
+AE merkezi,4,test kümesi,0.95,0.5529397992990593
+AE merkezi,4,test kümesi,1.0,0.5750325874429719
+AE merkezi,4,π=%1,0.5,0.014220303702530655
+AE merkezi,4,π=%1,0.55,0.01299892306703628
+AE merkezi,4,π=%1,0.6,0.011964391449058689
+AE merkezi,4,π=%1,0.65,0.011063090611216662
+AE merkezi,4,π=%1,0.7,0.010290414965021706
+AE merkezi,4,π=%1,0.75,0.00988662545934302
+AE merkezi,4,π=%1,0.8,0.00961357235805685
+AE merkezi,4,π=%1,0.85,0.009862197380055882
+AE merkezi,4,π=%1,0.9,0.010975673995033748
+AE merkezi,4,π=%1,0.95,0.01195999215795915
+AE merkezi,4,π=%1,1.0,0.013413101722873366
+AE merkezi INT8,4,test kümesi,0.5,0.17543528984559417
+AE merkezi INT8,4,test kümesi,0.55,0.24820537224901626
+AE merkezi INT8,4,test kümesi,0.6,0.3090972049310376
+AE merkezi INT8,4,test kümesi,0.65,0.36094664460271475
+AE merkezi INT8,4,test kümesi,0.7,0.405965219339663
+AE merkezi INT8,4,test kümesi,0.75,0.44480075610562353
+AE merkezi INT8,4,test kümesi,0.8,0.4775119819720384
+AE merkezi INT8,4,test kümesi,0.85,0.5068119648722272
+AE merkezi INT8,4,test kümesi,0.9,0.5324321927756465
+AE merkezi INT8,4,test kümesi,0.95,0.5561059913046412
+AE merkezi INT8,4,test kümesi,1.0,0.5780469259178797
+AE merkezi INT8,4,π=%1,0.5,0.017458929050200963
+AE merkezi INT8,4,π=%1,0.55,0.01586441338325924
+AE merkezi INT8,4,π=%1,0.6,0.014586385686387935
+AE merkezi INT8,4,π=%1,0.65,0.013570675070227385
+AE merkezi INT8,4,π=%1,0.7,0.012648399407856281
+AE merkezi INT8,4,π=%1,0.75,0.011927227413943966
+AE merkezi INT8,4,π=%1,0.8,0.011474212436201918
+AE merkezi INT8,4,π=%1,0.85,0.011066095504408794
+AE merkezi INT8,4,π=%1,0.9,0.011014060283126067
+AE merkezi INT8,4,π=%1,0.95,0.013286637990030365
+AE merkezi INT8,4,π=%1,1.0,0.014922820295024139
+Federe AE · orijinal,4,test kümesi,0.5,0.3968474424341022
+Federe AE · orijinal,4,test kümesi,0.55,0.4495353234921385
+Federe AE · orijinal,4,test kümesi,0.6,0.4947055160511527
+Federe AE · orijinal,4,test kümesi,0.65,0.5331163065277913
+Federe AE · orijinal,4,test kümesi,0.7,0.5634403538814198
+Federe AE · orijinal,4,test kümesi,0.75,0.5921019024767308
+Federe AE · orijinal,4,test kümesi,0.8,0.6148464561940067
+Federe AE · orijinal,4,test kümesi,0.85,0.6353994977422615
+Federe AE · orijinal,4,test kümesi,0.9,0.6556251626564806
+Federe AE · orijinal,4,test kümesi,0.95,0.6733248126934496
+Federe AE · orijinal,4,test kümesi,1.0,0.6891429502498371
+Federe AE · orijinal,4,π=%1,0.5,0.015474716595858492
+Federe AE · orijinal,4,π=%1,0.55,0.014153039640857505
+Federe AE · orijinal,4,π=%1,0.6,0.012987202930380163
+Federe AE · orijinal,4,π=%1,0.65,0.011997916717965495
+Federe AE · orijinal,4,π=%1,0.7,0.01114704638262358
+Federe AE · orijinal,4,π=%1,0.75,0.0104987650593155
+Federe AE · orijinal,4,π=%1,0.8,0.010302144891896486
+Federe AE · orijinal,4,π=%1,0.85,0.010410090737743674
+Federe AE · orijinal,4,π=%1,0.9,0.011162263624834738
+Federe AE · orijinal,4,π=%1,0.95,0.013444218985388603
+Federe AE · orijinal,4,π=%1,1.0,0.015258990645385651
+Federe AE INT8 · orijinal,4,test kümesi,0.5,0.3777868675202056
+Federe AE INT8 · orijinal,4,test kümesi,0.55,0.43209761188505613
+Federe AE INT8 · orijinal,4,test kümesi,0.6,0.47900278082095604
+Federe AE INT8 · orijinal,4,test kümesi,0.65,0.5186179137614212
+Federe AE INT8 · orijinal,4,test kümesi,0.7,0.5507788732265982
+Federe AE INT8 · orijinal,4,test kümesi,0.75,0.5789901643603895
+Federe AE INT8 · orijinal,4,test kümesi,0.8,0.6036614782034024
+Federe AE INT8 · orijinal,4,test kümesi,0.85,0.6244995723176037
+Federe AE INT8 · orijinal,4,test kümesi,0.9,0.645272356010228
+Federe AE INT8 · orijinal,4,test kümesi,0.95,0.6635192335544278
+Federe AE INT8 · orijinal,4,test kümesi,1.0,0.679801216597871
+Federe AE INT8 · orijinal,4,π=%1,0.5,0.01606039177393212
+Federe AE INT8 · orijinal,4,π=%1,0.55,0.014600124889569212
+Federe AE INT8 · orijinal,4,π=%1,0.6,0.013406373539395198
+Federe AE INT8 · orijinal,4,π=%1,0.65,0.012430971992389926
+Federe AE INT8 · orijinal,4,π=%1,0.7,0.011558721139969131
+Federe AE INT8 · orijinal,4,π=%1,0.75,0.010925284643481886
+Federe AE INT8 · orijinal,4,π=%1,0.8,0.010625628482227452
+Federe AE INT8 · orijinal,4,π=%1,0.85,0.010758138576342691
+Federe AE INT8 · orijinal,4,π=%1,0.9,0.011353388112769676
+Federe AE INT8 · orijinal,4,π=%1,0.95,0.013511489923382249
+Federe AE INT8 · orijinal,4,π=%1,1.0,0.01545153928886734
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,0.5,0.22742466090247282
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,0.55,0.2942841869172245
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,0.6,0.3516473341051551
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,0.65,0.3997462801266237
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,0.7,0.44121528585154174
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,0.75,0.47561510062603773
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,0.8,0.5044325675342716
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,0.85,0.5321383025423508
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,0.9,0.55252144413006
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,0.95,0.575011072805402
+Federe AE · orijinal_kucuk_yigin,4,test kümesi,1.0,0.5958885509450359
+Federe AE · orijinal_kucuk_yigin,4,π=%1,0.5,0.01483332964473144
+Federe AE · orijinal_kucuk_yigin,4,π=%1,0.55,0.013597634647309436
+Federe AE · orijinal_kucuk_yigin,4,π=%1,0.6,0.012477531762511382
+Federe AE · orijinal_kucuk_yigin,4,π=%1,0.65,0.011541914664025042
+Federe AE · orijinal_kucuk_yigin,4,π=%1,0.7,0.010732593390118684
+Federe AE · orijinal_kucuk_yigin,4,π=%1,0.75,0.010257024137188809
+Federe AE · orijinal_kucuk_yigin,4,π=%1,0.8,0.01076406658500639
+Federe AE · orijinal_kucuk_yigin,4,π=%1,0.85,0.012434504956664713
+Federe AE · orijinal_kucuk_yigin,4,π=%1,0.9,0.013025744653123613
+Federe AE · orijinal_kucuk_yigin,4,π=%1,0.95,0.01321859934398377
+Federe AE · orijinal_kucuk_yigin,4,π=%1,1.0,0.013937838566504416
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,0.5,0.2419863910445542
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,0.55,0.3068365554540578
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,0.6,0.3630977841557804
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,0.65,0.4101428441624161
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,0.7,0.45093410378240245
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,0.75,0.48654153867271954
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,0.8,0.515098324305948
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,0.85,0.5417074202133517
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,0.9,0.5615297803174731
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,0.95,0.5835348605273089
+Federe AE INT8 · orijinal_kucuk_yigin,4,test kümesi,1.0,0.6041711927004128
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,0.5,0.016101302723348313
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,0.55,0.014665753028465083
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,0.6,0.01347516738368255
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,0.65,0.012466076509223996
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,0.7,0.011645655451986411
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,0.75,0.011056423310624144
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,0.8,0.011186911898783593
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,0.85,0.012435675557613778
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,0.9,0.013672048362714982
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,0.95,0.013840632751690982
+Federe AE INT8 · orijinal_kucuk_yigin,4,π=%1,1.0,0.014619575136514837
+Federe AE · yakinsama_kalici,4,test kümesi,0.5,0.1934196327858828
+Federe AE · yakinsama_kalici,4,test kümesi,0.55,0.2647468878462209
+Federe AE · yakinsama_kalici,4,test kümesi,0.6,0.32310078971307493
+Federe AE · yakinsama_kalici,4,test kümesi,0.65,0.37193511111968736
+Federe AE · yakinsama_kalici,4,test kümesi,0.7,0.4147775218233309
+Federe AE · yakinsama_kalici,4,test kümesi,0.75,0.45073084673504366
+Federe AE · yakinsama_kalici,4,test kümesi,0.8,0.48138758429537665
+Federe AE · yakinsama_kalici,4,test kümesi,0.85,0.5089829793667936
+Federe AE · yakinsama_kalici,4,test kümesi,0.9,0.5336504595324174
+Federe AE · yakinsama_kalici,4,test kümesi,0.95,0.5566595397387987
+Federe AE · yakinsama_kalici,4,test kümesi,1.0,0.5778839887030198
+Federe AE · yakinsama_kalici,4,π=%1,0.5,0.016612737492949472
+Federe AE · yakinsama_kalici,4,π=%1,0.55,0.015165952185177866
+Federe AE · yakinsama_kalici,4,π=%1,0.6,0.013946592289410096
+Federe AE · yakinsama_kalici,4,π=%1,0.65,0.012901207534161649
+Federe AE · yakinsama_kalici,4,π=%1,0.7,0.011999422581789012
+Federe AE · yakinsama_kalici,4,π=%1,0.75,0.011371583669644523
+Federe AE · yakinsama_kalici,4,π=%1,0.8,0.012007144565170722
+Federe AE · yakinsama_kalici,4,π=%1,0.85,0.01315453868730401
+Federe AE · yakinsama_kalici,4,π=%1,0.9,0.013599401413784786
+Federe AE · yakinsama_kalici,4,π=%1,0.95,0.013928648033433026
+Federe AE · yakinsama_kalici,4,π=%1,1.0,0.01462571601300623
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,0.5,0.1903875509811583
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,0.55,0.26054961381575875
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,0.6,0.3204664883082687
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,0.65,0.36959354714080184
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,0.7,0.41347006875610587
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,0.75,0.44978570668029727
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,0.8,0.48236590016773995
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,0.85,0.510026375212365
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,0.9,0.5356368610273184
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,0.95,0.5583853494883342
+Federe AE INT8 · yakinsama_kalici,4,test kümesi,1.0,0.5796219856615251
+Federe AE INT8 · yakinsama_kalici,4,π=%1,0.5,0.01790706925262001
+Federe AE INT8 · yakinsama_kalici,4,π=%1,0.55,0.016273425251027
+Federe AE INT8 · yakinsama_kalici,4,π=%1,0.6,0.014918097584959501
+Federe AE INT8 · yakinsama_kalici,4,π=%1,0.65,0.013784090797586924
+Federe AE INT8 · yakinsama_kalici,4,π=%1,0.7,0.012814389018745112
+Federe AE INT8 · yakinsama_kalici,4,π=%1,0.75,0.012031376872499014
+Federe AE INT8 · yakinsama_kalici,4,π=%1,0.8,0.011701255731042224
+Federe AE INT8 · yakinsama_kalici,4,π=%1,0.85,0.012479553380431366
+Federe AE INT8 · yakinsama_kalici,4,π=%1,0.9,0.013571993377096438
+Federe AE INT8 · yakinsama_kalici,4,π=%1,0.95,0.014035606184047814
+Federe AE INT8 · yakinsama_kalici,4,π=%1,1.0,0.01523545855762457
+Federe AE · fedprox_kalici,4,test kümesi,0.5,0.1997562604683674
+Federe AE · fedprox_kalici,4,test kümesi,0.55,0.2698450352729751
+Federe AE · fedprox_kalici,4,test kümesi,0.6,0.3294384147554011
+Federe AE · fedprox_kalici,4,test kümesi,0.65,0.37955026842750444
+Federe AE · fedprox_kalici,4,test kümesi,0.7,0.41664364897275535
+Federe AE · fedprox_kalici,4,test kümesi,0.75,0.45383852733073005
+Federe AE · fedprox_kalici,4,test kümesi,0.8,0.4829216307653392
+Federe AE · fedprox_kalici,4,test kümesi,0.85,0.5104291982778199
+Federe AE · fedprox_kalici,4,test kümesi,0.9,0.5330338880057326
+Federe AE · fedprox_kalici,4,test kümesi,0.95,0.5547823586435947
+Federe AE · fedprox_kalici,4,test kümesi,1.0,0.5762817727568976
+Federe AE · fedprox_kalici,4,π=%1,0.5,0.014335757988576473
+Federe AE · fedprox_kalici,4,π=%1,0.55,0.013107808847243987
+Federe AE · fedprox_kalici,4,π=%1,0.6,0.01202977635085098
+Federe AE · fedprox_kalici,4,π=%1,0.65,0.011174262258290832
+Federe AE · fedprox_kalici,4,π=%1,0.7,0.011067626200063995
+Federe AE · fedprox_kalici,4,π=%1,0.75,0.011327510133195542
+Federe AE · fedprox_kalici,4,π=%1,0.8,0.012550215844101497
+Federe AE · fedprox_kalici,4,π=%1,0.85,0.012866660105470214
+Federe AE · fedprox_kalici,4,π=%1,0.9,0.012652978048143653
+Federe AE · fedprox_kalici,4,π=%1,0.95,0.01286605109369292
+Federe AE · fedprox_kalici,4,π=%1,1.0,0.013426843321080986
+Federe AE INT8 · fedprox_kalici,4,test kümesi,0.5,0.25140603893747365
+Federe AE INT8 · fedprox_kalici,4,test kümesi,0.55,0.31907045289142993
+Federe AE INT8 · fedprox_kalici,4,test kümesi,0.6,0.3740615620959686
+Federe AE INT8 · fedprox_kalici,4,test kümesi,0.65,0.4203247719034227
+Federe AE INT8 · fedprox_kalici,4,test kümesi,0.7,0.4597728843867506
+Federe AE INT8 · fedprox_kalici,4,test kümesi,0.75,0.49208226301278224
+Federe AE INT8 · fedprox_kalici,4,test kümesi,0.8,0.5160555054381964
+Federe AE INT8 · fedprox_kalici,4,test kümesi,0.85,0.5435234684270551
+Federe AE INT8 · fedprox_kalici,4,test kümesi,0.9,0.5642423786413397
+Federe AE INT8 · fedprox_kalici,4,test kümesi,0.95,0.5863367907250423
+Federe AE INT8 · fedprox_kalici,4,test kümesi,1.0,0.6067510319356941
+Federe AE INT8 · fedprox_kalici,4,π=%1,0.5,0.016201078825791596
+Federe AE INT8 · fedprox_kalici,4,π=%1,0.55,0.014727749522426982
+Federe AE INT8 · fedprox_kalici,4,π=%1,0.6,0.013496851067967037
+Federe AE INT8 · fedprox_kalici,4,π=%1,0.65,0.012458605592158653
+Federe AE INT8 · fedprox_kalici,4,π=%1,0.7,0.011635160540574669
+Federe AE INT8 · fedprox_kalici,4,π=%1,0.75,0.011162022512706028
+Federe AE INT8 · fedprox_kalici,4,π=%1,0.8,0.012882516223863737
+Federe AE INT8 · fedprox_kalici,4,π=%1,0.85,0.014060012119560858
+Federe AE INT8 · fedprox_kalici,4,π=%1,0.9,0.013619698718632826
+Federe AE INT8 · fedprox_kalici,4,π=%1,0.95,0.013790319702394254
+Federe AE INT8 · fedprox_kalici,4,π=%1,1.0,0.014647954524117525
+AE merkezi,5,test kümesi,0.5,0.09326432009242978
+AE merkezi,5,test kümesi,0.55,0.167720159062521
+AE merkezi,5,test kümesi,0.6,0.23286956607169085
+AE merkezi,5,test kümesi,0.65,0.2885016577918562
+AE merkezi,5,test kümesi,0.7,0.33816102658839514
+AE merkezi,5,test kümesi,0.75,0.3807760920445668
+AE merkezi,5,test kümesi,0.8,0.41719297770793823
+AE merkezi,5,test kümesi,0.85,0.45090393770103776
+AE merkezi,5,test kümesi,0.9,0.48050565484171714
+AE merkezi,5,test kümesi,0.95,0.5046924690626318
+AE merkezi,5,test kümesi,1.0,0.5282967629806647
+AE merkezi,5,π=%1,0.5,0.022940547527850415
+AE merkezi,5,π=%1,0.55,0.02084168631992674
+AE merkezi,5,π=%1,0.6,0.01918389665993691
+AE merkezi,5,π=%1,0.65,0.017753038901320562
+AE merkezi,5,π=%1,0.7,0.016553218498649585
+AE merkezi,5,π=%1,0.75,0.015526672816439479
+AE merkezi,5,π=%1,0.8,0.014697680392645473
+AE merkezi,5,π=%1,0.85,0.014514750810117853
+AE merkezi,5,π=%1,0.9,0.015119409377316711
+AE merkezi,5,π=%1,0.95,0.01655588037941133
+AE merkezi,5,π=%1,1.0,0.017033353306672976
+AE merkezi INT8,5,test kümesi,0.5,0.18958415417249602
+AE merkezi INT8,5,test kümesi,0.55,0.25983095254621674
+AE merkezi INT8,5,test kümesi,0.6,0.2934614880819163
+AE merkezi INT8,5,test kümesi,0.65,0.34470635271076927
+AE merkezi INT8,5,test kümesi,0.7,0.38484705518587714
+AE merkezi INT8,5,test kümesi,0.75,0.40774337358556495
+AE merkezi INT8,5,test kümesi,0.8,0.44372197335384783
+AE merkezi INT8,5,test kümesi,0.85,0.47367335895861057
+AE merkezi INT8,5,test kümesi,0.9,0.5016986733657595
+AE merkezi INT8,5,test kümesi,0.95,0.524434720209488
+AE merkezi INT8,5,test kümesi,1.0,0.5477949163588963
+AE merkezi INT8,5,π=%1,0.5,0.024345755112914376
+AE merkezi INT8,5,π=%1,0.55,0.023061436653354528
+AE merkezi INT8,5,π=%1,0.6,0.02119897992545596
+AE merkezi INT8,5,π=%1,0.65,0.019642869917935284
+AE merkezi INT8,5,π=%1,0.7,0.01880326412775443
+AE merkezi INT8,5,π=%1,0.75,0.01849767484169681
+AE merkezi INT8,5,π=%1,0.8,0.017429031144868105
+AE merkezi INT8,5,π=%1,0.85,0.01654281296862686
+AE merkezi INT8,5,π=%1,0.9,0.01570141658809451
+AE merkezi INT8,5,π=%1,0.95,0.01646181353446445
+AE merkezi INT8,5,π=%1,1.0,0.016952529831227133
+Federe AE · orijinal,5,test kümesi,0.5,0.42500542626959437
+Federe AE · orijinal,5,test kümesi,0.55,0.47661505594948855
+Federe AE · orijinal,5,test kümesi,0.6,0.5190821529079666
+Federe AE · orijinal,5,test kümesi,0.65,0.5546549147557216
+Federe AE · orijinal,5,test kümesi,0.7,0.5852691037631722
+Federe AE · orijinal,5,test kümesi,0.75,0.6121869646006927
+Federe AE · orijinal,5,test kümesi,0.8,0.6324576080407425
+Federe AE · orijinal,5,test kümesi,0.85,0.6532615603012959
+Federe AE · orijinal,5,test kümesi,0.9,0.6724348029158118
+Federe AE · orijinal,5,test kümesi,0.95,0.6896104694701773
+Federe AE · orijinal,5,test kümesi,1.0,0.7044047360417119
+Federe AE · orijinal,5,π=%1,0.5,0.014246063040343803
+Federe AE · orijinal,5,π=%1,0.55,0.013004925480758869
+Federe AE · orijinal,5,π=%1,0.6,0.011978551946772713
+Federe AE · orijinal,5,π=%1,0.65,0.011087995185718425
+Federe AE · orijinal,5,π=%1,0.7,0.010536278998697496
+Federe AE · orijinal,5,π=%1,0.75,0.01006249860586041
+Federe AE · orijinal,5,π=%1,0.8,0.009960310111086113
+Federe AE · orijinal,5,π=%1,0.85,0.009729371378300544
+Federe AE · orijinal,5,π=%1,0.9,0.009627009158903358
+Federe AE · orijinal,5,π=%1,0.95,0.012933845006321318
+Federe AE · orijinal,5,π=%1,1.0,0.014836253328549244
+Federe AE INT8 · orijinal,5,test kümesi,0.5,0.42766062713037417
+Federe AE INT8 · orijinal,5,test kümesi,0.55,0.4788417158571284
+Federe AE INT8 · orijinal,5,test kümesi,0.6,0.521557197699425
+Federe AE INT8 · orijinal,5,test kümesi,0.65,0.5579978335312625
+Federe AE INT8 · orijinal,5,test kümesi,0.7,0.5881910006937866
+Federe AE INT8 · orijinal,5,test kümesi,0.75,0.614233060809833
+Federe AE INT8 · orijinal,5,test kümesi,0.8,0.6347257738206645
+Federe AE INT8 · orijinal,5,test kümesi,0.85,0.6554646638992997
+Federe AE INT8 · orijinal,5,test kümesi,0.9,0.6744851201601577
+Federe AE INT8 · orijinal,5,test kümesi,0.95,0.6914946611224815
+Federe AE INT8 · orijinal,5,test kümesi,1.0,0.7062513578101238
+Federe AE INT8 · orijinal,5,π=%1,0.5,0.014401145850534952
+Federe AE INT8 · orijinal,5,π=%1,0.55,0.01310346242510347
+Federe AE INT8 · orijinal,5,π=%1,0.6,0.012020270076407918
+Federe AE INT8 · orijinal,5,π=%1,0.65,0.011101237201447775
+Federe AE INT8 · orijinal,5,π=%1,0.7,0.010401499806984344
+Federe AE INT8 · orijinal,5,π=%1,0.75,0.010302577329721252
+Federe AE INT8 · orijinal,5,π=%1,0.8,0.010047548077701397
+Federe AE INT8 · orijinal,5,π=%1,0.85,0.009731691958415717
+Federe AE INT8 · orijinal,5,π=%1,0.9,0.009750658375329218
+Federe AE INT8 · orijinal,5,π=%1,0.95,0.01285610932049134
+Federe AE INT8 · orijinal,5,π=%1,1.0,0.014856566995464853
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,0.5,0.2613703613976562
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,0.55,0.3278510724822688
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,0.6,0.3808548174974929
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,0.65,0.42547838420700307
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,0.7,0.4657784840497832
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,0.75,0.499320076302355
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,0.8,0.5258141827090209
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,0.85,0.5530042060387973
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,0.9,0.5749553419868466
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,0.95,0.5957907720192726
+Federe AE · orijinal_kucuk_yigin,5,test kümesi,1.0,0.6159298283728003
+Federe AE · orijinal_kucuk_yigin,5,π=%1,0.5,0.01608041872938423
+Federe AE · orijinal_kucuk_yigin,5,π=%1,0.55,0.014684227464361354
+Federe AE · orijinal_kucuk_yigin,5,π=%1,0.6,0.013491118620705803
+Federe AE · orijinal_kucuk_yigin,5,π=%1,0.65,0.012462781819109392
+Federe AE · orijinal_kucuk_yigin,5,π=%1,0.7,0.011572268773013745
+Federe AE · orijinal_kucuk_yigin,5,π=%1,0.75,0.010804085370132357
+Federe AE · orijinal_kucuk_yigin,5,π=%1,0.8,0.010543847581867792
+Federe AE · orijinal_kucuk_yigin,5,π=%1,0.85,0.012183716716217373
+Federe AE · orijinal_kucuk_yigin,5,π=%1,0.9,0.013390658946228769
+Federe AE · orijinal_kucuk_yigin,5,π=%1,0.95,0.013742832502809558
+Federe AE · orijinal_kucuk_yigin,5,π=%1,1.0,0.014748925397903933
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,0.5,0.2589911932841203
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,0.55,0.32490050896401335
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,0.6,0.3792254401946631
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,0.65,0.42567319217077637
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,0.7,0.46413416079920206
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,0.75,0.4968179285941436
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,0.8,0.5255392933833847
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,0.85,0.5528315594689192
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,0.9,0.5747391343794276
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,0.95,0.595509192433197
+Federe AE INT8 · orijinal_kucuk_yigin,5,test kümesi,1.0,0.6156854225505105
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,0.5,0.01605545284101096
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,0.55,0.014592509167560915
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,0.6,0.01338233316373504
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,0.65,0.012386465601862445
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,0.7,0.01157180758593607
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,0.75,0.010848268639916383
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,0.8,0.010433169266442529
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,0.85,0.011596148971119817
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,0.9,0.012898212438961068
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,0.95,0.01366957930879579
+Federe AE INT8 · orijinal_kucuk_yigin,5,π=%1,1.0,0.014746236824341575
+Federe AE · yakinsama_kalici,5,test kümesi,0.5,0.12994541832558776
+Federe AE · yakinsama_kalici,5,test kümesi,0.55,0.2054474862217697
+Federe AE · yakinsama_kalici,5,test kümesi,0.6,0.26855769096969656
+Federe AE · yakinsama_kalici,5,test kümesi,0.65,0.32163242249116364
+Federe AE · yakinsama_kalici,5,test kümesi,0.7,0.36923901252090197
+Federe AE · yakinsama_kalici,5,test kümesi,0.75,0.40845155605186984
+Federe AE · yakinsama_kalici,5,test kümesi,0.8,0.4434350854565756
+Federe AE · yakinsama_kalici,5,test kümesi,0.85,0.47426315999940677
+Federe AE · yakinsama_kalici,5,test kümesi,0.9,0.5028282352016988
+Federe AE · yakinsama_kalici,5,test kümesi,0.95,0.5241568253999358
+Federe AE · yakinsama_kalici,5,test kümesi,1.0,0.5474147295242233
+Federe AE · yakinsama_kalici,5,π=%1,0.5,0.018358742767122228
+Federe AE · yakinsama_kalici,5,π=%1,0.55,0.016772422230828286
+Federe AE · yakinsama_kalici,5,π=%1,0.6,0.015425633481931118
+Federe AE · yakinsama_kalici,5,π=%1,0.65,0.014273131438356651
+Federe AE · yakinsama_kalici,5,π=%1,0.7,0.013262555417483616
+Federe AE · yakinsama_kalici,5,π=%1,0.75,0.012388514315378438
+Federe AE · yakinsama_kalici,5,π=%1,0.8,0.01198630450490183
+Federe AE · yakinsama_kalici,5,π=%1,0.85,0.012897759750618099
+Federe AE · yakinsama_kalici,5,π=%1,0.9,0.013913028854022371
+Federe AE · yakinsama_kalici,5,π=%1,0.95,0.015013969347200595
+Federe AE · yakinsama_kalici,5,π=%1,1.0,0.015176476207827689
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,0.5,0.15930856636294555
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,0.55,0.21772559600337457
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,0.6,0.28065350079910206
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,0.65,0.333284102618342
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,0.7,0.37622490135193504
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,0.75,0.41500265156502714
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,0.8,0.45029223536012175
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,0.85,0.481441882093768
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,0.9,0.5084311166104349
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,0.95,0.5291374911033325
+Federe AE INT8 · yakinsama_kalici,5,test kümesi,1.0,0.5522213773625896
+Federe AE INT8 · yakinsama_kalici,5,π=%1,0.5,0.017294745682154156
+Federe AE INT8 · yakinsama_kalici,5,π=%1,0.55,0.016258127208809894
+Federe AE INT8 · yakinsama_kalici,5,π=%1,0.6,0.015082811577171661
+Federe AE INT8 · yakinsama_kalici,5,π=%1,0.65,0.01400690496562831
+Federe AE INT8 · yakinsama_kalici,5,π=%1,0.7,0.013075893281053434
+Federe AE INT8 · yakinsama_kalici,5,π=%1,0.75,0.012299893729456883
+Federe AE INT8 · yakinsama_kalici,5,π=%1,0.8,0.011802783803091863
+Federe AE INT8 · yakinsama_kalici,5,π=%1,0.85,0.012733320711842753
+Federe AE INT8 · yakinsama_kalici,5,π=%1,0.9,0.01301760765616813
+Federe AE INT8 · yakinsama_kalici,5,π=%1,0.95,0.014063690166786385
+Federe AE INT8 · yakinsama_kalici,5,π=%1,1.0,0.014343415788958435
+Federe AE · fedprox_kalici,5,test kümesi,0.5,0.3655723553497906
+Federe AE · fedprox_kalici,5,test kümesi,0.55,0.4215194538199919
+Federe AE · fedprox_kalici,5,test kümesi,0.6,0.4664509150371519
+Federe AE · fedprox_kalici,5,test kümesi,0.65,0.5038637666029682
+Federe AE · fedprox_kalici,5,test kümesi,0.7,0.5375012872048087
+Federe AE · fedprox_kalici,5,test kümesi,0.75,0.5619133172615879
+Federe AE · fedprox_kalici,5,test kümesi,0.8,0.5886935804706785
+Federe AE · fedprox_kalici,5,test kümesi,0.85,0.6094579608111286
+Federe AE · fedprox_kalici,5,test kümesi,0.9,0.6301903524279979
+Federe AE · fedprox_kalici,5,test kümesi,0.95,0.6496541189811341
+Federe AE · fedprox_kalici,5,test kümesi,1.0,0.6670921138388007
+Federe AE · fedprox_kalici,5,π=%1,0.5,0.014923058570845159
+Federe AE · fedprox_kalici,5,π=%1,0.55,0.013628155998081225
+Federe AE · fedprox_kalici,5,π=%1,0.6,0.012550079806306349
+Federe AE · fedprox_kalici,5,π=%1,0.65,0.011667142898274913
+Federe AE · fedprox_kalici,5,π=%1,0.7,0.010887703392262664
+Federe AE · fedprox_kalici,5,π=%1,0.75,0.010690113282100636
+Federe AE · fedprox_kalici,5,π=%1,0.8,0.01079269982780644
+Federe AE · fedprox_kalici,5,π=%1,0.85,0.012265552297038863
+Federe AE · fedprox_kalici,5,π=%1,0.9,0.01282413584458364
+Federe AE · fedprox_kalici,5,π=%1,0.95,0.012651378965301998
+Federe AE · fedprox_kalici,5,π=%1,1.0,0.014721109664338622
+Federe AE INT8 · fedprox_kalici,5,test kümesi,0.5,0.3673930574769759
+Federe AE INT8 · fedprox_kalici,5,test kümesi,0.55,0.4197275987064138
+Federe AE INT8 · fedprox_kalici,5,test kümesi,0.6,0.464568593046657
+Federe AE INT8 · fedprox_kalici,5,test kümesi,0.65,0.5040056869022566
+Federe AE INT8 · fedprox_kalici,5,test kümesi,0.7,0.5365975197268923
+Federe AE INT8 · fedprox_kalici,5,test kümesi,0.75,0.5623164669328884
+Federe AE INT8 · fedprox_kalici,5,test kümesi,0.8,0.5889972912660718
+Federe AE INT8 · fedprox_kalici,5,test kümesi,0.85,0.6097732768827819
+Federe AE INT8 · fedprox_kalici,5,test kümesi,0.9,0.6305225785328329
+Federe AE INT8 · fedprox_kalici,5,test kümesi,0.95,0.6499401824839195
+Federe AE INT8 · fedprox_kalici,5,test kümesi,1.0,0.6673636758635673
+Federe AE INT8 · fedprox_kalici,5,π=%1,0.5,0.014410749244405417
+Federe AE INT8 · fedprox_kalici,5,π=%1,0.55,0.01309545658191701
+Federe AE INT8 · fedprox_kalici,5,π=%1,0.6,0.012011764459735367
+Federe AE INT8 · fedprox_kalici,5,π=%1,0.65,0.011167322379720129
+Federe AE INT8 · fedprox_kalici,5,π=%1,0.7,0.010485954207839768
+Federe AE INT8 · fedprox_kalici,5,π=%1,0.75,0.010317337909339627
+Federe AE INT8 · fedprox_kalici,5,π=%1,0.8,0.010648208565214886
+Federe AE INT8 · fedprox_kalici,5,π=%1,0.85,0.011349230602180349
+Federe AE INT8 · fedprox_kalici,5,π=%1,0.9,0.012294790520104239
+Federe AE INT8 · fedprox_kalici,5,π=%1,0.95,0.012376027464123824
+Federe AE INT8 · fedprox_kalici,5,π=%1,1.0,0.014428785068653801
+AE merkezi,6,test kümesi,0.5,0.15610940557563405
+AE merkezi,6,test kümesi,0.55,0.22796887602417495
+AE merkezi,6,test kümesi,0.6,0.28063326118523924
+AE merkezi,6,test kümesi,0.65,0.3306183651603684
+AE merkezi,6,test kümesi,0.7,0.3758747080982337
+AE merkezi,6,test kümesi,0.75,0.41611997821215757
+AE merkezi,6,test kümesi,0.8,0.4508142955248884
+AE merkezi,6,test kümesi,0.85,0.48157343239368827
+AE merkezi,6,test kümesi,0.9,0.5095031127307252
+AE merkezi,6,test kümesi,0.95,0.5344751821830162
+AE merkezi,6,test kümesi,1.0,0.5567293069737128
+AE merkezi,6,π=%1,0.5,0.012765384444584768
+AE merkezi,6,π=%1,0.55,0.011683002319339327
+AE merkezi,6,π=%1,0.6,0.010725089873164046
+AE merkezi,6,π=%1,0.65,0.00991517159384376
+AE merkezi,6,π=%1,0.7,0.009479905273323177
+AE merkezi,6,π=%1,0.75,0.009378694105106597
+AE merkezi,6,π=%1,0.8,0.00963172729035827
+AE merkezi,6,π=%1,0.85,0.009395538128734724
+AE merkezi,6,π=%1,0.9,0.009253025392921863
+AE merkezi,6,π=%1,0.95,0.010669426918325429
+AE merkezi,6,π=%1,1.0,0.012325821737163189
+AE merkezi INT8,6,test kümesi,0.5,0.1591237880820196
+AE merkezi INT8,6,test kümesi,0.55,0.22837071350269872
+AE merkezi INT8,6,test kümesi,0.6,0.288463733348335
+AE merkezi INT8,6,test kümesi,0.65,0.3416099688772667
+AE merkezi INT8,6,test kümesi,0.7,0.3872139906793357
+AE merkezi INT8,6,test kümesi,0.75,0.4270452173862946
+AE merkezi INT8,6,test kümesi,0.8,0.4617787899606298
+AE merkezi INT8,6,test kümesi,0.85,0.4918276515713557
+AE merkezi INT8,6,test kümesi,0.9,0.5192621738088607
+AE merkezi INT8,6,test kümesi,0.95,0.5441442319398959
+AE merkezi INT8,6,test kümesi,1.0,0.5662339778405387
+AE merkezi INT8,6,π=%1,0.5,0.017234258555583217
+AE merkezi INT8,6,π=%1,0.55,0.015670148788118992
+AE merkezi INT8,6,π=%1,0.6,0.014381108512974888
+AE merkezi INT8,6,π=%1,0.65,0.013365033569461964
+AE merkezi INT8,6,π=%1,0.7,0.012440580138428019
+AE merkezi INT8,6,π=%1,0.75,0.011935246752340136
+AE merkezi INT8,6,π=%1,0.8,0.011341433734719217
+AE merkezi INT8,6,π=%1,0.85,0.010758544597321932
+AE merkezi INT8,6,π=%1,0.9,0.010755469589646224
+AE merkezi INT8,6,π=%1,0.95,0.012137852293957706
+AE merkezi INT8,6,π=%1,1.0,0.014497560673200408
+Federe AE · orijinal,6,test kümesi,0.5,0.36414774995866284
+Federe AE · orijinal,6,test kümesi,0.55,0.4209697947749084
+Federe AE · orijinal,6,test kümesi,0.6,0.46691769229519714
+Federe AE · orijinal,6,test kümesi,0.65,0.5055887105970444
+Federe AE · orijinal,6,test kümesi,0.7,0.5402507442386941
+Federe AE · orijinal,6,test kümesi,0.75,0.5686301829926039
+Federe AE · orijinal,6,test kümesi,0.8,0.5898228340874911
+Federe AE · orijinal,6,test kümesi,0.85,0.6104003403659745
+Federe AE · orijinal,6,test kümesi,0.9,0.6313370744551555
+Federe AE · orijinal,6,test kümesi,0.95,0.6506359070324339
+Federe AE · orijinal,6,test kümesi,1.0,0.6672278948511841
+Federe AE · orijinal,6,π=%1,0.5,0.014965837823332093
+Federe AE · orijinal,6,π=%1,0.55,0.013643808283772695
+Federe AE · orijinal,6,π=%1,0.6,0.012509593255041394
+Federe AE · orijinal,6,π=%1,0.65,0.011564348706395158
+Federe AE · orijinal,6,π=%1,0.7,0.01086473077613257
+Federe AE · orijinal,6,π=%1,0.75,0.010520797765227918
+Federe AE · orijinal,6,π=%1,0.8,0.01085965390925982
+Federe AE · orijinal,6,π=%1,0.85,0.012040259577874654
+Federe AE · orijinal,6,π=%1,0.9,0.013473294400094829
+Federe AE · orijinal,6,π=%1,0.95,0.013264179174539198
+Federe AE · orijinal,6,π=%1,1.0,0.014722603316317707
+Federe AE INT8 · orijinal,6,test kümesi,0.5,0.3670896250482216
+Federe AE INT8 · orijinal,6,test kümesi,0.55,0.4207324506285123
+Federe AE INT8 · orijinal,6,test kümesi,0.6,0.46579586017466557
+Federe AE INT8 · orijinal,6,test kümesi,0.65,0.5053953476803462
+Federe AE INT8 · orijinal,6,test kümesi,0.7,0.5394718805137182
+Federe AE INT8 · orijinal,6,test kümesi,0.75,0.5690787971219929
+Federe AE INT8 · orijinal,6,test kümesi,0.8,0.5895095112373144
+Federe AE INT8 · orijinal,6,test kümesi,0.85,0.610229065810771
+Federe AE INT8 · orijinal,6,test kümesi,0.9,0.6310653697833754
+Federe AE INT8 · orijinal,6,test kümesi,0.95,0.6503794750849128
+Federe AE INT8 · orijinal,6,test kümesi,1.0,0.6669020204214643
+Federe AE INT8 · orijinal,6,π=%1,0.5,0.013065114100757872
+Federe AE INT8 · orijinal,6,π=%1,0.55,0.011893153982194257
+Federe AE INT8 · orijinal,6,π=%1,0.6,0.010980275333527162
+Federe AE INT8 · orijinal,6,π=%1,0.65,0.01022709422027986
+Federe AE INT8 · orijinal,6,π=%1,0.7,0.009622112554491136
+Federe AE INT8 · orijinal,6,π=%1,0.75,0.009387178004669065
+Federe AE INT8 · orijinal,6,π=%1,0.8,0.01036145452595515
+Federe AE INT8 · orijinal,6,π=%1,0.85,0.010938321013087138
+Federe AE INT8 · orijinal,6,π=%1,0.9,0.012608301464881885
+Federe AE INT8 · orijinal,6,π=%1,0.95,0.012335865568339816
+Federe AE INT8 · orijinal,6,π=%1,1.0,0.013833082852638897
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,0.5,0.15338188050520166
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,0.55,0.22941978213928216
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,0.6,0.29017973099253125
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,0.65,0.33791328192099335
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,0.7,0.38211475041243814
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,0.75,0.42205218801481126
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,0.8,0.457534518800975
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,0.85,0.4887465754944727
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,0.9,0.5143406660761853
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,0.95,0.5330819304520884
+Federe AE · orijinal_kucuk_yigin,6,test kümesi,1.0,0.5554801216597871
+Federe AE · orijinal_kucuk_yigin,6,π=%1,0.5,0.019617783789716195
+Federe AE · orijinal_kucuk_yigin,6,π=%1,0.55,0.017897774639120574
+Federe AE · orijinal_kucuk_yigin,6,π=%1,0.6,0.01640816553672469
+Federe AE · orijinal_kucuk_yigin,6,π=%1,0.65,0.015169088711819753
+Federe AE · orijinal_kucuk_yigin,6,π=%1,0.7,0.014258654744436713
+Federe AE · orijinal_kucuk_yigin,6,π=%1,0.75,0.013936358122826347
+Federe AE · orijinal_kucuk_yigin,6,π=%1,0.8,0.014751655910834514
+Federe AE · orijinal_kucuk_yigin,6,π=%1,0.85,0.01433211715615685
+Federe AE · orijinal_kucuk_yigin,6,π=%1,0.9,0.016297709764357404
+Federe AE · orijinal_kucuk_yigin,6,π=%1,0.95,0.015729526235722963
+Federe AE · orijinal_kucuk_yigin,6,π=%1,1.0,0.015855822934671568
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,0.5,0.1467040636657716
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,0.55,0.22051131911745595
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,0.6,0.2800683020456687
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,0.65,0.33051301459971716
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,0.7,0.3759152463781924
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,0.75,0.4159936701322489
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,0.8,0.45169039039842207
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,0.85,0.4829422117722133
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,0.9,0.509467460993875
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,0.95,0.5281779358280466
+Federe AE INT8 · orijinal_kucuk_yigin,6,test kümesi,1.0,0.550890723441234
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,0.5,0.021376843179625536
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,0.55,0.019475539663300127
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,0.6,0.01792079396768213
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,0.65,0.016585259989880224
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,0.7,0.01552556571416196
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,0.75,0.015230847116380338
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,0.8,0.01549098441929163
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,0.85,0.015396545243220124
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,0.9,0.01708365192702616
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,0.95,0.016671143653241474
+Federe AE INT8 · orijinal_kucuk_yigin,6,π=%1,1.0,0.01669127319670736
+Federe AE · yakinsama_kalici,6,test kümesi,0.5,0.17992611880833176
+Federe AE · yakinsama_kalici,6,test kümesi,0.55,0.25266515896637104
+Federe AE · yakinsama_kalici,6,test kümesi,0.6,0.3122792776738153
+Federe AE · yakinsama_kalici,6,test kümesi,0.65,0.3603363949658534
+Federe AE · yakinsama_kalici,6,test kümesi,0.7,0.4040545539212194
+Federe AE · yakinsama_kalici,6,test kümesi,0.75,0.4408555422786445
+Federe AE · yakinsama_kalici,6,test kümesi,0.8,0.47456651878418826
+Federe AE · yakinsama_kalici,6,test kümesi,0.85,0.5047948750470517
+Federe AE · yakinsama_kalici,6,test kümesi,0.9,0.5316762085177439
+Federe AE · yakinsama_kalici,6,test kümesi,0.95,0.5551617557148264
+Federe AE · yakinsama_kalici,6,test kümesi,1.0,0.5764447099717576
+Federe AE · yakinsama_kalici,6,π=%1,0.5,0.015595293647836404
+Federe AE · yakinsama_kalici,6,π=%1,0.55,0.01423762767700193
+Federe AE · yakinsama_kalici,6,π=%1,0.6,0.013117487271056612
+Federe AE · yakinsama_kalici,6,π=%1,0.65,0.012159527224560797
+Federe AE · yakinsama_kalici,6,π=%1,0.7,0.011327043522017041
+Federe AE · yakinsama_kalici,6,π=%1,0.75,0.010768945797046743
+Federe AE · yakinsama_kalici,6,π=%1,0.8,0.010572151943664416
+Federe AE · yakinsama_kalici,6,π=%1,0.85,0.010390531428917738
+Federe AE · yakinsama_kalici,6,π=%1,0.9,0.011157463539621144
+Federe AE · yakinsama_kalici,6,π=%1,0.95,0.01185237955693897
+Federe AE · yakinsama_kalici,6,π=%1,1.0,0.01401925950274189
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,0.5,0.18993048012165978
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,0.55,0.2515161034640388
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,0.6,0.3082108456446695
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,0.65,0.36045192417212396
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,0.7,0.40323284574540796
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,0.75,0.4416728295342778
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,0.8,0.4757718430812474
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,0.85,0.505253203650125
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,0.9,0.5316545429970088
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,0.95,0.5551721134617376
+Federe AE INT8 · yakinsama_kalici,6,test kümesi,1.0,0.5765261785791875
+Federe AE INT8 · yakinsama_kalici,6,π=%1,0.5,0.01896537898087578
+Federe AE INT8 · yakinsama_kalici,6,π=%1,0.55,0.0172464256505005
+Federe AE INT8 · yakinsama_kalici,6,π=%1,0.6,0.016280859379409818
+Federe AE INT8 · yakinsama_kalici,6,π=%1,0.65,0.015098616579508641
+Federe AE INT8 · yakinsama_kalici,6,π=%1,0.7,0.01405310472205371
+Federe AE INT8 · yakinsama_kalici,6,π=%1,0.75,0.01318317960962078
+Federe AE INT8 · yakinsama_kalici,6,π=%1,0.8,0.012400769981726838
+Federe AE INT8 · yakinsama_kalici,6,π=%1,0.85,0.012082440893114933
+Federe AE INT8 · yakinsama_kalici,6,π=%1,0.9,0.012072511565031184
+Federe AE INT8 · yakinsama_kalici,6,π=%1,0.95,0.013436418780262404
+Federe AE INT8 · yakinsama_kalici,6,π=%1,1.0,0.015201403292501345
+Federe AE · fedprox_kalici,6,test kümesi,0.5,0.14837310691337804
+Federe AE · fedprox_kalici,6,test kümesi,0.55,0.22453550657589422
+Federe AE · fedprox_kalici,6,test kümesi,0.6,0.2835042700944488
+Federe AE · fedprox_kalici,6,test kümesi,0.65,0.33455200493832904
+Federe AE · fedprox_kalici,6,test kümesi,0.7,0.3782076164525824
+Federe AE · fedprox_kalici,6,test kümesi,0.75,0.41661113319809967
+Federe AE · fedprox_kalici,6,test kümesi,0.8,0.44982608923303347
+Federe AE · fedprox_kalici,6,test kümesi,0.85,0.48049807484948015
+Federe AE · fedprox_kalici,6,test kümesi,0.9,0.5078790359295982
+Federe AE · fedprox_kalici,6,test kümesi,0.95,0.5275859912720642
+Federe AE · fedprox_kalici,6,test kümesi,1.0,0.5506734738214208
+Federe AE · fedprox_kalici,6,π=%1,0.5,0.019578327894762746
+Federe AE · fedprox_kalici,6,π=%1,0.55,0.01784659424225411
+Federe AE · fedprox_kalici,6,π=%1,0.6,0.016368355131851788
+Federe AE · fedprox_kalici,6,π=%1,0.65,0.015146708288665937
+Federe AE · fedprox_kalici,6,π=%1,0.7,0.014205404513791013
+Federe AE · fedprox_kalici,6,π=%1,0.75,0.014848091473307337
+Federe AE · fedprox_kalici,6,π=%1,0.8,0.014804142740616377
+Federe AE · fedprox_kalici,6,π=%1,0.85,0.015021167043825143
+Federe AE · fedprox_kalici,6,π=%1,0.9,0.015294023622169636
+Federe AE · fedprox_kalici,6,π=%1,0.95,0.015646913861712967
+Federe AE · fedprox_kalici,6,π=%1,1.0,0.01580294765461182
+Federe AE INT8 · fedprox_kalici,6,test kümesi,0.5,0.14718914440538305
+Federe AE INT8 · fedprox_kalici,6,test kümesi,0.55,0.2184538655837045
+Federe AE INT8 · fedprox_kalici,6,test kümesi,0.6,0.28197845763359247
+Federe AE INT8 · fedprox_kalici,6,test kümesi,0.65,0.3337482248233681
+Federe AE INT8 · fedprox_kalici,6,test kümesi,0.7,0.37714949220442834
+Federe AE INT8 · fedprox_kalici,6,test kümesi,0.75,0.41606622426036366
+Federe AE INT8 · fedprox_kalici,6,test kümesi,0.8,0.44920284897017726
+Federe AE INT8 · fedprox_kalici,6,test kümesi,0.85,0.4802133133024304
+Federe AE INT8 · fedprox_kalici,6,test kümesi,0.9,0.5065021655333602
+Federe AE INT8 · fedprox_kalici,6,test kümesi,0.95,0.5271311415435531
+Federe AE INT8 · fedprox_kalici,6,test kümesi,1.0,0.5503204431892245
+Federe AE INT8 · fedprox_kalici,6,π=%1,0.5,0.02028359987888125
+Federe AE INT8 · fedprox_kalici,6,π=%1,0.55,0.018438046254323107
+Federe AE INT8 · fedprox_kalici,6,π=%1,0.6,0.016946486252010232
+Federe AE INT8 · fedprox_kalici,6,π=%1,0.65,0.015894864263770188
+Federe AE INT8 · fedprox_kalici,6,π=%1,0.7,0.01510375124897781
+Federe AE INT8 · fedprox_kalici,6,π=%1,0.75,0.014641501779658707
+Federe AE INT8 · fedprox_kalici,6,π=%1,0.8,0.015000286972262545
+Federe AE INT8 · fedprox_kalici,6,π=%1,0.85,0.015267571686674305
+Federe AE INT8 · fedprox_kalici,6,π=%1,0.9,0.015590714246738161
+Federe AE INT8 · fedprox_kalici,6,π=%1,0.95,0.015917940970062654
+Federe AE INT8 · fedprox_kalici,6,π=%1,1.0,0.016094376059109194
+AE merkezi,7,test kümesi,0.5,0.17194958329946794
+AE merkezi,7,test kümesi,0.55,0.22869175474493011
+AE merkezi,7,test kümesi,0.6,0.2899043605899776
+AE merkezi,7,test kümesi,0.65,0.3416650024363995
+AE merkezi,7,test kümesi,0.7,0.3853594181433991
+AE merkezi,7,test kümesi,0.75,0.42536697829066034
+AE merkezi,7,test kümesi,0.8,0.46027879951911516
+AE merkezi,7,test kümesi,0.85,0.49076899604619645
+AE merkezi,7,test kümesi,0.9,0.5175496032250549
+AE merkezi,7,test kümesi,0.95,0.539424411288464
+AE merkezi,7,test kümesi,1.0,0.5611829241798827
+AE merkezi,7,π=%1,0.5,0.01753648880044565
+AE merkezi,7,π=%1,0.55,0.015933014704613373
+AE merkezi,7,π=%1,0.6,0.014702941277568259
+AE merkezi,7,π=%1,0.65,0.01378429921637571
+AE merkezi,7,π=%1,0.7,0.01333964089656995
+AE merkezi,7,π=%1,0.75,0.012812925715038255
+AE merkezi,7,π=%1,0.8,0.012197552427732086
+AE merkezi,7,π=%1,0.85,0.011972992810412588
+AE merkezi,7,π=%1,0.9,0.01271592530975284
+AE merkezi,7,π=%1,0.95,0.014420982739996244
+AE merkezi,7,π=%1,1.0,0.0147373087192213
+AE merkezi INT8,7,test kümesi,0.5,0.17462048790607643
+AE merkezi INT8,7,test kümesi,0.55,0.2460564966220644
+AE merkezi INT8,7,test kümesi,0.6,0.2986395645187977
+AE merkezi INT8,7,test kümesi,0.65,0.34665960138183066
+AE merkezi INT8,7,test kümesi,0.7,0.3904357501357828
+AE merkezi INT8,7,test kümesi,0.75,0.42943399515151226
+AE merkezi INT8,7,test kümesi,0.8,0.4612635147599138
+AE merkezi INT8,7,test kümesi,0.85,0.48719947642565
+AE merkezi INT8,7,test kümesi,0.9,0.5140200609260662
+AE merkezi INT8,7,test kümesi,0.95,0.5378781806397147
+AE merkezi INT8,7,test kümesi,1.0,0.5591190527916576
+AE merkezi INT8,7,π=%1,0.5,0.019852854384631247
+AE merkezi INT8,7,π=%1,0.55,0.018157197995865487
+AE merkezi INT8,7,π=%1,0.6,0.017308310306850944
+AE merkezi INT8,7,π=%1,0.65,0.016177668516371
+AE merkezi INT8,7,π=%1,0.7,0.015454507094693258
+AE merkezi INT8,7,π=%1,0.75,0.01536348517852694
+AE merkezi INT8,7,π=%1,0.8,0.015153903137742989
+AE merkezi INT8,7,π=%1,0.85,0.015251739691277327
+AE merkezi INT8,7,π=%1,0.9,0.015600411546372641
+AE merkezi INT8,7,π=%1,0.95,0.015365688194023602
+AE merkezi INT8,7,π=%1,1.0,0.01589585280771115
+Federe AE · orijinal,7,test kümesi,0.5,0.35319804294048546
+Federe AE · orijinal,7,test kümesi,0.55,0.4104516637564437
+Federe AE · orijinal,7,test kümesi,0.6,0.4592159227241902
+Federe AE · orijinal,7,test kümesi,0.65,0.5005690895128404
+Federe AE · orijinal,7,test kümesi,0.7,0.5353682857298472
+Federe AE · orijinal,7,test kümesi,0.75,0.5657495700737415
+Federe AE · orijinal,7,test kümesi,0.8,0.5911162634276561
+Federe AE · orijinal,7,test kümesi,0.85,0.6076059795911603
+Federe AE · orijinal,7,test kümesi,0.9,0.6286820485827724
+Federe AE · orijinal,7,test kümesi,0.95,0.6481398092694121
+Federe AE · orijinal,7,test kümesi,1.0,0.6649196176406691
+Federe AE · orijinal,7,π=%1,0.5,0.014955552086835645
+Federe AE · orijinal,7,π=%1,0.55,0.013640417039712093
+Federe AE · orijinal,7,π=%1,0.6,0.012513326527251718
+Federe AE · orijinal,7,π=%1,0.65,0.011605689295162277
+Federe AE · orijinal,7,π=%1,0.7,0.011216428935844812
+Federe AE · orijinal,7,π=%1,0.75,0.010762284364027012
+Federe AE · orijinal,7,π=%1,0.8,0.010509954679302375
+Federe AE · orijinal,7,π=%1,0.85,0.010314008080456476
+Federe AE · orijinal,7,π=%1,0.9,0.013705910636994256
+Federe AE · orijinal,7,π=%1,0.95,0.013337615419380527
+Federe AE · orijinal,7,π=%1,1.0,0.0146972112326732
+Federe AE INT8 · orijinal,7,test kümesi,0.5,0.3539718971131318
+Federe AE INT8 · orijinal,7,test kümesi,0.55,0.4112101965636663
+Federe AE INT8 · orijinal,7,test kümesi,0.6,0.45884789770838674
+Federe AE INT8 · orijinal,7,test kümesi,0.65,0.49999722722609025
+Federe AE INT8 · orijinal,7,test kümesi,0.7,0.5353701733352059
+Federe AE INT8 · orijinal,7,test kümesi,0.75,0.5660390427499594
+Federe AE INT8 · orijinal,7,test kümesi,0.8,0.5911521534333665
+Federe AE INT8 · orijinal,7,test kümesi,0.85,0.6080092241172611
+Federe AE INT8 · orijinal,7,test kümesi,0.9,0.6290437776616663
+Federe AE INT8 · orijinal,7,test kümesi,0.95,0.6484824688127083
+Federe AE INT8 · orijinal,7,test kümesi,1.0,0.6652183358679122
+Federe AE INT8 · orijinal,7,π=%1,0.5,0.014360347876701278
+Federe AE INT8 · orijinal,7,π=%1,0.55,0.013079166192092848
+Federe AE INT8 · orijinal,7,π=%1,0.6,0.01201629881571709
+Federe AE INT8 · orijinal,7,π=%1,0.65,0.011190642759193313
+Federe AE INT8 · orijinal,7,π=%1,0.7,0.010906258660561722
+Federe AE INT8 · orijinal,7,π=%1,0.75,0.010788862998891754
+Federe AE INT8 · orijinal,7,π=%1,0.8,0.010152964092605738
+Federe AE INT8 · orijinal,7,π=%1,0.85,0.009958530766708688
+Federe AE INT8 · orijinal,7,π=%1,0.9,0.013348084193441294
+Federe AE INT8 · orijinal,7,π=%1,0.95,0.01302450531021276
+Federe AE INT8 · orijinal,7,π=%1,1.0,0.014405185367384195
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,0.5,0.35541207748617215
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,0.55,0.4122858752217064
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,0.6,0.4607663484738471
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,0.65,0.5004500393093786
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,0.7,0.5315208780360858
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,0.75,0.5614472114216705
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,0.8,0.583427111762747
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,0.85,0.6042644572864178
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,0.9,0.6251893258248045
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,0.95,0.6449091519820134
+Federe AE · orijinal_kucuk_yigin,7,test kümesi,1.0,0.6625027156202477
+Federe AE · orijinal_kucuk_yigin,7,π=%1,0.5,0.015536905586466976
+Federe AE · orijinal_kucuk_yigin,7,π=%1,0.55,0.014151291209689415
+Federe AE · orijinal_kucuk_yigin,7,π=%1,0.6,0.012995826721814908
+Federe AE · orijinal_kucuk_yigin,7,π=%1,0.65,0.012001720375784763
+Federe AE · orijinal_kucuk_yigin,7,π=%1,0.7,0.011156052911693748
+Federe AE · orijinal_kucuk_yigin,7,π=%1,0.75,0.01057445717678631
+Federe AE · orijinal_kucuk_yigin,7,π=%1,0.8,0.010671622765793658
+Federe AE · orijinal_kucuk_yigin,7,π=%1,0.85,0.012941864476316048
+Federe AE · orijinal_kucuk_yigin,7,π=%1,0.9,0.013267548505958326
+Federe AE · orijinal_kucuk_yigin,7,π=%1,0.95,0.01348331119622921
+Federe AE · orijinal_kucuk_yigin,7,π=%1,1.0,0.01496593612708842
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,0.5,0.35576763176508
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,0.55,0.4136134298113675
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,0.6,0.46112456697641474
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,0.65,0.5014689354542253
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,0.7,0.532294915598748
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,0.75,0.5616182287343122
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,0.8,0.5843157554301316
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,0.85,0.6053409831517311
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,0.9,0.6263602066952293
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,0.95,0.6459137610782589
+Federe AE INT8 · orijinal_kucuk_yigin,7,test kümesi,1.0,0.6634531827069302
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,0.5,0.015488592219314179
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,0.55,0.014080521119096396
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,0.6,0.012922480145543156
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,0.65,0.011935612944734966
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,0.7,0.011163156437764601
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,0.75,0.0106628684382734
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,0.8,0.010735114482179503
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,0.85,0.012314178621038986
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,0.9,0.013161347767171762
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,0.95,0.013482768454568889
+Federe AE INT8 · orijinal_kucuk_yigin,7,π=%1,1.0,0.01497639169094204
+Federe AE · yakinsama_kalici,7,test kümesi,0.5,0.16204300140317424
+Federe AE · yakinsama_kalici,7,test kümesi,0.55,0.23714847059329766
+Federe AE · yakinsama_kalici,7,test kümesi,0.6,0.2957909323989453
+Federe AE · yakinsama_kalici,7,test kümesi,0.65,0.3414490256302286
+Federe AE · yakinsama_kalici,7,test kümesi,0.7,0.3869081863304739
+Federe AE · yakinsama_kalici,7,test kümesi,0.75,0.4238529429765112
+Federe AE · yakinsama_kalici,7,test kümesi,0.8,0.45708460576474685
+Federe AE · yakinsama_kalici,7,test kümesi,0.85,0.48754208072787464
+Federe AE · yakinsama_kalici,7,test kümesi,0.9,0.5156426601670507
+Federe AE · yakinsama_kalici,7,test kümesi,0.95,0.5383440631336871
+Federe AE · yakinsama_kalici,7,test kümesi,1.0,0.5607212687377797
+Federe AE · yakinsama_kalici,7,π=%1,0.5,0.013614472367572836
+Federe AE · yakinsama_kalici,7,π=%1,0.55,0.012378171255343812
+Federe AE · yakinsama_kalici,7,π=%1,0.6,0.011460765790280594
+Federe AE · yakinsama_kalici,7,π=%1,0.65,0.011038306357386651
+Federe AE · yakinsama_kalici,7,π=%1,0.7,0.010409864434086837
+Federe AE · yakinsama_kalici,7,π=%1,0.75,0.00979196524814183
+Federe AE · yakinsama_kalici,7,π=%1,0.8,0.010830635978911275
+Federe AE · yakinsama_kalici,7,π=%1,0.85,0.010648438051066019
+Federe AE · yakinsama_kalici,7,π=%1,0.9,0.010924678434822505
+Federe AE · yakinsama_kalici,7,π=%1,0.95,0.011549375059459343
+Federe AE · yakinsama_kalici,7,π=%1,1.0,0.012960358904634399
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,0.5,0.1454021696127444
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,0.55,0.20911149177228075
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,0.6,0.27284202714596534
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,0.65,0.3239801795348708
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,0.7,0.36546499189723214
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,0.75,0.40462657329872453
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,0.8,0.44149712113670875
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,0.85,0.4726138485318052
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,0.9,0.5006690803378425
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,0.95,0.5241655663195949
+Federe AE INT8 · yakinsama_kalici,7,test kümesi,1.0,0.5472517923093635
+Federe AE INT8 · yakinsama_kalici,7,π=%1,0.5,0.01571344459901988
+Federe AE INT8 · yakinsama_kalici,7,π=%1,0.55,0.01429038127279792
+Federe AE INT8 · yakinsama_kalici,7,π=%1,0.6,0.013212020889805068
+Federe AE INT8 · yakinsama_kalici,7,π=%1,0.65,0.012474509531852262
+Federe AE INT8 · yakinsama_kalici,7,π=%1,0.7,0.011933454767972019
+Federe AE INT8 · yakinsama_kalici,7,π=%1,0.75,0.01138699789766714
+Federe AE INT8 · yakinsama_kalici,7,π=%1,0.8,0.011094994330647236
+Federe AE INT8 · yakinsama_kalici,7,π=%1,0.85,0.011741088092969094
+Federe AE INT8 · yakinsama_kalici,7,π=%1,0.9,0.011598675909210097
+Federe AE INT8 · yakinsama_kalici,7,π=%1,0.95,0.012737770580713152
+Federe AE INT8 · yakinsama_kalici,7,π=%1,1.0,0.013698124327237783
+Federe AE · fedprox_kalici,7,test kümesi,0.5,0.34319419589717165
+Federe AE · fedprox_kalici,7,test kümesi,0.55,0.4022622836319584
+Federe AE · fedprox_kalici,7,test kümesi,0.6,0.451400040524256
+Federe AE · fedprox_kalici,7,test kümesi,0.65,0.49034158527412086
+Federe AE · fedprox_kalici,7,test kümesi,0.7,0.5230307589072354
+Federe AE · fedprox_kalici,7,test kümesi,0.75,0.5484423347834788
+Federe AE · fedprox_kalici,7,test kümesi,0.8,0.5742170118692284
+Federe AE · fedprox_kalici,7,test kümesi,0.85,0.5923659816699762
+Federe AE · fedprox_kalici,7,test kümesi,0.9,0.6128540446253635
+Federe AE · fedprox_kalici,7,test kümesi,0.95,0.6331600190852459
+Federe AE · fedprox_kalici,7,test kümesi,1.0,0.6514772974147295
+Federe AE · fedprox_kalici,7,π=%1,0.5,0.016735002217812205
+Federe AE · fedprox_kalici,7,π=%1,0.55,0.015251784400389979
+Federe AE · fedprox_kalici,7,π=%1,0.6,0.0139923921712093
+Federe AE · fedprox_kalici,7,π=%1,0.65,0.01292081442104818
+Federe AE · fedprox_kalici,7,π=%1,0.7,0.012146302358813789
+Federe AE · fedprox_kalici,7,π=%1,0.75,0.012486758213974243
+Federe AE · fedprox_kalici,7,π=%1,0.8,0.014576645246902846
+Federe AE · fedprox_kalici,7,π=%1,0.85,0.014603474511336157
+Federe AE · fedprox_kalici,7,π=%1,0.9,0.014500783856255323
+Federe AE · fedprox_kalici,7,π=%1,0.95,0.014139530460094628
+Federe AE · fedprox_kalici,7,π=%1,1.0,0.015435275385672402
+Federe AE INT8 · fedprox_kalici,7,test kümesi,0.5,0.33880400379031356
+Federe AE INT8 · fedprox_kalici,7,test kümesi,0.55,0.39513372803374563
+Federe AE INT8 · fedprox_kalici,7,test kümesi,0.6,0.44347436433644877
+Federe AE INT8 · fedprox_kalici,7,test kümesi,0.65,0.48541399425394893
+Federe AE INT8 · fedprox_kalici,7,test kümesi,0.7,0.5204352441598243
+Federe AE INT8 · fedprox_kalici,7,test kümesi,0.75,0.5461976256852392
+Federe AE INT8 · fedprox_kalici,7,test kümesi,0.8,0.5731690670058135
+Federe AE INT8 · fedprox_kalici,7,test kümesi,0.85,0.5921227084551275
+Federe AE INT8 · fedprox_kalici,7,test kümesi,0.9,0.6129569377666345
+Federe AE INT8 · fedprox_kalici,7,test kümesi,0.95,0.6332743634545129
+Federe AE INT8 · fedprox_kalici,7,test kümesi,1.0,0.6515587660221595
+Federe AE INT8 · fedprox_kalici,7,π=%1,0.5,0.016138487243112606
+Federe AE INT8 · fedprox_kalici,7,π=%1,0.55,0.014701988181353338
+Federe AE INT8 · fedprox_kalici,7,π=%1,0.6,0.013555038657680709
+Federe AE INT8 · fedprox_kalici,7,π=%1,0.65,0.012526173675604449
+Federe AE INT8 · fedprox_kalici,7,π=%1,0.7,0.011649977141335874
+Federe AE INT8 · fedprox_kalici,7,π=%1,0.75,0.01105848913490677
+Federe AE INT8 · fedprox_kalici,7,π=%1,0.8,0.012263573157816201
+Federe AE INT8 · fedprox_kalici,7,π=%1,0.85,0.013740277280095057
+Federe AE INT8 · fedprox_kalici,7,π=%1,0.9,0.013687198008600774
+Federe AE INT8 · fedprox_kalici,7,π=%1,0.95,0.013886989063692318
+Federe AE INT8 · fedprox_kalici,7,π=%1,1.0,0.015140859677216857
+AE merkezi,8,test kümesi,0.5,0.13548450962155578
+AE merkezi,8,test kümesi,0.55,0.20861765055023673
+AE merkezi,8,test kümesi,0.6,0.27009485671778977
+AE merkezi,8,test kümesi,0.65,0.3257747150616308
+AE merkezi,8,test kümesi,0.7,0.3716401895273614
+AE merkezi,8,test kümesi,0.75,0.41233593202742436
+AE merkezi,8,test kümesi,0.8,0.4463900344212376
+AE merkezi,8,test kümesi,0.85,0.4768387747579391
+AE merkezi,8,test kümesi,0.9,0.5047622365337292
+AE merkezi,8,test kümesi,0.95,0.528890958132896
+AE merkezi,8,test kümesi,1.0,0.5514881598957202
+AE merkezi,8,π=%1,0.5,0.0162021357958141
+AE merkezi,8,π=%1,0.55,0.01472744610452853
+AE merkezi,8,π=%1,0.6,0.013497885722118411
+AE merkezi,8,π=%1,0.65,0.012500670766847336
+AE merkezi,8,π=%1,0.7,0.011713377962330686
+AE merkezi,8,π=%1,0.75,0.011131653479877813
+AE merkezi,8,π=%1,0.8,0.010801333150219026
+AE merkezi,8,π=%1,0.85,0.010776436634755575
+AE merkezi,8,π=%1,0.9,0.011799602292014813
+AE merkezi,8,π=%1,0.95,0.012770467561057583
+AE merkezi,8,π=%1,1.0,0.014040038168628357
+AE merkezi INT8,8,test kümesi,0.5,0.23956209239874582
+AE merkezi INT8,8,test kümesi,0.55,0.3027279560071459
+AE merkezi INT8,8,test kümesi,0.6,0.3566202304273584
+AE merkezi INT8,8,test kümesi,0.65,0.39988458194149595
+AE merkezi INT8,8,test kümesi,0.7,0.43635478806577255
+AE merkezi INT8,8,test kümesi,0.75,0.45600453696157245
+AE merkezi INT8,8,test kümesi,0.8,0.46706757030388313
+AE merkezi INT8,8,test kümesi,0.85,0.4860115765949597
+AE merkezi INT8,8,test kümesi,0.9,0.5070553956274867
+AE merkezi INT8,8,test kümesi,0.95,0.5297062979567784
+AE merkezi INT8,8,test kümesi,1.0,0.55165109711058
+AE merkezi INT8,8,π=%1,0.5,0.022291515542967225
+AE merkezi INT8,8,π=%1,0.55,0.02028987308479852
+AE merkezi INT8,8,π=%1,0.6,0.01860842170895965
+AE merkezi INT8,8,π=%1,0.65,0.017191257527043004
+AE merkezi INT8,8,π=%1,0.7,0.015997591648839654
+AE merkezi INT8,8,π=%1,0.75,0.015101272689220117
+AE merkezi INT8,8,π=%1,0.8,0.01458675638400592
+AE merkezi INT8,8,π=%1,0.85,0.014018550314092255
+AE merkezi INT8,8,π=%1,0.9,0.013290996044079788
+AE merkezi INT8,8,π=%1,0.95,0.013081806088983608
+AE merkezi INT8,8,π=%1,1.0,0.013451206751717263
+Federe AE · orijinal,8,test kümesi,0.5,0.3681834521189093
+Federe AE · orijinal,8,test kümesi,0.55,0.4244937387342177
+Federe AE · orijinal,8,test kümesi,0.6,0.4721397077567731
+Federe AE · orijinal,8,test kümesi,0.65,0.5125200255863959
+Federe AE · orijinal,8,test kümesi,0.7,0.5462979145854248
+Federe AE · orijinal,8,test kümesi,0.75,0.5753942687211965
+Federe AE · orijinal,8,test kümesi,0.8,0.6006094669972822
+Federe AE · orijinal,8,test kümesi,0.85,0.6207755490919422
+Federe AE · orijinal,8,test kümesi,0.9,0.6412637733507303
+Federe AE · orijinal,8,test kümesi,0.95,0.6600743602452752
+Federe AE · orijinal,8,test kümesi,1.0,0.6763795350858136
+Federe AE · orijinal,8,π=%1,0.5,0.01555885743839664
+Federe AE · orijinal,8,π=%1,0.55,0.014175625260808523
+Federe AE · orijinal,8,π=%1,0.6,0.013001083642370667
+Federe AE · orijinal,8,π=%1,0.65,0.012003353373613225
+Federe AE · orijinal,8,π=%1,0.7,0.01115272201201477
+Federe AE · orijinal,8,π=%1,0.75,0.01047364961498516
+Federe AE · orijinal,8,π=%1,0.8,0.010210854593236512
+Federe AE · orijinal,8,π=%1,0.85,0.010405077330929696
+Federe AE · orijinal,8,π=%1,0.9,0.010115209030649334
+Federe AE · orijinal,8,π=%1,0.95,0.013430297775936979
+Federe AE · orijinal,8,π=%1,1.0,0.015118587359351301
+Federe AE INT8 · orijinal,8,test kümesi,0.5,0.3683450373499521
+Federe AE INT8 · orijinal,8,test kümesi,0.55,0.4255232601169386
+Federe AE INT8 · orijinal,8,test kümesi,0.6,0.472305732819073
+Federe AE INT8 · orijinal,8,test kümesi,0.65,0.5126046062509898
+Federe AE INT8 · orijinal,8,test kümesi,0.7,0.5461428501016465
+Federe AE INT8 · orijinal,8,test kümesi,0.75,0.5756553231607741
+Federe AE INT8 · orijinal,8,test kümesi,0.8,0.6009581930028061
+Federe AE INT8 · orijinal,8,test kümesi,0.85,0.6209870051746144
+Federe AE INT8 · orijinal,8,test kümesi,0.9,0.6415957450123821
+Federe AE INT8 · orijinal,8,test kümesi,0.95,0.6603735887425787
+Federe AE INT8 · orijinal,8,test kümesi,1.0,0.6766782533130568
+Federe AE INT8 · orijinal,8,π=%1,0.5,0.015440707069667874
+Federe AE INT8 · orijinal,8,π=%1,0.55,0.014056197986856034
+Federe AE INT8 · orijinal,8,π=%1,0.6,0.012882173756825583
+Federe AE INT8 · orijinal,8,π=%1,0.65,0.011921399404356854
+Federe AE INT8 · orijinal,8,π=%1,0.7,0.011109554102649915
+Federe AE INT8 · orijinal,8,π=%1,0.75,0.010497243399061697
+Federe AE INT8 · orijinal,8,π=%1,0.8,0.010279874291797575
+Federe AE INT8 · orijinal,8,π=%1,0.85,0.010405259522187444
+Federe AE INT8 · orijinal,8,π=%1,0.9,0.010077454911958019
+Federe AE INT8 · orijinal,8,π=%1,0.95,0.013403018318438938
+Federe AE INT8 · orijinal,8,π=%1,1.0,0.015121873393705297
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,0.5,0.2744017511055117
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,0.55,0.3353618328082766
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,0.6,0.38910322347951165
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,0.65,0.43459337265000364
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,0.7,0.4730665429509619
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,0.75,0.5063436898987788
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,0.8,0.533559570217863
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,0.85,0.5568477223887931
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,0.9,0.5783345835096608
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,0.95,0.5999728288219794
+Federe AE · orijinal_kucuk_yigin,8,test kümesi,1.0,0.6199489463393439
+Federe AE · orijinal_kucuk_yigin,8,π=%1,0.5,0.015385282306219794
+Federe AE · orijinal_kucuk_yigin,8,π=%1,0.55,0.014350150576775234
+Federe AE · orijinal_kucuk_yigin,8,π=%1,0.6,0.013488784155305062
+Federe AE · orijinal_kucuk_yigin,8,π=%1,0.65,0.012494389046704506
+Federe AE · orijinal_kucuk_yigin,8,π=%1,0.7,0.011696709881189024
+Federe AE · orijinal_kucuk_yigin,8,π=%1,0.75,0.011222413444753901
+Federe AE · orijinal_kucuk_yigin,8,π=%1,0.8,0.011401351601008964
+Federe AE · orijinal_kucuk_yigin,8,π=%1,0.85,0.012254924400705582
+Federe AE · orijinal_kucuk_yigin,8,π=%1,0.9,0.01325261373769703
+Federe AE · orijinal_kucuk_yigin,8,π=%1,0.95,0.013483412278974798
+Federe AE · orijinal_kucuk_yigin,8,π=%1,1.0,0.014497825596841965
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,0.5,0.2731801606849637
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,0.55,0.3380935886134939
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,0.6,0.3925119612643034
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,0.65,0.4385752091511142
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,0.7,0.47693284314787593
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,0.75,0.5078024975033214
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,0.8,0.5346200495410249
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,0.85,0.5592911398894564
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,0.9,0.5813577005094098
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,0.95,0.6028313057656781
+Federe AE INT8 · orijinal_kucuk_yigin,8,test kümesi,1.0,0.6226917227894851
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,0.5,0.017921574284646653
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,0.55,0.016308537774822527
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,0.6,0.014984658830154223
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,0.65,0.01387176247271386
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,0.7,0.012906683644677399
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,0.75,0.012214863437509974
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,0.8,0.01150287135055546
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,0.85,0.012409423606074856
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,0.9,0.014123472598637875
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,0.95,0.014378372973543802
+Federe AE INT8 · orijinal_kucuk_yigin,8,π=%1,1.0,0.015413933065748559
+Federe AE · yakinsama_kalici,8,test kümesi,0.5,0.15145516623572824
+Federe AE · yakinsama_kalici,8,test kümesi,0.55,0.2221293709140125
+Federe AE · yakinsama_kalici,8,test kümesi,0.6,0.28551859134663277
+Federe AE · yakinsama_kalici,8,test kümesi,0.65,0.33985371018196153
+Federe AE · yakinsama_kalici,8,test kümesi,0.7,0.3849545449039594
+Federe AE · yakinsama_kalici,8,test kümesi,0.75,0.42437216787699766
+Federe AE · yakinsama_kalici,8,test kümesi,0.8,0.4595326578339402
+Federe AE · yakinsama_kalici,8,test kümesi,0.85,0.4889391250520946
+Federe AE · yakinsama_kalici,8,test kümesi,0.9,0.5160516823494307
+Federe AE · yakinsama_kalici,8,test kümesi,0.95,0.5398946788905196
+Federe AE · yakinsama_kalici,8,test kümesi,1.0,0.5626493591136216
+Federe AE · yakinsama_kalici,8,π=%1,0.5,0.02426173202625627
+Federe AE · yakinsama_kalici,8,π=%1,0.55,0.022164960889215178
+Federe AE · yakinsama_kalici,8,π=%1,0.6,0.020396928431608508
+Federe AE · yakinsama_kalici,8,π=%1,0.65,0.01884951483685986
+Federe AE · yakinsama_kalici,8,π=%1,0.7,0.017559633582614174
+Federe AE · yakinsama_kalici,8,π=%1,0.75,0.016485847044561967
+Federe AE · yakinsama_kalici,8,π=%1,0.8,0.015666811414600922
+Federe AE · yakinsama_kalici,8,π=%1,0.85,0.01520033091846722
+Federe AE · yakinsama_kalici,8,π=%1,0.9,0.015448434802845884
+Federe AE · yakinsama_kalici,8,π=%1,0.95,0.017221057918978003
+Federe AE · yakinsama_kalici,8,π=%1,1.0,0.018297182956311456
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,0.5,0.17683926527976956
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,0.55,0.24767876429076016
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,0.6,0.3054107010190289
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,0.65,0.35765900429475395
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,0.7,0.40131448206995796
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,0.75,0.44045001611131124
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,0.8,0.4747295487498734
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,0.85,0.5042276228469375
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,0.9,0.5296696030058397
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,0.95,0.5535494067589581
+Federe AE INT8 · yakinsama_kalici,8,test kümesi,1.0,0.5754670866825983
+Federe AE INT8 · yakinsama_kalici,8,π=%1,0.5,0.02093158838713078
+Federe AE INT8 · yakinsama_kalici,8,π=%1,0.55,0.019012120193673564
+Federe AE INT8 · yakinsama_kalici,8,π=%1,0.6,0.01742397009860886
+Federe AE INT8 · yakinsama_kalici,8,π=%1,0.65,0.016091870377311208
+Federe AE INT8 · yakinsama_kalici,8,π=%1,0.7,0.014947268673383416
+Federe AE INT8 · yakinsama_kalici,8,π=%1,0.75,0.013993477826872118
+Federe AE INT8 · yakinsama_kalici,8,π=%1,0.8,0.01313907633984461
+Federe AE INT8 · yakinsama_kalici,8,π=%1,0.85,0.012705891565674754
+Federe AE INT8 · yakinsama_kalici,8,π=%1,0.9,0.012958393981830203
+Federe AE INT8 · yakinsama_kalici,8,π=%1,0.95,0.014924709387687715
+Federe AE INT8 · yakinsama_kalici,8,π=%1,1.0,0.016371000405636448
+Federe AE · fedprox_kalici,8,test kümesi,0.5,0.28487564337437843
+Federe AE · fedprox_kalici,8,test kümesi,0.55,0.3484354704272775
+Federe AE · fedprox_kalici,8,test kümesi,0.6,0.39957566844517123
+Federe AE · fedprox_kalici,8,test kümesi,0.65,0.44408618457441
+Federe AE · fedprox_kalici,8,test kümesi,0.7,0.4813487432679094
+Federe AE · fedprox_kalici,8,test kümesi,0.75,0.5091941828120472
+Federe AE · fedprox_kalici,8,test kümesi,0.8,0.5382494826420409
+Federe AE · fedprox_kalici,8,test kümesi,0.85,0.562852047410172
+Federe AE · fedprox_kalici,8,test kümesi,0.9,0.5839947508378582
+Federe AE · fedprox_kalici,8,test kümesi,0.95,0.6050613413879238
+Federe AE · fedprox_kalici,8,test kümesi,1.0,0.6246469693678036
+Federe AE · fedprox_kalici,8,π=%1,0.5,0.014371243851269283
+Federe AE · fedprox_kalici,8,π=%1,0.55,0.013093378107937871
+Federe AE · fedprox_kalici,8,π=%1,0.6,0.012021431950226142
+Federe AE · fedprox_kalici,8,π=%1,0.65,0.011108981434509333
+Federe AE · fedprox_kalici,8,π=%1,0.7,0.010380014508577041
+Federe AE · fedprox_kalici,8,π=%1,0.75,0.010569586185941744
+Federe AE · fedprox_kalici,8,π=%1,0.8,0.010745384129435223
+Federe AE · fedprox_kalici,8,π=%1,0.85,0.012362783607739361
+Federe AE · fedprox_kalici,8,π=%1,0.9,0.012489822880232784
+Federe AE · fedprox_kalici,8,π=%1,0.95,0.012876685071807172
+Federe AE · fedprox_kalici,8,π=%1,1.0,0.01395888215603244
+Federe AE INT8 · fedprox_kalici,8,test kümesi,0.5,0.2833087420368276
+Federe AE INT8 · fedprox_kalici,8,test kümesi,0.55,0.34685428763225945
+Federe AE INT8 · fedprox_kalici,8,test kümesi,0.6,0.39854238753485244
+Federe AE INT8 · fedprox_kalici,8,test kümesi,0.65,0.44274418406665617
+Federe AE INT8 · fedprox_kalici,8,test kümesi,0.7,0.47981313617727733
+Federe AE INT8 · fedprox_kalici,8,test kümesi,0.75,0.5103952372119223
+Federe AE INT8 · fedprox_kalici,8,test kümesi,0.8,0.5386800353324781
+Federe AE INT8 · fedprox_kalici,8,test kümesi,0.85,0.56337872768496
+Federe AE INT8 · fedprox_kalici,8,test kümesi,0.9,0.5845675831975186
+Federe AE INT8 · fedprox_kalici,8,test kümesi,0.95,0.6056325508056011
+Federe AE INT8 · fedprox_kalici,8,test kümesi,1.0,0.6252444058222898
+Federe AE INT8 · fedprox_kalici,8,π=%1,0.5,0.016190570246350795
+Federe AE INT8 · fedprox_kalici,8,π=%1,0.55,0.014720811336692818
+Federe AE INT8 · fedprox_kalici,8,π=%1,0.6,0.013497453393459237
+Federe AE INT8 · fedprox_kalici,8,π=%1,0.65,0.012460856601406282
+Federe AE INT8 · fedprox_kalici,8,π=%1,0.7,0.011578208965151571
+Federe AE INT8 · fedprox_kalici,8,π=%1,0.75,0.011111705522299892
+Federe AE INT8 · fedprox_kalici,8,π=%1,0.8,0.011183739714013935
+Federe AE INT8 · fedprox_kalici,8,π=%1,0.85,0.012876615390139989
+Federe AE INT8 · fedprox_kalici,8,π=%1,0.9,0.01336000084990215
+Federe AE INT8 · fedprox_kalici,8,π=%1,0.95,0.013796679524125024
+Federe AE INT8 · fedprox_kalici,8,π=%1,1.0,0.01485138992366943
+AE merkezi,9,test kümesi,0.5,0.16899273134652895
+AE merkezi,9,test kümesi,0.55,0.22931444982365287
+AE merkezi,9,test kümesi,0.6,0.28610826481839774
+AE merkezi,9,test kümesi,0.65,0.3373760548341302
+AE merkezi,9,test kümesi,0.7,0.3765277208478751
+AE merkezi,9,test kümesi,0.75,0.41684154856253947
+AE merkezi,9,test kümesi,0.8,0.45018350131108253
+AE merkezi,9,test kümesi,0.85,0.48171975056534405
+AE merkezi,9,test kümesi,0.9,0.5096797755690381
+AE merkezi,9,test kümesi,0.95,0.5348850976320413
+AE merkezi,9,test kümesi,1.0,0.5578155550727786
+AE merkezi,9,π=%1,0.5,0.011264032889169636
+AE merkezi,9,π=%1,0.55,0.010655743762697035
+AE merkezi,9,π=%1,0.6,0.010052924700666967
+AE merkezi,9,π=%1,0.65,0.009607966231967689
+AE merkezi,9,π=%1,0.7,0.00922355106962461
+AE merkezi,9,π=%1,0.75,0.009114231829668274
+AE merkezi,9,π=%1,0.8,0.00883191853034382
+AE merkezi,9,π=%1,0.85,0.009074019395076021
+AE merkezi,9,π=%1,0.9,0.009234402286858253
+AE merkezi,9,π=%1,0.95,0.009608666845803306
+AE merkezi,9,π=%1,1.0,0.011747147153709898
+AE merkezi INT8,9,test kümesi,0.5,0.2508451172996346
+AE merkezi INT8,9,test kümesi,0.55,0.30859327105097195
+AE merkezi INT8,9,test kümesi,0.6,0.36126307824698595
+AE merkezi INT8,9,test kümesi,0.65,0.3949145221822362
+AE merkezi INT8,9,test kümesi,0.7,0.3987136038933579
+AE merkezi INT8,9,test kümesi,0.75,0.43318801450634686
+AE merkezi INT8,9,test kümesi,0.8,0.4655575560787906
+AE merkezi INT8,9,test kümesi,0.85,0.4949217624782005
+AE merkezi INT8,9,test kümesi,0.9,0.5217331723293047
+AE merkezi INT8,9,test kümesi,0.95,0.546203654056826
+AE merkezi INT8,9,test kümesi,1.0,0.5682978492287638
+AE merkezi INT8,9,π=%1,0.5,0.017530957792229327
+AE merkezi INT8,9,π=%1,0.55,0.016251804749907117
+AE merkezi INT8,9,π=%1,0.6,0.015071200046215209
+AE merkezi INT8,9,π=%1,0.65,0.013954342753882918
+AE merkezi INT8,9,π=%1,0.7,0.012983628499281594
+AE merkezi INT8,9,π=%1,0.75,0.012142614831190644
+AE merkezi INT8,9,π=%1,0.8,0.011415947052313021
+AE merkezi INT8,9,π=%1,0.85,0.01078707779886749
+AE merkezi INT8,9,π=%1,0.9,0.010477502688358667
+AE merkezi INT8,9,π=%1,0.95,0.010759518465654799
+AE merkezi INT8,9,π=%1,1.0,0.01245308088578156
+Federe AE · orijinal,9,test kümesi,0.5,0.3620474194140392
+Federe AE · orijinal,9,test kümesi,0.55,0.4181583360280135
+Federe AE · orijinal,9,test kümesi,0.6,0.4658175114512111
+Federe AE · orijinal,9,test kümesi,0.65,0.5066200150775964
+Federe AE · orijinal,9,test kümesi,0.7,0.5405843696863136
+Federe AE · orijinal,9,test kümesi,0.75,0.5704864634007195
+Federe AE · orijinal,9,test kümesi,0.8,0.5914651527981316
+Federe AE · orijinal,9,test kümesi,0.85,0.6123622987931892
+Federe AE · orijinal,9,test kümesi,0.9,0.6325461396680911
+Federe AE · orijinal,9,test kümesi,0.95,0.6518282506538853
+Federe AE · orijinal,9,test kümesi,1.0,0.6686400173799696
+Federe AE · orijinal,9,π=%1,0.5,0.015592431399704244
+Federe AE · orijinal,9,π=%1,0.55,0.014190325980942671
+Federe AE · orijinal,9,π=%1,0.6,0.013008546862620466
+Federe AE · orijinal,9,π=%1,0.65,0.012014543712112927
+Federe AE · orijinal,9,π=%1,0.7,0.011292735319508793
+Federe AE · orijinal,9,π=%1,0.75,0.011142227901389296
+Federe AE · orijinal,9,π=%1,0.8,0.010871193837679307
+Federe AE · orijinal,9,π=%1,0.85,0.011013206868579976
+Federe AE · orijinal,9,π=%1,0.9,0.013862709792089572
+Federe AE · orijinal,9,π=%1,0.95,0.013624930696420805
+Federe AE · orijinal,9,π=%1,1.0,0.015033449196543237
+Federe AE INT8 · orijinal,9,test kümesi,0.5,0.3581304088624238
+Federe AE INT8 · orijinal,9,test kümesi,0.55,0.41559825893865315
+Federe AE INT8 · orijinal,9,test kümesi,0.6,0.4618529024146657
+Federe AE INT8 · orijinal,9,test kümesi,0.65,0.5025458399227346
+Federe AE INT8 · orijinal,9,test kümesi,0.7,0.5376101977710623
+Federe AE INT8 · orijinal,9,test kümesi,0.75,0.567250199211421
+Federe AE INT8 · orijinal,9,test kümesi,0.8,0.5895123779296559
+Federe AE INT8 · orijinal,9,test kümesi,0.85,0.6103819843275764
+Federe AE INT8 · orijinal,9,test kümesi,0.9,0.630733377882178
+Federe AE INT8 · orijinal,9,test kümesi,0.95,0.6501114278392522
+Federe AE INT8 · orijinal,9,test kümesi,1.0,0.6670106452313709
+Federe AE INT8 · orijinal,9,π=%1,0.5,0.015479701360034886
+Federe AE INT8 · orijinal,9,π=%1,0.55,0.014166390743305002
+Federe AE INT8 · orijinal,9,π=%1,0.6,0.01301074504092035
+Federe AE INT8 · orijinal,9,π=%1,0.65,0.012017747795462445
+Federe AE INT8 · orijinal,9,π=%1,0.7,0.011244406739279136
+Federe AE INT8 · orijinal,9,π=%1,0.75,0.011077383702497202
+Federe AE INT8 · orijinal,9,π=%1,0.8,0.010646821000579522
+Federe AE INT8 · orijinal,9,π=%1,0.85,0.010839205836664034
+Federe AE INT8 · orijinal,9,π=%1,0.9,0.013366157933896897
+Federe AE INT8 · orijinal,9,π=%1,0.95,0.013552401593100453
+Federe AE INT8 · orijinal,9,π=%1,1.0,0.015015525372794167
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,0.5,0.1547308298051354
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,0.55,0.22845710863123386
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,0.6,0.29229605395475317
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,0.65,0.34604859102716623
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,0.7,0.38967753028203905
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,0.75,0.42989987501960764
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,0.8,0.4632372516233047
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,0.85,0.49237220083917477
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,0.9,0.5201395247775322
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,0.95,0.5402632597676501
+Federe AE · orijinal_kucuk_yigin,9,test kümesi,1.0,0.5625678905061916
+Federe AE · orijinal_kucuk_yigin,9,π=%1,0.5,0.015999851255051874
+Federe AE · orijinal_kucuk_yigin,9,π=%1,0.55,0.014644178263736358
+Federe AE · orijinal_kucuk_yigin,9,π=%1,0.6,0.013466109054168954
+Federe AE · orijinal_kucuk_yigin,9,π=%1,0.65,0.01244957252697089
+Federe AE · orijinal_kucuk_yigin,9,π=%1,0.7,0.011577900865719495
+Federe AE · orijinal_kucuk_yigin,9,π=%1,0.75,0.010842797038950467
+Federe AE · orijinal_kucuk_yigin,9,π=%1,0.8,0.010433421904949907
+Federe AE · orijinal_kucuk_yigin,9,π=%1,0.85,0.010646625698763987
+Federe AE · orijinal_kucuk_yigin,9,π=%1,0.9,0.013133367644002929
+Federe AE · orijinal_kucuk_yigin,9,π=%1,0.95,0.013872939193047811
+Federe AE · orijinal_kucuk_yigin,9,π=%1,1.0,0.014161920170122006
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,0.5,0.15327744813546035
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,0.55,0.2285048768617247
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,0.6,0.29139577039860465
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,0.65,0.34402453561450347
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,0.7,0.3896465453126718
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,0.75,0.42870863196127945
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,0.8,0.46243858193378656
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,0.85,0.49218226022265477
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,0.9,0.5195402588546058
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,0.95,0.5396363870205231
+Federe AE INT8 · orijinal_kucuk_yigin,9,test kümesi,1.0,0.5621062350640886
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,0.5,0.016080972560446896
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,0.55,0.01462922820684206
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,0.6,0.013417655923429085
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,0.65,0.012392751395907313
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,0.7,0.011523115650894365
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,0.75,0.010890029320937241
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,0.8,0.010538608632667435
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,0.85,0.011242806901997708
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,0.9,0.013160339058327086
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,0.95,0.013872917853129187
+Federe AE INT8 · orijinal_kucuk_yigin,9,π=%1,1.0,0.014156841753393105
+Federe AE · yakinsama_kalici,9,test kümesi,0.5,0.16351532156870552
+Federe AE · yakinsama_kalici,9,test kümesi,0.55,0.23665522933405087
+Federe AE · yakinsama_kalici,9,test kümesi,0.6,0.29729593322445813
+Federe AE · yakinsama_kalici,9,test kümesi,0.65,0.3472154987297855
+Federe AE · yakinsama_kalici,9,test kümesi,0.7,0.3886345520938642
+Federe AE · yakinsama_kalici,9,test kümesi,0.75,0.4274598323599853
+Federe AE · yakinsama_kalici,9,test kümesi,0.8,0.4622091001452572
+Federe AE · yakinsama_kalici,9,test kümesi,0.85,0.4928464455919783
+Federe AE · yakinsama_kalici,9,test kümesi,0.9,0.5201245643452773
+Federe AE · yakinsama_kalici,9,test kümesi,0.95,0.5443263891318117
+Federe AE · yakinsama_kalici,9,test kümesi,1.0,0.5666141646752119
+Federe AE · yakinsama_kalici,9,π=%1,0.5,0.014805738289469942
+Federe AE · yakinsama_kalici,9,π=%1,0.55,0.013452711789943929
+Federe AE · yakinsama_kalici,9,π=%1,0.6,0.012363843531453174
+Federe AE · yakinsama_kalici,9,π=%1,0.65,0.011516086602854603
+Federe AE · yakinsama_kalici,9,π=%1,0.7,0.010742181397835431
+Federe AE · yakinsama_kalici,9,π=%1,0.75,0.010226466446100087
+Federe AE · yakinsama_kalici,9,π=%1,0.8,0.009821548539922844
+Federe AE · yakinsama_kalici,9,π=%1,0.85,0.01048699114500251
+Federe AE · yakinsama_kalici,9,π=%1,0.9,0.011030492902430095
+Federe AE · yakinsama_kalici,9,π=%1,0.95,0.011311025619707354
+Federe AE · yakinsama_kalici,9,π=%1,1.0,0.013615807199812856
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,0.5,0.18100299038057469
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,0.55,0.24958308689048153
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,0.6,0.3076319453852189
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,0.65,0.3525887523933319
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,0.7,0.39247121395571183
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,0.75,0.42736333116971686
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,0.8,0.4604466072295113
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,0.85,0.4905968470048545
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,0.9,0.5180033650796397
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,0.95,0.5424413324984049
+Federe AE INT8 · yakinsama_kalici,9,test kümesi,1.0,0.5648490115142298
+Federe AE INT8 · yakinsama_kalici,9,π=%1,0.5,0.015573660481703637
+Federe AE INT8 · yakinsama_kalici,9,π=%1,0.55,0.014209245133168139
+Federe AE INT8 · yakinsama_kalici,9,π=%1,0.6,0.013038500263205105
+Federe AE INT8 · yakinsama_kalici,9,π=%1,0.65,0.012055802768717901
+Federe AE INT8 · yakinsama_kalici,9,π=%1,0.7,0.011273559188840584
+Federe AE INT8 · yakinsama_kalici,9,π=%1,0.75,0.01138445753291281
+Federe AE INT8 · yakinsama_kalici,9,π=%1,0.8,0.011529541989157344
+Federe AE INT8 · yakinsama_kalici,9,π=%1,0.85,0.01145791482170476
+Federe AE INT8 · yakinsama_kalici,9,π=%1,0.9,0.011470405666140571
+Federe AE INT8 · yakinsama_kalici,9,π=%1,0.95,0.011340825605836236
+Federe AE INT8 · yakinsama_kalici,9,π=%1,1.0,0.013301077824441702
+Federe AE · fedprox_kalici,9,test kümesi,0.5,0.1372006830394746
+Federe AE · fedprox_kalici,9,test kümesi,0.55,0.21355459903519464
+Federe AE · fedprox_kalici,9,test kümesi,0.6,0.27734231371476253
+Federe AE · fedprox_kalici,9,test kümesi,0.65,0.327413007271577
+Federe AE · fedprox_kalici,9,test kümesi,0.7,0.3733665430221859
+Federe AE · fedprox_kalici,9,test kümesi,0.75,0.4088033105265163
+Federe AE · fedprox_kalici,9,test kümesi,0.8,0.44335809987226277
+Federe AE · fedprox_kalici,9,test kümesi,0.85,0.47298542408142075
+Federe AE · fedprox_kalici,9,test kümesi,0.9,0.5014379041168399
+Federe AE · fedprox_kalici,9,test kümesi,0.95,0.5193739987637662
+Federe AE · fedprox_kalici,9,test kümesi,1.0,0.5417933956115577
+Federe AE · fedprox_kalici,9,π=%1,0.5,0.018416194124974587
+Federe AE · fedprox_kalici,9,π=%1,0.55,0.01683145464092805
+Federe AE · fedprox_kalici,9,π=%1,0.6,0.01547914962715877
+Federe AE · fedprox_kalici,9,π=%1,0.65,0.014474170643267455
+Federe AE · fedprox_kalici,9,π=%1,0.7,0.013938703324315857
+Federe AE · fedprox_kalici,9,π=%1,0.75,0.015026914014577676
+Federe AE · fedprox_kalici,9,π=%1,0.8,0.01522843888039024
+Federe AE · fedprox_kalici,9,π=%1,0.85,0.01501332212950688
+Federe AE · fedprox_kalici,9,π=%1,0.9,0.015763499106551226
+Federe AE · fedprox_kalici,9,π=%1,0.95,0.015109137333616681
+Federe AE · fedprox_kalici,9,π=%1,1.0,0.015114639015893409
+Federe AE INT8 · fedprox_kalici,9,test kümesi,0.5,0.18125802010011316
+Federe AE INT8 · fedprox_kalici,9,test kümesi,0.55,0.22972723769565662
+Federe AE INT8 · fedprox_kalici,9,test kümesi,0.6,0.28561592896051213
+Federe AE INT8 · fedprox_kalici,9,test kümesi,0.65,0.33089090254440395
+Federe AE INT8 · fedprox_kalici,9,test kümesi,0.7,0.3761481379591399
+Federe AE INT8 · fedprox_kalici,9,test kümesi,0.75,0.41246633921346654
+Federe AE INT8 · fedprox_kalici,9,test kümesi,0.8,0.44747001762569466
+Federe AE INT8 · fedprox_kalici,9,test kümesi,0.85,0.4785070158158368
+Federe AE INT8 · fedprox_kalici,9,test kümesi,0.9,0.5061361235907282
+Federe AE INT8 · fedprox_kalici,9,test kümesi,0.95,0.5234480730112194
+Federe AE INT8 · fedprox_kalici,9,test kümesi,1.0,0.546219856615251
+Federe AE INT8 · fedprox_kalici,9,π=%1,0.5,0.020819996303050887
+Federe AE INT8 · fedprox_kalici,9,π=%1,0.55,0.01955081311768292
+Federe AE INT8 · fedprox_kalici,9,π=%1,0.6,0.018005484044557356
+Federe AE INT8 · fedprox_kalici,9,π=%1,0.65,0.016656220608769624
+Federe AE INT8 · fedprox_kalici,9,π=%1,0.7,0.015805943725213056
+Federe AE INT8 · fedprox_kalici,9,π=%1,0.75,0.015530310844158941
+Federe AE INT8 · fedprox_kalici,9,π=%1,0.8,0.015079323694718472
+Federe AE INT8 · fedprox_kalici,9,π=%1,0.85,0.015043286427220966
+Federe AE INT8 · fedprox_kalici,9,π=%1,0.9,0.016092943259286844
+Federe AE INT8 · fedprox_kalici,9,π=%1,0.95,0.015430174946523588
+Federe AE INT8 · fedprox_kalici,9,π=%1,1.0,0.015458643970054706

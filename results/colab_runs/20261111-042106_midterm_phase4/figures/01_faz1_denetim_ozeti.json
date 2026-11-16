@@ -1,0 +1,122 @@
+{
+  "dosya": {
+    "version": "B (211,043 rows, no ts)",
+    "rows": 211043,
+    "columns": 44,
+    "has_ts": false,
+    "sha256": "26ddc513552de36de6428b2e578efaed2b57504c716dfba847cc0109a64e1974"
+  },
+  "tekrar_temizligi": {
+    "rows_before": 211043,
+    "after_stage1_exact_input_columns": 93670,
+    "after_stage2_final_vectors": 74146,
+    "benign_attack_collision_vectors": 44,
+    "attack_family_collision_vectors": 781,
+    "collisions_by_kept_type": {
+      "ddos": 12,
+      "injection": 10,
+      "ransomware": 7,
+      "xss": 6,
+      "scanning": 3,
+      "dos": 3,
+      "mitm": 2,
+      "password": 1
+    }
+  },
+  "sinif_basina_once_sonra": {
+    "normal": {
+      "before": 50000,
+      "after_stage1": 23665,
+      "after": 16741
+    },
+    "backdoor": {
+      "before": 20000,
+      "after_stage1": 1966,
+      "after": 1023
+    },
+    "ddos": {
+      "before": 20000,
+      "after_stage1": 11962,
+      "after": 8309
+    },
+    "dos": {
+      "before": 20000,
+      "after_stage1": 6448,
+      "after": 4568
+    },
+    "injection": {
+      "before": 20000,
+      "after_stage1": 19849,
+      "after": 19611
+    },
+    "password": {
+      "before": 20000,
+      "after_stage1": 15248,
+      "after": 10739
+    },
+    "scanning": {
+      "before": 20000,
+      "after_stage1": 4493,
+      "after": 3608
+    },
+    "ransomware": {
+      "before": 20000,
+      "after_stage1": 260,
+      "after": 248
+    },
+    "xss": {
+      "before": 20000,
+      "after_stage1": 8740,
+      "after": 8285
+    },
+    "mitm": {
+      "before": 1043,
+      "after_stage1": 1039,
+      "after": 1014
+    }
+  },
+  "bolme_boyutlari": {
+    "benign_train": 8370,
+    "benign_val": 1674,
+    "benign_cal": 3348,
+    "benign_test": 3349,
+    "dev_val": 23930,
+    "dev_test": 23928,
+    "heldout_test": 9547
+  },
+  "n_cal_kurali": {
+    "n_cal": 3348,
+    "alpha_requested": 0.01,
+    "alpha_effective": 0.01,
+    "rule_satisfied": true
+  },
+  "mitm_benzersiz": 1014,
+  "model_oznitelik_sayisi": 53,
+  "cihaz_oznitelikleri": [
+    "proto",
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "conn_state",
+    "missed_bytes",
+    "src_pkts",
+    "src_ip_bytes",
+    "dst_pkts",
+    "dst_ip_bytes"
+  ],
+  "cikarilan_sutunlar": {
+    "http_version": "zero variance on benign-train",
+    "dst_ip_bytes": "|corr|>0.98 with dst_bytes",
+    "proto=udp": "|corr|>0.98 with proto=tcp",
+    "dns_RD=missing": "|corr|>0.98 with dns_AA=missing",
+    "dns_RA=missing": "|corr|>0.98 with dns_AA=missing",
+    "dns_rejected=F": "|corr|>0.98 with dns_AA=missing",
+    "dns_rejected=missing": "|corr|>0.98 with dns_AA=missing",
+    "ssl_cipher=TLS_AES_128_GCM_SHA256": "|corr|>0.98 with ssl_version=TLSv13",
+    "ssl_cipher=missing": "|corr|>0.98 with ssl_version=missing",
+    "ssl_resumed=missing": "|corr|>0.98 with ssl_version=missing",
+    "ssl_established=missing": "|corr|>0.98 with ssl_version=missing",
+    "ssl_established=F": "|corr|>0.98 with ssl_resumed=F",
+    "weird_notice=missing": "|corr|>0.98 with weird_notice=F"
+  }
+}

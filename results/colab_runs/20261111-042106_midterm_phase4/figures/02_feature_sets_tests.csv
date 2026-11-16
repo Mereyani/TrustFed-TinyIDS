@@ -1,0 +1,5 @@
+karşılaştırma,saldırılar,ortalama_fark,kazanan_tohum,wilcoxon_p,p_holm
+cihaz - tümü,bilinen,0.10808258107656302,10,0.001953125,0.0078125
+cihaz - tümü,görülmemiş,0.08693830522677283,9,0.00390625,0.01171875
+sızıntı - tümü,bilinen,0.19218070879304577,9,0.00390625,0.01171875
+sızıntı - tümü,görülmemiş,0.018162773646171602,5,0.76953125,0.76953125

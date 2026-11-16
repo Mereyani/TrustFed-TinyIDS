@@ -1,0 +1,448 @@
+{
+  "not": "Ke\u015fif ama\u00e7l\u0131; host pencereleri sim\u00fclasyondur (s\u00fcr\u00fcm B'de zaman damgas\u0131 yok). Do\u011frulay\u0131c\u0131 test: \u00f6neri v6 \u00a77a.3.",
+  "operasyonel_b\u00fct\u00e7e": "cihaz ba\u015f\u0131na haftada <= 1.0 yanl\u0131\u015f y\u00fckseltme",
+  "normal_maliyet": [
+    {
+      "saya\u00e7": "ANOMALY+UNCERTAIN",
+      "W": 20,
+      "F": 1000.0,
+      "k_yildiz_mean": 6.3,
+      "k_yildiz_std": 0.483,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 3.745,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 8.428,
+      "normal_haftalik_host_p95_mean": 19.264,
+      "normal_haftalik_host_p95_std": 54.876,
+      "normal_haftalik_en_kotu_host_mean": 350.0,
+      "normal_haftalik_en_kotu_host_std": 0.0
+    },
+    {
+      "saya\u00e7": "ANOMALY+UNCERTAIN",
+      "W": 20,
+      "F": 5000.0,
+      "k_yildiz_mean": 8.0,
+      "k_yildiz_std": 0.667,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 10.745,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 17.182,
+      "normal_haftalik_host_p95_mean": 36.534,
+      "normal_haftalik_host_p95_std": 114.236,
+      "normal_haftalik_en_kotu_host_mean": 1750.0,
+      "normal_haftalik_en_kotu_host_std": 0.0
+    },
+    {
+      "saya\u00e7": "ANOMALY+UNCERTAIN",
+      "W": 50,
+      "F": 1000.0,
+      "k_yildiz_mean": 10.6,
+      "k_yildiz_std": 0.699,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 1.812,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 5.729,
+      "normal_haftalik_host_p95_mean": 1.364,
+      "normal_haftalik_host_p95_std": 4.314,
+      "normal_haftalik_en_kotu_host_mean": 13.642,
+      "normal_haftalik_en_kotu_host_std": 43.138
+    },
+    {
+      "saya\u00e7": "ANOMALY+UNCERTAIN",
+      "W": 50,
+      "F": 5000.0,
+      "k_yildiz_mean": 12.4,
+      "k_yildiz_std": 0.699,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 8.372,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 26.475,
+      "normal_haftalik_host_p95_mean": 6.304,
+      "normal_haftalik_host_p95_std": 19.936,
+      "normal_haftalik_en_kotu_host_mean": 63.042,
+      "normal_haftalik_en_kotu_host_std": 199.357
+    },
+    {
+      "saya\u00e7": "ANOMALY+UNCERTAIN",
+      "W": 100,
+      "F": 1000.0,
+      "k_yildiz_mean": 16.6,
+      "k_yildiz_std": 0.966,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 0.9,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 2.837,
+      "normal_haftalik_host_p95_mean": 2.811,
+      "normal_haftalik_host_p95_std": 8.851,
+      "normal_haftalik_en_kotu_host_mean": 7.026,
+      "normal_haftalik_en_kotu_host_std": 22.127
+    },
+    {
+      "saya\u00e7": "ANOMALY+UNCERTAIN",
+      "W": 100,
+      "F": 5000.0,
+      "k_yildiz_mean": 18.9,
+      "k_yildiz_std": 1.37,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 4.487,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 14.189,
+      "normal_haftalik_host_p95_mean": 14.0,
+      "normal_haftalik_host_p95_std": 44.272,
+      "normal_haftalik_en_kotu_host_mean": 35.0,
+      "normal_haftalik_en_kotu_host_std": 110.68
+    },
+    {
+      "saya\u00e7": "yaln\u0131z ANOMALY",
+      "W": 20,
+      "F": 1000.0,
+      "k_yildiz_mean": 3.6,
+      "k_yildiz_std": 0.516,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 0.168,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 0.159,
+      "normal_haftalik_host_p95_mean": 0.094,
+      "normal_haftalik_host_p95_std": 0.198,
+      "normal_haftalik_en_kotu_host_mean": 1.928,
+      "normal_haftalik_en_kotu_host_std": 1.782
+    },
+    {
+      "saya\u00e7": "yaln\u0131z ANOMALY",
+      "W": 20,
+      "F": 5000.0,
+      "k_yildiz_mean": 4.6,
+      "k_yildiz_std": 0.516,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 0.07,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 0.148,
+      "normal_haftalik_host_p95_mean": 0.0,
+      "normal_haftalik_host_p95_std": 0.0,
+      "normal_haftalik_en_kotu_host_mean": 0.874,
+      "normal_haftalik_en_kotu_host_std": 1.842
+    },
+    {
+      "saya\u00e7": "yaln\u0131z ANOMALY",
+      "W": 50,
+      "F": 1000.0,
+      "k_yildiz_mean": 4.8,
+      "k_yildiz_std": 0.919,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 0.193,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 0.206,
+      "normal_haftalik_host_p95_mean": 0.322,
+      "normal_haftalik_host_p95_std": 0.339,
+      "normal_haftalik_en_kotu_host_mean": 2.27,
+      "normal_haftalik_en_kotu_host_std": 2.455
+    },
+    {
+      "saya\u00e7": "yaln\u0131z ANOMALY",
+      "W": 50,
+      "F": 5000.0,
+      "k_yildiz_mean": 6.0,
+      "k_yildiz_std": 0.943,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 0.154,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 0.139,
+      "normal_haftalik_host_p95_mean": 0.352,
+      "normal_haftalik_host_p95_std": 0.441,
+      "normal_haftalik_en_kotu_host_mean": 1.61,
+      "normal_haftalik_en_kotu_host_std": 1.581
+    },
+    {
+      "saya\u00e7": "yaln\u0131z ANOMALY",
+      "W": 100,
+      "F": 1000.0,
+      "k_yildiz_mean": 6.9,
+      "k_yildiz_std": 0.994,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 0.085,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 0.075,
+      "normal_haftalik_host_p95_mean": 0.396,
+      "normal_haftalik_host_p95_std": 0.35,
+      "normal_haftalik_en_kotu_host_mean": 0.925,
+      "normal_haftalik_en_kotu_host_std": 0.807
+    },
+    {
+      "saya\u00e7": "yaln\u0131z ANOMALY",
+      "W": 100,
+      "F": 5000.0,
+      "k_yildiz_mean": 8.2,
+      "k_yildiz_std": 1.398,
+      "normal_haftalik_yanlis_yukseltme_ortalama_mean": 0.168,
+      "normal_haftalik_yanlis_yukseltme_ortalama_std": 0.166,
+      "normal_haftalik_host_p95_mean": 0.792,
+      "normal_haftalik_host_p95_std": 0.786,
+      "normal_haftalik_en_kotu_host_mean": 1.816,
+      "normal_haftalik_en_kotu_host_std": 1.762
+    }
+  ],
+  "g\u00f6r\u00fclmemi\u015f_host_tespiti": [
+    {
+      "W": 20,
+      "F": 1000.0,
+      "aile": "mitm",
+      "ak\u0131\u015f_ANOMALY": 0.051,
+      "saf_pencere_tespit": 0.89,
+      "karisik_\u03c1=0.10": 0.0,
+      "karisik_\u03c1=0.25": 0.009,
+      "karisik_\u03c1=0.50": 0.252,
+      "karisik_\u03c1=1.00": 0.901
+    },
+    {
+      "W": 20,
+      "F": 1000.0,
+      "aile": "ransomware",
+      "ak\u0131\u015f_ANOMALY": 0.03,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.001,
+      "karisik_\u03c1=0.25": 0.221,
+      "karisik_\u03c1=0.50": 0.99,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 20,
+      "F": 1000.0,
+      "aile": "xss",
+      "ak\u0131\u015f_ANOMALY": 0.267,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.001,
+      "karisik_\u03c1=0.25": 0.203,
+      "karisik_\u03c1=0.50": 0.999,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 20,
+      "F": 5000.0,
+      "aile": "mitm",
+      "ak\u0131\u015f_ANOMALY": 0.051,
+      "saf_pencere_tespit": 0.698,
+      "karisik_\u03c1=0.10": 0.0,
+      "karisik_\u03c1=0.25": 0.0,
+      "karisik_\u03c1=0.50": 0.051,
+      "karisik_\u03c1=1.00": 0.717
+    },
+    {
+      "W": 20,
+      "F": 5000.0,
+      "aile": "ransomware",
+      "ak\u0131\u015f_ANOMALY": 0.03,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.0,
+      "karisik_\u03c1=0.25": 0.014,
+      "karisik_\u03c1=0.50": 0.95,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 20,
+      "F": 5000.0,
+      "aile": "xss",
+      "ak\u0131\u015f_ANOMALY": 0.267,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.0,
+      "karisik_\u03c1=0.25": 0.011,
+      "karisik_\u03c1=0.50": 0.969,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 50,
+      "F": 1000.0,
+      "aile": "mitm",
+      "ak\u0131\u015f_ANOMALY": 0.051,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.0,
+      "karisik_\u03c1=0.25": 0.042,
+      "karisik_\u03c1=0.50": 0.727,
+      "karisik_\u03c1=1.00": 0.999
+    },
+    {
+      "W": 50,
+      "F": 1000.0,
+      "aile": "ransomware",
+      "ak\u0131\u015f_ANOMALY": 0.03,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.004,
+      "karisik_\u03c1=0.25": 0.949,
+      "karisik_\u03c1=0.50": 1.0,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 50,
+      "F": 1000.0,
+      "aile": "xss",
+      "ak\u0131\u015f_ANOMALY": 0.267,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.003,
+      "karisik_\u03c1=0.25": 0.951,
+      "karisik_\u03c1=0.50": 1.0,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 50,
+      "F": 5000.0,
+      "aile": "mitm",
+      "ak\u0131\u015f_ANOMALY": 0.051,
+      "saf_pencere_tespit": 0.995,
+      "karisik_\u03c1=0.10": 0.0,
+      "karisik_\u03c1=0.25": 0.006,
+      "karisik_\u03c1=0.50": 0.478,
+      "karisik_\u03c1=1.00": 0.996
+    },
+    {
+      "W": 50,
+      "F": 5000.0,
+      "aile": "ransomware",
+      "ak\u0131\u015f_ANOMALY": 0.03,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.001,
+      "karisik_\u03c1=0.25": 0.784,
+      "karisik_\u03c1=0.50": 0.999,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 50,
+      "F": 5000.0,
+      "aile": "xss",
+      "ak\u0131\u015f_ANOMALY": 0.267,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.0,
+      "karisik_\u03c1=0.25": 0.611,
+      "karisik_\u03c1=0.50": 1.0,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 100,
+      "F": 1000.0,
+      "aile": "mitm",
+      "ak\u0131\u015f_ANOMALY": 0.051,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.0,
+      "karisik_\u03c1=0.25": 0.159,
+      "karisik_\u03c1=0.50": 0.963,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 100,
+      "F": 1000.0,
+      "aile": "ransomware",
+      "ak\u0131\u015f_ANOMALY": 0.03,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.028,
+      "karisik_\u03c1=0.25": 0.994,
+      "karisik_\u03c1=0.50": 1.0,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 100,
+      "F": 1000.0,
+      "aile": "xss",
+      "ak\u0131\u015f_ANOMALY": 0.267,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.02,
+      "karisik_\u03c1=0.25": 1.0,
+      "karisik_\u03c1=0.50": 1.0,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 100,
+      "F": 5000.0,
+      "aile": "mitm",
+      "ak\u0131\u015f_ANOMALY": 0.051,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.0,
+      "karisik_\u03c1=0.25": 0.045,
+      "karisik_\u03c1=0.50": 0.897,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 100,
+      "F": 5000.0,
+      "aile": "ransomware",
+      "ak\u0131\u015f_ANOMALY": 0.03,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.002,
+      "karisik_\u03c1=0.25": 0.977,
+      "karisik_\u03c1=0.50": 1.0,
+      "karisik_\u03c1=1.00": 1.0
+    },
+    {
+      "W": 100,
+      "F": 5000.0,
+      "aile": "xss",
+      "ak\u0131\u015f_ANOMALY": 0.267,
+      "saf_pencere_tespit": 1.0,
+      "karisik_\u03c1=0.10": 0.001,
+      "karisik_\u03c1=0.25": 0.999,
+      "karisik_\u03c1=0.50": 1.0,
+      "karisik_\u03c1=1.00": 1.0
+    }
+  ],
+  "\u00e7\u0131kmaz_oran\u0131": [
+    {
+      "W": 20,
+      "grup": "bilinen",
+      "mean": 0.0001,
+      "std": 0.0001
+    },
+    {
+      "W": 20,
+      "grup": "g\u00f6r\u00fclmemi\u015f",
+      "mean": 0.0006,
+      "std": 0.0002
+    },
+    {
+      "W": 20,
+      "grup": "normal",
+      "mean": 0.1283,
+      "std": 0.03
+    },
+    {
+      "W": 50,
+      "grup": "bilinen",
+      "mean": 0.0002,
+      "std": 0.0001
+    },
+    {
+      "W": 50,
+      "grup": "g\u00f6r\u00fclmemi\u015f",
+      "mean": 0.0006,
+      "std": 0.0002
+    },
+    {
+      "W": 50,
+      "grup": "normal",
+      "mean": 0.2491,
+      "std": 0.0556
+    },
+    {
+      "W": 100,
+      "grup": "bilinen",
+      "mean": 0.0002,
+      "std": 0.0001
+    },
+    {
+      "W": 100,
+      "grup": "g\u00f6r\u00fclmemi\u015f",
+      "mean": 0.0006,
+      "std": 0.0002
+    },
+    {
+      "W": 100,
+      "grup": "normal",
+      "mean": 0.3016,
+      "std": 0.072
+    }
+  ],
+  "a\u011f_ge\u00e7idi_temel_\u00e7izgi": [
+    {
+      "aile": "mitm",
+      "AE_ANOMALY": 0.052,
+      "RF_tek_basina_recall": 0.848,
+      "RF_AUC_UNCERTAIN_bandinda": 0.946,
+      "AE+a\u011f_ge\u00e7idi_recall": 0.367
+    },
+    {
+      "aile": "normal (yanl\u0131\u015f alarm)",
+      "AE_ANOMALY": 0.007,
+      "RF_tek_basina_recall": 0.008,
+      "RF_AUC_UNCERTAIN_bandinda": NaN,
+      "AE+a\u011f_ge\u00e7idi_recall": 0.01
+    },
+    {
+      "aile": "ransomware",
+      "AE_ANOMALY": 0.012,
+      "RF_tek_basina_recall": 0.964,
+      "RF_AUC_UNCERTAIN_bandinda": 0.968,
+      "AE+a\u011f_ge\u00e7idi_recall": 0.967
+    },
+    {
+      "aile": "xss",
+      "AE_ANOMALY": 0.518,
+      "RF_tek_basina_recall": 0.798,
+      "RF_AUC_UNCERTAIN_bandinda": 0.967,
+      "AE+a\u011f_ge\u00e7idi_recall": 0.805
+    }
+  ]
+}

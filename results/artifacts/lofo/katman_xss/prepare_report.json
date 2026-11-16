@@ -1,0 +1,181 @@
+{
+  "dedup": {
+    "rows_before": 211043,
+    "after_stage1_exact_input_columns": 93670,
+    "after_stage2_final_vectors": 74146,
+    "benign_attack_collision_vectors": 44,
+    "attack_family_collision_vectors": 781,
+    "collisions_by_kept_type": {
+      "ddos": 12,
+      "injection": 10,
+      "ransomware": 7,
+      "xss": 6,
+      "scanning": 3,
+      "dos": 3,
+      "mitm": 2,
+      "password": 1
+    },
+    "per_type": {
+      "normal": {
+        "before": 50000,
+        "after_stage1": 23665,
+        "after": 16741
+      },
+      "backdoor": {
+        "before": 20000,
+        "after_stage1": 1966,
+        "after": 1023
+      },
+      "ddos": {
+        "before": 20000,
+        "after_stage1": 11962,
+        "after": 8309
+      },
+      "dos": {
+        "before": 20000,
+        "after_stage1": 6448,
+        "after": 4568
+      },
+      "injection": {
+        "before": 20000,
+        "after_stage1": 19849,
+        "after": 19611
+      },
+      "password": {
+        "before": 20000,
+        "after_stage1": 15248,
+        "after": 10739
+      },
+      "scanning": {
+        "before": 20000,
+        "after_stage1": 4493,
+        "after": 3608
+      },
+      "ransomware": {
+        "before": 20000,
+        "after_stage1": 260,
+        "after": 248
+      },
+      "xss": {
+        "before": 20000,
+        "after_stage1": 8740,
+        "after": 8285
+      },
+      "mitm": {
+        "before": 1043,
+        "after_stage1": 1039,
+        "after": 1014
+      }
+    }
+  },
+  "residual_cross_split_identical_vectors": {
+    "benign_train&dev_val": 7,
+    "benign_train&dev_test": 3,
+    "benign_train&heldout_test": 3,
+    "benign_val&dev_val": 3,
+    "benign_val&dev_test": 3,
+    "benign_val&heldout_test": 1,
+    "benign_cal&dev_val": 2,
+    "benign_cal&dev_test": 2,
+    "benign_test&dev_val": 5,
+    "benign_test&dev_test": 2,
+    "benign_test&heldout_test": 2,
+    "dev_val&dev_test": 93,
+    "dev_val&heldout_test": 108,
+    "dev_test&heldout_test": 115
+  },
+  "split_sizes": {
+    "benign_train": 8370,
+    "benign_val": 1674,
+    "benign_cal": 3348,
+    "benign_test": 3349,
+    "dev_val": 24561,
+    "dev_test": 24559,
+    "heldout_test": 8285
+  },
+  "split_by_type": {
+    "benign_train": {
+      "normal": 8370
+    },
+    "benign_val": {
+      "normal": 1674
+    },
+    "benign_cal": {
+      "normal": 3348
+    },
+    "benign_test": {
+      "normal": 3349
+    },
+    "dev_val": {
+      "injection": 9806,
+      "password": 5370,
+      "ddos": 4154,
+      "dos": 2284,
+      "scanning": 1804,
+      "backdoor": 512,
+      "mitm": 507,
+      "ransomware": 124
+    },
+    "dev_test": {
+      "injection": 9805,
+      "password": 5369,
+      "ddos": 4155,
+      "dos": 2284,
+      "scanning": 1804,
+      "backdoor": 511,
+      "mitm": 507,
+      "ransomware": 124
+    },
+    "heldout_test": {
+      "xss": 8285
+    }
+  },
+  "feature_set": "all",
+  "n_features": 53,
+  "dropped_columns": {
+    "http_version": "zero variance on benign-train",
+    "dst_ip_bytes": "|corr|>0.98 with dst_bytes",
+    "proto=udp": "|corr|>0.98 with proto=tcp",
+    "dns_RD=missing": "|corr|>0.98 with dns_AA=missing",
+    "dns_RA=missing": "|corr|>0.98 with dns_AA=missing",
+    "dns_rejected=F": "|corr|>0.98 with dns_AA=missing",
+    "dns_rejected=missing": "|corr|>0.98 with dns_AA=missing",
+    "ssl_cipher=TLS_AES_128_GCM_SHA256": "|corr|>0.98 with ssl_version=TLSv13",
+    "ssl_cipher=missing": "|corr|>0.98 with ssl_version=missing",
+    "ssl_resumed=missing": "|corr|>0.98 with ssl_version=missing",
+    "ssl_established=missing": "|corr|>0.98 with ssl_version=missing",
+    "ssl_established=F": "|corr|>0.98 with ssl_resumed=F",
+    "weird_notice=missing": "|corr|>0.98 with weird_notice=F"
+  },
+  "input_columns": [
+    "proto",
+    "service",
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "conn_state",
+    "missed_bytes",
+    "src_pkts",
+    "src_ip_bytes",
+    "dst_pkts",
+    "dst_ip_bytes",
+    "dns_qclass",
+    "dns_qtype",
+    "dns_rcode",
+    "dns_AA",
+    "dns_RD",
+    "dns_RA",
+    "dns_rejected",
+    "ssl_version",
+    "ssl_cipher",
+    "ssl_resumed",
+    "ssl_established",
+    "http_trans_depth",
+    "http_method",
+    "http_version",
+    "http_request_body_len",
+    "http_response_body_len",
+    "http_status_code",
+    "weird_notice"
+  ]
+}

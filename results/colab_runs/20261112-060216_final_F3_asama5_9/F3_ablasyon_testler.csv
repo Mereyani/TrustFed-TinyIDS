@@ -1,0 +1,71 @@
+a,b,metrik,ortalama_fark_a-b,a_daha_büyük_tohum,tohum,p_raw,p_holm
+A3 · AE + seçici,A5 · Federe AE + seçici · orijinal,görülmemiş_ANOMALY,0.43484864355294855,10,10,0.001953125,0.02734375
+A3 · AE + seçici,A5 · Federe AE + seçici · orijinal_kucuk_yigin,görülmemiş_ANOMALY,0.17062951712579869,9,10,0.005859375,0.076171875
+A3 · AE + seçici,A5 · Federe AE + seçici · fedprox_kalici,görülmemiş_ANOMALY,0.14453755106316118,9,10,0.02734375,0.328125
+A5 · Federe AE + seçici · yakinsama_kalici,A6 · INT8 Federe AE + seçici · yakinsama_kalici,görülmemiş_ANOMALY,-0.011165811249607218,1,10,0.048828125,0.537109375
+A5 · Federe AE + seçici · fedprox_kalici,A6 · INT8 Federe AE + seçici · fedprox_kalici,görülmemiş_ANOMALY,-0.010380224154184572,3,10,0.064453125,0.64453125
+A5 · Federe AE + seçici · orijinal,A6 · INT8 Federe AE + seçici · orijinal,görülmemiş_ANOMALY,-0.0008484340630564569,2,10,0.078125,0.703125
+A3 · AE + seçici,A5 · Federe AE + seçici · yakinsama_kalici,görülmemiş_ANOMALY,0.05466638734681054,7,10,0.193359375,1.0
+A3 · AE + seçici,A3q · INT8 AE + seçici (merkezi),görülmemiş_ANOMALY,-0.006682727558395313,4,10,0.193359375,1.0
+A5 · Federe AE + seçici · orijinal_kucuk_yigin,A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin,görülmemiş_ANOMALY,0.026018644600398023,3,10,1.0,1.0
+A5 · Federe AE + seçici · orijinal_kucuk_yigin,A4 · Federe AE (ikili) · orijinal_kucuk_yigin,görülmemiş_ANOMALY,0.0,0,10,1.0,1.0
+A3 · AE + seçici,A2 · AE (ikili),görülmemiş_ANOMALY,0.0,0,10,1.0,1.0
+A5 · Federe AE + seçici · orijinal,A4 · Federe AE (ikili) · orijinal,görülmemiş_ANOMALY,0.0,0,10,1.0,1.0
+A5 · Federe AE + seçici · yakinsama_kalici,A4 · Federe AE (ikili) · yakinsama_kalici,görülmemiş_ANOMALY,0.0,0,10,1.0,1.0
+A5 · Federe AE + seçici · fedprox_kalici,A4 · Federe AE (ikili) · fedprox_kalici,görülmemiş_ANOMALY,0.0,0,10,1.0,1.0
+A3 · AE + seçici,A5 · Federe AE + seçici · orijinal,bilinen_ANOMALY,0.16251671681711805,10,10,0.001953125,0.02734375
+A3 · AE + seçici,A5 · Federe AE + seçici · orijinal_kucuk_yigin,bilinen_ANOMALY,0.1112128050819124,10,10,0.001953125,0.02734375
+A3 · AE + seçici,A5 · Federe AE + seçici · fedprox_kalici,bilinen_ANOMALY,0.12715646940822464,10,10,0.001953125,0.02734375
+A3 · AE + seçici,A5 · Federe AE + seçici · yakinsama_kalici,bilinen_ANOMALY,0.04240638582413909,9,10,0.009765625,0.107421875
+A5 · Federe AE + seçici · fedprox_kalici,A6 · INT8 Federe AE + seçici · fedprox_kalici,bilinen_ANOMALY,-0.008559010364426611,2,10,0.083984375,0.83984375
+A5 · Federe AE + seçici · orijinal,A6 · INT8 Federe AE + seçici · orijinal,bilinen_ANOMALY,-0.001082413908391842,3,10,0.34375,1.0
+A5 · Federe AE + seçici · yakinsama_kalici,A6 · INT8 Federe AE + seçici · yakinsama_kalici,bilinen_ANOMALY,0.000760615178869943,2,10,0.41015625,1.0
+A5 · Federe AE + seçici · orijinal_kucuk_yigin,A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin,bilinen_ANOMALY,0.0010698762955533277,5,10,0.431640625,1.0
+A3 · AE + seçici,A3q · INT8 AE + seçici (merkezi),bilinen_ANOMALY,-0.0029964894684052197,7,10,0.607421875,1.0
+A5 · Federe AE + seçici · orijinal_kucuk_yigin,A4 · Federe AE (ikili) · orijinal_kucuk_yigin,bilinen_ANOMALY,0.0,0,10,1.0,1.0
+A3 · AE + seçici,A2 · AE (ikili),bilinen_ANOMALY,0.0,0,10,1.0,1.0
+A5 · Federe AE + seçici · orijinal,A4 · Federe AE (ikili) · orijinal,bilinen_ANOMALY,0.0,0,10,1.0,1.0
+A5 · Federe AE + seçici · yakinsama_kalici,A4 · Federe AE (ikili) · yakinsama_kalici,bilinen_ANOMALY,0.0,0,10,1.0,1.0
+A5 · Federe AE + seçici · fedprox_kalici,A4 · Federe AE (ikili) · fedprox_kalici,bilinen_ANOMALY,0.0,0,10,1.0,1.0
+A3 · AE + seçici,A2 · AE (ikili),selective_risk,-0.10897883550272199,0,10,0.001953125,0.02734375
+A3 · AE + seçici,A5 · Federe AE + seçici · orijinal,selective_risk,-0.292475518314918,0,10,0.001953125,0.02734375
+A5 · Federe AE + seçici · orijinal,A4 · Federe AE (ikili) · orijinal,selective_risk,-0.03492065370746498,0,10,0.001953125,0.02734375
+A3 · AE + seçici,A5 · Federe AE + seçici · orijinal_kucuk_yigin,selective_risk,-0.1577800430831957,0,10,0.001953125,0.02734375
+A5 · Federe AE + seçici · orijinal_kucuk_yigin,A4 · Federe AE (ikili) · orijinal_kucuk_yigin,selective_risk,-0.06762557929764923,0,10,0.001953125,0.02734375
+A5 · Federe AE + seçici · fedprox_kalici,A4 · Federe AE (ikili) · fedprox_kalici,selective_risk,-0.05771767002897589,0,10,0.001953125,0.02734375
+A3 · AE + seçici,A5 · Federe AE + seçici · fedprox_kalici,selective_risk,-0.1712915804205199,0,10,0.001953125,0.02734375
+A5 · Federe AE + seçici · yakinsama_kalici,A4 · Federe AE (ikili) · yakinsama_kalici,selective_risk,-0.10920810734108519,0,10,0.001953125,0.02734375
+A3 · AE + seçici,A5 · Federe AE + seçici · yakinsama_kalici,selective_risk,-0.04147993954551686,1,10,0.048828125,0.29296875
+A5 · Federe AE + seçici · orijinal,A6 · INT8 Federe AE + seçici · orijinal,selective_risk,0.0009971117251159956,6,10,0.10546875,0.52734375
+A5 · Federe AE + seçici · fedprox_kalici,A6 · INT8 Federe AE + seçici · fedprox_kalici,selective_risk,0.00807387602719074,6,10,0.193359375,0.7734375
+A5 · Federe AE + seçici · yakinsama_kalici,A6 · INT8 Federe AE + seçici · yakinsama_kalici,selective_risk,0.002824480440996646,7,10,0.431640625,1.0
+A3 · AE + seçici,A3q · INT8 AE + seçici (merkezi),selective_risk,0.0031845673414468757,5,10,0.625,1.0
+A5 · Federe AE + seçici · orijinal_kucuk_yigin,A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin,selective_risk,-0.007105108349612843,6,10,0.6953125,1.0
+A3 · AE + seçici,A2 · AE (ikili),selective_risk_π=%1,-0.002348636098931747,0,10,0.001953125,0.02734375
+A3 · AE + seçici,A5 · Federe AE + seçici · orijinal,selective_risk_π=%1,-0.003162805209616151,0,10,0.001953125,0.02734375
+A5 · Federe AE + seçici · orijinal,A4 · Federe AE (ikili) · orijinal,selective_risk_π=%1,-0.002415392781878354,0,10,0.001953125,0.02734375
+A5 · Federe AE + seçici · orijinal_kucuk_yigin,A4 · Federe AE (ikili) · orijinal_kucuk_yigin,selective_risk_π=%1,-0.002355959614856143,0,10,0.001953125,0.02734375
+A5 · Federe AE + seçici · fedprox_kalici,A4 · Federe AE (ikili) · fedprox_kalici,selective_risk_π=%1,-0.0021313577587058694,0,10,0.001953125,0.02734375
+A5 · Federe AE + seçici · yakinsama_kalici,A4 · Federe AE (ikili) · yakinsama_kalici,selective_risk_π=%1,-0.0027170313392313734,0,10,0.001953125,0.02734375
+A5 · Federe AE + seçici · yakinsama_kalici,A6 · INT8 Federe AE + seçici · yakinsama_kalici,selective_risk_π=%1,-0.00018232310155038705,4,10,0.193359375,1.0
+A5 · Federe AE + seçici · orijinal,A6 · INT8 Federe AE + seçici · orijinal,selective_risk_π=%1,-0.00024836717414892655,4,10,0.232421875,1.0
+A3 · AE + seçici,A3q · INT8 AE + seçici (merkezi),selective_risk_π=%1,-0.00029415572189947275,5,10,0.275390625,1.0
+A3 · AE + seçici,A5 · Federe AE + seçici · orijinal_kucuk_yigin,selective_risk_π=%1,-0.0004465499910647491,4,10,0.322265625,1.0
+A3 · AE + seçici,A5 · Federe AE + seçici · fedprox_kalici,selective_risk_π=%1,-0.0007993869406329417,5,10,0.322265625,1.0
+A5 · Federe AE + seçici · fedprox_kalici,A6 · INT8 Federe AE + seçici · fedprox_kalici,selective_risk_π=%1,-0.00011381902297150151,4,10,0.375,1.0
+A3 · AE + seçici,A5 · Federe AE + seçici · yakinsama_kalici,selective_risk_π=%1,0.00011629355511320657,5,10,0.76953125,1.0
+A5 · Federe AE + seçici · orijinal_kucuk_yigin,A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin,selective_risk_π=%1,-2.3456728510504696e-05,4,10,0.921875,1.0
+A3 · AE + seçici,A5 · Federe AE + seçici · orijinal_kucuk_yigin,normal_FPR,0.0008360704687966555,8,10,0.046875,0.65625
+A3 · AE + seçici,A5 · Federe AE + seçici · orijinal,normal_FPR,-0.0008360704687966559,2,10,0.0625,0.8125
+A3 · AE + seçici,A5 · Federe AE + seçici · fedprox_kalici,normal_FPR,0.0007464914899970138,7,10,0.154296875,1.0
+A3 · AE + seçici,A3q · INT8 AE + seçici (merkezi),normal_FPR,-0.0002985965959988058,3,10,0.15625,1.0
+A5 · Federe AE + seçici · orijinal,A6 · INT8 Federe AE + seçici · orijinal,normal_FPR,-0.00023887727679904446,2,10,0.1875,1.0
+A5 · Federe AE + seçici · fedprox_kalici,A6 · INT8 Federe AE + seçici · fedprox_kalici,normal_FPR,-0.00011943863839952223,1,10,0.3125,1.0
+A5 · Federe AE + seçici · yakinsama_kalici,A6 · INT8 Federe AE + seçici · yakinsama_kalici,normal_FPR,-0.00017915795759928323,1,10,0.375,1.0
+A3 · AE + seçici,A5 · Federe AE + seçici · yakinsama_kalici,normal_FPR,0.0002090176171991636,5,10,0.671875,1.0
+A5 · Federe AE + seçici · orijinal_kucuk_yigin,A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin,normal_FPR,-2.985965959988058e-05,1,10,1.0,1.0
+A5 · Federe AE + seçici · orijinal_kucuk_yigin,A4 · Federe AE (ikili) · orijinal_kucuk_yigin,normal_FPR,0.0,0,10,1.0,1.0
+A3 · AE + seçici,A2 · AE (ikili),normal_FPR,0.0,0,10,1.0,1.0
+A5 · Federe AE + seçici · orijinal,A4 · Federe AE (ikili) · orijinal,normal_FPR,0.0,0,10,1.0,1.0
+A5 · Federe AE + seçici · yakinsama_kalici,A4 · Federe AE (ikili) · yakinsama_kalici,normal_FPR,0.0,0,10,1.0,1.0
+A5 · Federe AE + seçici · fedprox_kalici,A4 · Federe AE (ikili) · fedprox_kalici,normal_FPR,0.0,0,10,1.0,1.0

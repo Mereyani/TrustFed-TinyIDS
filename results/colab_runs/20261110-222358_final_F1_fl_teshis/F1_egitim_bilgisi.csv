@@ -1,0 +1,32 @@
+model,epochs_equivalent,stopped_by,local_steps_mean,comm_MB,açıklama,senaryo,rounds_run,best_round,local_steps_max,val_loss_best,clients,local_epochs,optimizer_state,mu
+M_yakinsama,1274,relative_plateau,21658.0,0.0,"Merkezi, yakınsama kuralı (ana model)",merkezi,,,,,,,,
+M_200,200,fixed_epochs,3400.0,0.0,"Merkezi, 200 epoch (ara dönem karşılaştırması)",merkezi,,,,,,,,
+M_esit_adim,47,fixed_epochs,799.0,0.0,"Merkezi, 47 epoch (= FedAvg-IID istemci adım sayısı)",merkezi,,,,,,,,
+M_fl_kodu,980,early_stopping,16660.0,7.571872,"Merkezi, FL kodu (K=1), yakınsama, Adam korunur",merkezi,196.0,188.0,16660.0,0.0008425797323579652,1.0,5.0,persistent,0.0
+K1_orijinal_kalici,200,fixed_rounds,3400.0,1.54528,"FL kodu K=1, 40×5, Adam korunur (≈ M_200 olmalı)",merkezi,40.0,40.0,3400.0,0.0012458388634931418,1.0,5.0,persistent,0.0
+K1_orijinal_reset,200,fixed_rounds,3400.0,1.54528,"FL kodu K=1, 40×5, Adam her tur sıfırlanır (H2 tek başına)",merkezi,40.0,40.0,3400.0,0.0015594129949448613,1.0,5.0,reset,0.0
+FL_IID_orijinal,200,fixed_rounds,800.0,7.7264,"IID: ara dönem protokolü: 40 tur x 5 yerel epoch, Adam her turda sıfırlanır",IID,40.0,40.0,800.0,0.004510377757097725,5.0,5.0,reset,0.0
+FL_IID_orijinal_kucuk_yigin,200,fixed_rounds,3400.0,7.7264,"IID: ara dönem protokolü, ama yerel yığın = yığın/K (istemci adım sayısı ≈ merkezi adım sayısı)",IID,40.0,40.0,3400.0,0.0015851165405572343,5.0,5.0,reset,0.0
+FL_IID_yakinsama_reset,1500,epoch_cap,6000.0,57.948,"IID: yakınsama kuralına kadar, Adam her turda sıfırlanır",IID,300.0,299.0,6000.0,0.001704491687282869,5.0,5.0,reset,0.0
+FL_IID_yakinsama_kalici,1500,epoch_cap,6000.0,57.948,"IID: yakınsama kuralına kadar, her istemci Adam durumunu korur",IID,300.0,300.0,6000.0,0.0010821034535491664,5.0,5.0,persistent,0.0
+FL_IID_fedprox_kalici,1500,epoch_cap,6000.0,57.948,"IID: FedProx (μ = cfg.fl_fedprox_mu), yakınsama kuralına kadar, Adam korunur",IID,300.0,300.0,6000.0,0.001603297226586459,5.0,5.0,persistent,0.01
+FL_Dirichlet1.0_orijinal,200,fixed_rounds,800.0,7.7264,"Dirichlet=1.0: ara dönem protokolü: 40 tur x 5 yerel epoch, Adam her turda sıfırlanır",Dirichlet=1.0,40.0,40.0,1400.0,0.0030385456341569077,5.0,5.0,reset,0.0
+FL_Dirichlet1.0_orijinal_kucuk_yigin,200,fixed_rounds,3360.0,7.7264,"Dirichlet=1.0: ara dönem protokolü, ama yerel yığın = yığın/K (istemci adım sayısı ≈ merkezi adım sayısı)",Dirichlet=1.0,40.0,40.0,6200.0,0.0013803426429681233,5.0,5.0,reset,0.0
+FL_Dirichlet1.0_yakinsama_reset,1500,epoch_cap,6000.0,57.948,"Dirichlet=1.0: yakınsama kuralına kadar, Adam her turda sıfırlanır",Dirichlet=1.0,300.0,299.0,10500.0,0.0011787759548510769,5.0,5.0,reset,0.0
+FL_Dirichlet1.0_yakinsama_kalici,1325,relative_plateau,5300.0,51.1874,"Dirichlet=1.0: yakınsama kuralına kadar, her istemci Adam durumunu korur",Dirichlet=1.0,265.0,265.0,9275.0,0.0011015403037932115,5.0,5.0,persistent,0.0
+FL_Dirichlet1.0_fedprox_kalici,1500,epoch_cap,6000.0,57.948,"Dirichlet=1.0: FedProx (μ = cfg.fl_fedprox_mu), yakınsama kuralına kadar, Adam korunur",Dirichlet=1.0,300.0,300.0,10500.0,0.0017257075637452173,5.0,5.0,persistent,0.01
+FL_Dirichlet0.1_orijinal,200,fixed_rounds,760.0,7.7264,"Dirichlet=0.1: ara dönem protokolü: 40 tur x 5 yerel epoch, Adam her turda sıfırlanır",Dirichlet=0.1,40.0,40.0,2200.0,0.0044941713441361796,5.0,5.0,reset,0.0
+FL_Dirichlet0.1_orijinal_kucuk_yigin,200,fixed_rounds,3320.0,7.7264,"Dirichlet=0.1: ara dönem protokolü, ama yerel yığın = yığın/K (istemci adım sayısı ≈ merkezi adım sayısı)",Dirichlet=0.1,40.0,40.0,10400.0,0.003345069028717013,5.0,5.0,reset,0.0
+FL_Dirichlet0.1_yakinsama_reset,1500,epoch_cap,5700.0,57.948,"Dirichlet=0.1: yakınsama kuralına kadar, Adam her turda sıfırlanır",Dirichlet=0.1,300.0,298.0,16500.0,0.0012424252040112906,5.0,5.0,reset,0.0
+FL_Dirichlet0.1_yakinsama_kalici,1500,epoch_cap,5700.0,57.948,"Dirichlet=0.1: yakınsama kuralına kadar, her istemci Adam durumunu korur",Dirichlet=0.1,300.0,300.0,16500.0,0.001229249049668225,5.0,5.0,persistent,0.0
+FL_Dirichlet0.1_fedprox_kalici,1500,epoch_cap,5700.0,57.948,"Dirichlet=0.1: FedProx (μ = cfg.fl_fedprox_mu), yakınsama kuralına kadar, Adam korunur",Dirichlet=0.1,300.0,300.0,16500.0,0.0016276890388819262,5.0,5.0,persistent,0.01
+YEREL_IID_k0,1025,early_stopping,4100.0,7.91956,"yalnız yerel IID, istemci 0",IID,205.0,197.0,4100.0,0.0012280744463664852,1.0,5.0,persistent,0.0
+YEREL_IID_k1,1160,early_stopping,4640.0,8.962624,"yalnız yerel IID, istemci 1",IID,232.0,224.0,4640.0,0.0018065453490106731,1.0,5.0,persistent,0.0
+YEREL_IID_k2,1455,relative_plateau,5820.0,11.241912,"yalnız yerel IID, istemci 2",IID,291.0,290.0,5820.0,0.0015831476510619908,1.0,5.0,persistent,0.0
+YEREL_IID_k3,1500,epoch_cap,6000.0,11.5896,"yalnız yerel IID, istemci 3",IID,300.0,297.0,6000.0,0.001302806017960444,1.0,5.0,persistent,0.0
+YEREL_IID_k4,710,relative_plateau,2840.0,5.485744,"yalnız yerel IID, istemci 4",IID,142.0,139.0,2840.0,0.0025453609463382395,1.0,5.0,persistent,0.0
+YEREL_Dirichlet0.1_k0,695,relative_plateau,1390.0,5.369848,"yalnız yerel Dirichlet=0.1, istemci 0",Dirichlet=0.1,139.0,139.0,1390.0,0.0015386300222345474,1.0,5.0,persistent,0.0
+YEREL_Dirichlet0.1_k1,1250,relative_plateau,5000.0,9.658,"yalnız yerel Dirichlet=0.1, istemci 1",Dirichlet=0.1,250.0,245.0,5000.0,0.0012759873026694914,1.0,5.0,persistent,0.0
+YEREL_Dirichlet0.1_k2,1200,early_stopping,13200.0,9.27168,"yalnız yerel Dirichlet=0.1, istemci 2",Dirichlet=0.1,240.0,232.0,13200.0,0.0004372519066019036,1.0,5.0,persistent,0.0
+YEREL_Dirichlet0.1_k3,1500,epoch_cap,1500.0,11.5896,"yalnız yerel Dirichlet=0.1, istemci 3",Dirichlet=0.1,300.0,300.0,1500.0,0.00017837604210942427,1.0,5.0,persistent,0.0
+YEREL_Dirichlet0.1_k4,770,relative_plateau,770.0,5.949328,"yalnız yerel Dirichlet=0.1, istemci 4",Dirichlet=0.1,154.0,150.0,770.0,0.007526807502267575,1.0,5.0,persistent,0.0

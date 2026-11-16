@@ -1,0 +1,11 @@
+# never commit the dataset or derived feature matrices
+data/
+*.npz.tmp
+**/prepared/prepared.npz
+**/prepared_*/prepared.npz
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+node_modules/
+~$*

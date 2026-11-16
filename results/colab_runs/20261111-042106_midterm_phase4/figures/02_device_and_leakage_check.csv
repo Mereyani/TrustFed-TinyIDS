@@ -1,0 +1,5 @@
+varyant,öznitelik,saldırılar,precision,recall,f1,fpr,pr_auc,roc_auc
+prepared_device,21,bilinen,0.9953,0.3319,0.4978,0.0112,0.9889,0.9406
+prepared_device,21,görülmemiş,0.992,0.497,0.6622,0.0112,0.986,0.9695
+prepared_leakage,94,bilinen,0.9972,0.4758,0.6442,0.0082,0.9961,0.9818
+prepared_leakage,94,görülmemiş,0.9951,0.4905,0.6571,0.0082,0.9891,0.9739

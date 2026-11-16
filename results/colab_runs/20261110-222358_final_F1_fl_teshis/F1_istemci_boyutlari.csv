@@ -1,0 +1,16 @@
+senaryo,istemci,benign_train,benign_val,benign_cal,benign_test
+IID,0,1673,334,668,668
+IID,1,1674,335,670,669
+IID,2,1673,334,669,671
+IID,3,1674,335,670,669
+IID,4,1676,336,671,672
+Dirichlet=1.0,0,3101,625,1240,1232
+Dirichlet=1.0,1,2050,392,804,821
+Dirichlet=1.0,2,1264,264,513,500
+Dirichlet=1.0,3,128,27,57,57
+Dirichlet=1.0,4,1827,366,734,739
+Dirichlet=0.1,0,865,175,347,346
+Dirichlet=0.1,1,1843,379,762,748
+Dirichlet=0.1,2,5269,1040,2082,2097
+Dirichlet=0.1,3,201,39,78,80
+Dirichlet=0.1,4,192,41,79,78

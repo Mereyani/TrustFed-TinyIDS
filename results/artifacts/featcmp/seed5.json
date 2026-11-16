@@ -1,0 +1,52 @@
+[
+  {
+    "tohum": 5,
+    "\u00f6znitelik": "t\u00fcm\u00fc",
+    "sald\u0131r\u0131lar": "bilinen",
+    "fpr_alpha": 0.0074649148999701405,
+    "recall_alpha": 0.17510865931126712,
+    "recall_fpr_1%": 0.22312771648278168
+  },
+  {
+    "tohum": 5,
+    "\u00f6znitelik": "t\u00fcm\u00fc",
+    "sald\u0131r\u0131lar": "g\u00f6r\u00fclmemi\u015f",
+    "fpr_alpha": 0.0074649148999701405,
+    "recall_alpha": 0.5052896197758459,
+    "recall_fpr_1%": 0.5632135749450089
+  },
+  {
+    "tohum": 5,
+    "\u00f6znitelik": "cihaz",
+    "sald\u0131r\u0131lar": "bilinen",
+    "fpr_alpha": 0.011048074051955807,
+    "recall_alpha": 0.3267719826145102,
+    "recall_fpr_1%": 0.3265212303577399,
+    "recall_fpr_1%_g\u00f6r\u00fclmemi\u015f_vekt\u00f6rler": 0.32661678023494
+  },
+  {
+    "tohum": 5,
+    "\u00f6znitelik": "cihaz",
+    "sald\u0131r\u0131lar": "g\u00f6r\u00fclmemi\u015f",
+    "fpr_alpha": 0.011048074051955807,
+    "recall_alpha": 0.6475332565203729,
+    "recall_fpr_1%": 0.6301455954750184,
+    "recall_fpr_1%_g\u00f6r\u00fclmemi\u015f_vekt\u00f6rler": 0.6311097126075099
+  },
+  {
+    "tohum": 5,
+    "\u00f6znitelik": "s\u0131z\u0131nt\u0131",
+    "sald\u0131r\u0131lar": "bilinen",
+    "fpr_alpha": 0.008659301283965363,
+    "recall_alpha": 0.4732948846539619,
+    "recall_fpr_1%": 0.5093196255432966
+  },
+  {
+    "tohum": 5,
+    "\u00f6znitelik": "s\u0131z\u0131nt\u0131",
+    "sald\u0131r\u0131lar": "g\u00f6r\u00fclmemi\u015f",
+    "fpr_alpha": 0.008659301283965363,
+    "recall_alpha": 0.4785796585314759,
+    "recall_fpr_1%": 0.5131454907300723
+  }
+]

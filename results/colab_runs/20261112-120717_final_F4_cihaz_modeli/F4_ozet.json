@@ -1,0 +1,23 @@
+{
+  "tohumlar": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "protokoller": [
+    "orijinal",
+    "orijinal_kucuk_yigin",
+    "yakinsama_kalici",
+    "fedprox_kalici"
+  ],
+  "parmak_izi": "cf1bc800edc0",
+  "\u00f6znitelik_say\u0131s\u0131": 21,
+  "not": "Gecikme Colab CPU'sunda \u00f6l\u00e7\u00fcld\u00fc; mikrodenetleyici de\u011feri de\u011fildir. GA yaln\u0131z e\u011fitim tohumu de\u011fi\u015fkenli\u011fini yans\u0131t\u0131r."
+}

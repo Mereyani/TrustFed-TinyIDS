@@ -1,0 +1,149 @@
+{
+  "dedup": {
+    "rows_before": 211043,
+    "after_stage1_exact_input_columns": 92633,
+    "after_stage2_final_vectors": 74970,
+    "benign_attack_collision_vectors": 50,
+    "attack_family_collision_vectors": 690,
+    "collisions_by_kept_type": {
+      "ddos": 13,
+      "injection": 10,
+      "ransomware": 8,
+      "xss": 7,
+      "dos": 5,
+      "scanning": 3,
+      "mitm": 2,
+      "backdoor": 1,
+      "password": 1
+    },
+    "per_type": {
+      "normal": {
+        "before": 50000,
+        "after_stage1": 23083,
+        "after": 16975
+      },
+      "backdoor": {
+        "before": 20000,
+        "after_stage1": 1966,
+        "after": 1078
+      },
+      "ddos": {
+        "before": 20000,
+        "after_stage1": 11913,
+        "after": 8545
+      },
+      "dos": {
+        "before": 20000,
+        "after_stage1": 6349,
+        "after": 4578
+      },
+      "injection": {
+        "before": 20000,
+        "after_stage1": 19800,
+        "after": 19606
+      },
+      "password": {
+        "before": 20000,
+        "after_stage1": 15234,
+        "after": 11108
+      },
+      "scanning": {
+        "before": 20000,
+        "after_stage1": 4427,
+        "after": 3628
+      },
+      "ransomware": {
+        "before": 20000,
+        "after_stage1": 260,
+        "after": 247
+      },
+      "xss": {
+        "before": 20000,
+        "after_stage1": 8594,
+        "after": 8224
+      },
+      "mitm": {
+        "before": 1043,
+        "after_stage1": 1007,
+        "after": 981
+      }
+    }
+  },
+  "residual_cross_split_identical_vectors": {
+    "benign_train&dev_val": 8,
+    "benign_train&dev_test": 5,
+    "benign_train&heldout_test": 4,
+    "benign_val&dev_val": 4,
+    "benign_val&dev_test": 2,
+    "benign_val&heldout_test": 3,
+    "benign_cal&dev_val": 3,
+    "benign_cal&dev_test": 3,
+    "benign_cal&heldout_test": 3,
+    "benign_test&heldout_test": 1,
+    "dev_val&dev_test": 80,
+    "dev_val&heldout_test": 99,
+    "dev_test&heldout_test": 106
+  },
+  "split_sizes": {
+    "benign_train": 8488,
+    "benign_val": 1698,
+    "benign_cal": 3395,
+    "benign_test": 3394,
+    "dev_val": 24271,
+    "dev_test": 24272,
+    "heldout_test": 9452
+  },
+  "split_by_type": {
+    "benign_train": {
+      "normal": 8488
+    },
+    "benign_val": {
+      "normal": 1698
+    },
+    "benign_cal": {
+      "normal": 3395
+    },
+    "benign_test": {
+      "normal": 3394
+    },
+    "dev_val": {
+      "injection": 9803,
+      "password": 5554,
+      "ddos": 4272,
+      "dos": 2289,
+      "scanning": 1814,
+      "backdoor": 539
+    },
+    "dev_test": {
+      "injection": 9803,
+      "password": 5554,
+      "ddos": 4273,
+      "dos": 2289,
+      "scanning": 1814,
+      "backdoor": 539
+    },
+    "heldout_test": {
+      "xss": 8224,
+      "mitm": 981,
+      "ransomware": 247
+    }
+  },
+  "feature_set": "device",
+  "n_features": 21,
+  "dropped_columns": {
+    "dst_ip_bytes": "|corr|>0.98 with dst_bytes",
+    "proto=udp": "|corr|>0.98 with proto=tcp"
+  },
+  "input_columns": [
+    "proto",
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "conn_state",
+    "missed_bytes",
+    "src_pkts",
+    "src_ip_bytes",
+    "dst_pkts",
+    "dst_ip_bytes"
+  ]
+}

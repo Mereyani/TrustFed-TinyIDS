@@ -1,0 +1,15 @@
+,,rounds_run,rounds_run,epochs_equivalent,epochs_equivalent,local_steps_mean,local_steps_mean,comm_MB,comm_MB,val_loss_best,val_loss_best
+,,mean,std,mean,std,mean,std,mean,std,mean,std
+senaryo,protokol,,,,,,,,,,
+Dirichlet=0.1,fedprox_kalici,285.9,43.89,1429.5,219.449,5372.1,834.076,31.438,4.826,0.001,0.0
+Dirichlet=0.1,orijinal,40.0,0.0,200.0,0.0,752.0,25.298,4.398,0.0,0.001,0.001
+Dirichlet=0.1,orijinal_kucuk_yigin,40.0,0.0,200.0,0.0,3340.0,28.284,4.398,0.0,0.0,0.0
+Dirichlet=0.1,yakinsama_kalici,237.7,72.043,1188.5,360.216,4477.5,1404.12,26.137,7.922,0.0,0.0
+Dirichlet=1.0,fedprox_kalici,300.0,0.0,1500.0,0.0,5670.0,170.294,32.988,0.0,0.001,0.0
+Dirichlet=1.0,orijinal,40.0,0.0,200.0,0.0,756.0,22.706,4.398,0.0,0.001,0.0
+Dirichlet=1.0,orijinal_kucuk_yigin,40.0,0.0,200.0,0.0,3356.0,12.649,4.398,0.0,0.0,0.0
+Dirichlet=1.0,yakinsama_kalici,296.6,10.752,1483.0,53.759,5602.0,159.29,32.614,1.182,0.0,0.0
+IID,fedprox_kalici,300.0,0.0,1500.0,0.0,6000.0,0.0,32.988,0.0,0.001,0.0
+IID,orijinal,40.0,0.0,200.0,0.0,800.0,0.0,4.398,0.0,0.001,0.0
+IID,orijinal_kucuk_yigin,40.0,0.0,200.0,0.0,3400.0,0.0,4.398,0.0,0.0,0.0
+IID,yakinsama_kalici,300.0,0.0,1500.0,0.0,6000.0,0.0,32.988,0.0,0.0,0.0

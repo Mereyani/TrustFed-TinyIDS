@@ -1,0 +1,168 @@
+{
+  "dataset_name": "Edge-IIoTset (ML-EdgeIIoT-dataset.csv)",
+  "type_column": "Attack_type",
+  "normal_value": "Normal",
+  "project_dir": "/content/drive/MyDrive/TrustFed-TinyIDS-EdgeIIoT",
+  "data_file": "data/ML-EdgeIIoT-dataset.csv",
+  "artifacts_dir": "artifacts_edge",
+  "figures_dir": "figures_edge",
+  "runs_dir": "runs_edge",
+  "split_seed": 2027,
+  "train_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "dev_families": [
+    "backdoor",
+    "ddos_http",
+    "ddos_icmp",
+    "ddos_tcp",
+    "ddos_udp",
+    "fingerprinting",
+    "mitm",
+    "password",
+    "port_scanning",
+    "sql_injection",
+    "vulnerability_scanner"
+  ],
+  "heldout_families": [
+    "ransomware",
+    "xss",
+    "uploading"
+  ],
+  "normal_label": "normal",
+  "benign_split": {
+    "train": 0.5,
+    "val": 0.1,
+    "cal": 0.2,
+    "test": 0.2
+  },
+  "dev_attack_val_fraction": 0.5,
+  "drop_columns": [
+    "Attack_label",
+    "arp.dst.proto_ipv4",
+    "arp.src.proto_ipv4",
+    "dns.qry.name.len",
+    "frame.time",
+    "http.file_data",
+    "http.referer",
+    "http.request.full_uri",
+    "http.request.method",
+    "http.request.uri.query",
+    "icmp.transmit_timestamp",
+    "ip.dst_host",
+    "ip.src_host",
+    "label",
+    "mqtt.msg",
+    "tcp.dstport",
+    "tcp.options",
+    "tcp.payload",
+    "tcp.srcport",
+    "type",
+    "udp.port"
+  ],
+  "leakage_columns": [
+    "frame.time",
+    "ip.src_host",
+    "ip.dst_host",
+    "arp.src.proto_ipv4",
+    "arp.dst.proto_ipv4",
+    "tcp.srcport",
+    "tcp.dstport",
+    "udp.port",
+    "icmp.transmit_timestamp"
+  ],
+  "device_feature_columns": [
+    "tcp.ack",
+    "tcp.flags",
+    "tcp.len",
+    "tcp.seq",
+    "udp.time_delta",
+    "icmp.seq_le",
+    "arp.opcode",
+    "arp.hw.size"
+  ],
+  "max_categorical_cardinality": 30,
+  "correlation_threshold": 0.98,
+  "ae_variants": {
+    "ae_32_16_8": {
+      "hidden": [
+        32,
+        16,
+        8
+      ],
+      "dropout": 0.0
+    },
+    "ae_16_8_4": {
+      "hidden": [
+        16,
+        8,
+        4
+      ],
+      "dropout": 0.0
+    },
+    "ae_32_16_8_do": {
+      "hidden": [
+        32,
+        16,
+        8
+      ],
+      "dropout": 0.1
+    }
+  },
+  "ae_default": "ae_32_16_8",
+  "epochs": 1500,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "patience": 40,
+  "conv_window": 50,
+  "conv_rel_tol": 0.005,
+  "iforest_estimators": 200,
+  "alpha": 0.01,
+  "beta": 0.04,
+  "alpha_grid": [
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "beta_grid": [
+    0.01,
+    0.02,
+    0.04,
+    0.08
+  ],
+  "heuristic_k": [
+    2.0,
+    3.0
+  ],
+  "validity_resplits": 200,
+  "prevalence_grid": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "random_control_repeats": 50,
+  "bootstrap_repeats": 1000,
+  "pvalue_bins": [
+    0,
+    0.001,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "host_column": "ip.src_host"
+}

@@ -1,0 +1,12 @@
+rule,type,ns_per_flow_this_cpu,state_bytes_per_host,table_bytes,host_reference_bytes_per_host,cpu,python
+"p-value -> bin (binary search, 12 edges)",shared,20.514100033324212,0,48,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1
+"W_COUNT_AU, W=20",window,7.094800006598234,5,0,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1
+"W_EVID, W=20",window,8.298749977257103,24,48,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1
+"W_HC, W=20",window,108.41014998732135,80,0,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1
+"W_COUNT_AU, W=200",window,6.764449994079769,27,0,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1
+"W_EVID, W=200",window,6.289249984547496,204,48,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1
+"W_HC, W=200",window,73.72375001432374,800,0,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1
+BCUSUM / E_CUSUM,sequential,5.153899954166263,4,48,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1
+E_SR,sequential,4.5401499955914915,4,48,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1
+E_SR_ADAPT (6 components),sequential,13.790299999527633,24,288,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1
+EWMA_FLAG,sequential,8.488750027026981,4,0,44,"Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",3.12.1

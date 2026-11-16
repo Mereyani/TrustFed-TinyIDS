@@ -1,0 +1,23 @@
+{
+  "comparison": {
+    "ae_32_16_8": {
+      "parametre": 4829.0,
+      "en_iyi_dogrulama_kaybi": 0.0007464824011549354,
+      "epoch": 1274.0,
+      "gelistirme_dogrulama_pr_auc": 0.9860175002527789
+    },
+    "ae_16_8_4": {
+      "parametre": 2121.0,
+      "en_iyi_dogrulama_kaybi": 0.002694988390430808,
+      "epoch": 854.0,
+      "gelistirme_dogrulama_pr_auc": 0.9779151999682028
+    },
+    "ae_32_16_8_do": {
+      "parametre": 4829.0,
+      "en_iyi_dogrulama_kaybi": 0.00301366182975471,
+      "epoch": 401.0,
+      "gelistirme_dogrulama_pr_auc": 0.9811892109082065
+    }
+  },
+  "chosen": "ae_32_16_8"
+}

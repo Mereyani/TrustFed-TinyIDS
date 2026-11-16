@@ -1,0 +1,15 @@
+{
+  "rounds_run": 40,
+  "best_round": 40,
+  "stopped_by": "fixed_rounds",
+  "epochs_equivalent": 200,
+  "local_steps_mean": 3360.0,
+  "local_steps_max": 6600,
+  "val_loss_best": 0.00022892067722798487,
+  "comm_MB": 4.3984,
+  "clients": 5,
+  "local_epochs": 5,
+  "optimizer_state": "reset",
+  "mu": 0.0,
+  "val_hist": []
+}

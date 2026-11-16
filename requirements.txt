@@ -1,0 +1,16 @@
+# Phases 1-9 (Colab notebooks): versions recorded in each run's environment.json
+# (Colab: Python 3.13.16, TensorFlow 2.21.0, NumPy 2.4.6, scikit-learn 1.6.1).
+numpy
+pandas
+scipy
+scikit-learn>=1.2
+matplotlib
+joblib
+tensorflow>=2.15
+# Phase 10 (CPU only; run with Python 3.12.1, NumPy 1.26.2, pandas 2.1.4, SciPy 1.11.4)
+numba
+# tests / smoke test
+pytest
+nbclient
+nbformat
+ipykernel

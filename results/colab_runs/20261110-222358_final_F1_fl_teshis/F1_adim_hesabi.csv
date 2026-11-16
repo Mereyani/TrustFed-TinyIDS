@@ -1,0 +1,5 @@
+eğitim,güncelleme_adımı
+"merkezi, 200 epoch (ara dönem)",3400.0
+"FedAvg IID, 40 tur × 5 yerel epoch — istemci başına ortalama",800.0
+"FedAvg Dirichlet=1.0, 40 tur × 5 yerel epoch — istemci başına ortalama",800.0
+"FedAvg Dirichlet=0.1, 40 tur × 5 yerel epoch — istemci başına ortalama",760.0

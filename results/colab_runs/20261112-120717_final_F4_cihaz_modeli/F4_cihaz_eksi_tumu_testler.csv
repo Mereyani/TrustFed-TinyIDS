@@ -1,0 +1,76 @@
+a,b,metrik,ortalama_fark_a-b,a_daha_büyük_tohum,tohum,p_raw,p_holm
+A4 · Federe AE (ikili) · orijinal | cihaz,A4 · Federe AE (ikili) · orijinal | tümü,görülmemiş_ANOMALY,0.507091232848015,10,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · orijinal_kucuk_yigin | cihaz,A4 · Federe AE (ikili) · orijinal_kucuk_yigin | tümü,görülmemiş_ANOMALY,0.2794804650675605,10,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · orijinal | cihaz,A6 · INT8 Federe AE + seçici · orijinal | tümü,görülmemiş_ANOMALY,0.5075940085890857,10,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · orijinal | cihaz,A5 · Federe AE + seçici · orijinal | tümü,görülmemiş_ANOMALY,0.507091232848015,10,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · orijinal_kucuk_yigin | cihaz,A5 · Federe AE + seçici · orijinal_kucuk_yigin | tümü,görülmemiş_ANOMALY,0.2794804650675605,10,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · yakinsama_kalici | cihaz,A5 · Federe AE + seçici · yakinsama_kalici | tümü,görülmemiş_ANOMALY,0.12174505080129883,10,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · yakinsama_kalici | cihaz,A4 · Federe AE (ikili) · yakinsama_kalici | tümü,görülmemiş_ANOMALY,0.12174505080129883,10,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin | cihaz,A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin | tümü,görülmemiş_ANOMALY,0.30356132816591597,10,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · fedprox_kalici | cihaz,A6 · INT8 Federe AE + seçici · fedprox_kalici | tümü,görülmemiş_ANOMALY,0.24142662616528754,10,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · fedprox_kalici | cihaz,A5 · Federe AE + seçici · fedprox_kalici | tümü,görülmemiş_ANOMALY,0.25397507070283865,10,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · fedprox_kalici | cihaz,A4 · Federe AE (ikili) · fedprox_kalici | tümü,görülmemiş_ANOMALY,0.25397507070283865,10,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · yakinsama_kalici | cihaz,A6 · INT8 Federe AE + seçici · yakinsama_kalici | tümü,görülmemiş_ANOMALY,0.10281763904891587,9,10,0.009765625,0.0390625
+A2 · AE (ikili) | cihaz,A2 · AE (ikili) | tümü,görülmemiş_ANOMALY,0.07090185398554519,8,10,0.02734375,0.08203125
+A3 · AE + seçici | cihaz,A3 · AE + seçici | tümü,görülmemiş_ANOMALY,0.07090185398554519,8,10,0.02734375,0.08203125
+A3q · INT8 AE + seçici (merkezi) | cihaz,A3q · INT8 AE + seçici (merkezi) | tümü,görülmemiş_ANOMALY,0.03723682832303341,6,10,0.4921875,0.4921875
+A2 · AE (ikili) | cihaz,A2 · AE (ikili) | tümü,bilinen_ANOMALY,0.15806586425944502,10,10,0.001953125,0.029296875
+A3 · AE + seçici | cihaz,A3 · AE + seçici | tümü,bilinen_ANOMALY,0.15806586425944502,10,10,0.001953125,0.029296875
+A3q · INT8 AE + seçici (merkezi) | cihaz,A3q · INT8 AE + seçici (merkezi) | tümü,bilinen_ANOMALY,0.15587596121698427,10,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · orijinal | cihaz,A4 · Federe AE (ikili) · orijinal | tümü,bilinen_ANOMALY,0.14608408559010364,10,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · orijinal | cihaz,A5 · Federe AE + seçici · orijinal | tümü,bilinen_ANOMALY,0.14608408559010364,10,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · orijinal | cihaz,A6 · INT8 Federe AE + seçici · orijinal | tümü,bilinen_ANOMALY,0.14563273152791706,10,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · orijinal_kucuk_yigin | cihaz,A4 · Federe AE (ikili) · orijinal_kucuk_yigin | tümü,bilinen_ANOMALY,0.2101512871949181,10,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · orijinal_kucuk_yigin | cihaz,A5 · Federe AE + seçici · orijinal_kucuk_yigin | tümü,bilinen_ANOMALY,0.2101512871949181,10,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin | cihaz,A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin | tümü,bilinen_ANOMALY,0.21208625877632897,10,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · yakinsama_kalici | cihaz,A4 · Federe AE (ikili) · yakinsama_kalici | tümü,bilinen_ANOMALY,0.19480106987629556,10,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · yakinsama_kalici | cihaz,A5 · Federe AE + seçici · yakinsama_kalici | tümü,bilinen_ANOMALY,0.19480106987629556,10,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · yakinsama_kalici | cihaz,A6 · INT8 Federe AE + seçici · yakinsama_kalici | tümü,bilinen_ANOMALY,0.19521063189568705,10,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · fedprox_kalici | cihaz,A4 · Federe AE (ikili) · fedprox_kalici | tümü,bilinen_ANOMALY,0.20490220661985958,10,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · fedprox_kalici | cihaz,A5 · Federe AE + seçici · fedprox_kalici | tümü,bilinen_ANOMALY,0.20490220661985958,10,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · fedprox_kalici | cihaz,A6 · INT8 Federe AE + seçici · fedprox_kalici | tümü,bilinen_ANOMALY,0.1926613172851889,10,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · orijinal_kucuk_yigin | cihaz,A4 · Federe AE (ikili) · orijinal_kucuk_yigin | tümü,normal_FPR,0.0019408778739922364,10,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · orijinal_kucuk_yigin | cihaz,A5 · Federe AE + seçici · orijinal_kucuk_yigin | tümü,normal_FPR,0.0019408778739922364,10,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin | cihaz,A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin | tümü,normal_FPR,0.0021200358315915198,10,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · fedprox_kalici | cihaz,A4 · Federe AE (ikili) · fedprox_kalici | tümü,normal_FPR,0.001642281277993431,8,10,0.009765625,0.1171875
+A5 · Federe AE + seçici · fedprox_kalici | cihaz,A5 · Federe AE + seçici · fedprox_kalici | tümü,normal_FPR,0.001642281277993431,8,10,0.009765625,0.1171875
+A6 · INT8 Federe AE + seçici · fedprox_kalici | cihaz,A6 · INT8 Federe AE + seçici · fedprox_kalici | tümü,normal_FPR,0.0017020005971931916,9,10,0.01171875,0.1171875
+A5 · Federe AE + seçici · yakinsama_kalici | cihaz,A5 · Federe AE + seçici · yakinsama_kalici | tümü,normal_FPR,0.0016422812779934306,9,10,0.037109375,0.333984375
+A4 · Federe AE (ikili) · yakinsama_kalici | cihaz,A4 · Federe AE (ikili) · yakinsama_kalici | tümü,normal_FPR,0.0016422812779934306,9,10,0.037109375,0.333984375
+A6 · INT8 Federe AE + seçici · yakinsama_kalici | cihaz,A6 · INT8 Federe AE + seçici · yakinsama_kalici | tümü,normal_FPR,0.0014929829799940279,8,10,0.064453125,0.451171875
+A6 · INT8 Federe AE + seçici · orijinal | cihaz,A6 · INT8 Federe AE + seçici · orijinal | tümü,normal_FPR,-0.0005673335323977307,3,10,0.1796875,1.0
+A3q · INT8 AE + seçici (merkezi) | cihaz,A3q · INT8 AE + seçici (merkezi) | tümü,normal_FPR,0.001015228426395939,5,10,0.18359375,1.0
+A4 · Federe AE (ikili) · orijinal | cihaz,A4 · Federe AE (ikili) · orijinal | tümü,normal_FPR,-0.0002985965959988055,5,10,0.421875,1.0
+A5 · Federe AE + seçici · orijinal | cihaz,A5 · Federe AE + seçici · orijinal | tümü,normal_FPR,-0.0002985965959988055,5,10,0.421875,1.0
+A2 · AE (ikili) | cihaz,A2 · AE (ikili) | tümü,normal_FPR,0.0006270528515974918,6,10,0.5078125,1.0
+A3 · AE + seçici | cihaz,A3 · AE + seçici | tümü,normal_FPR,0.0006270528515974918,6,10,0.5078125,1.0
+A2 · AE (ikili) | cihaz,A2 · AE (ikili) | tümü,selective_risk,-0.12103519443840978,0,10,0.001953125,0.029296875
+A3 · AE + seçici | cihaz,A3 · AE + seçici | tümü,selective_risk,-0.09705453014294145,0,10,0.001953125,0.029296875
+A3q · INT8 AE + seçici (merkezi) | cihaz,A3q · INT8 AE + seçici (merkezi) | tümü,selective_risk,-0.0835516322987079,0,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · orijinal | cihaz,A4 · Federe AE (ikili) · orijinal | tümü,selective_risk,-0.22642026938952858,0,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · orijinal | cihaz,A5 · Federe AE + seçici · orijinal | tümü,selective_risk,-0.26745539174634486,0,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · orijinal | cihaz,A6 · INT8 Federe AE + seçici · orijinal | tümü,selective_risk,-0.26718179761493654,0,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · orijinal_kucuk_yigin | cihaz,A4 · Federe AE (ikili) · orijinal_kucuk_yigin | tümü,selective_risk,-0.20883662828590052,0,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · orijinal_kucuk_yigin | cihaz,A5 · Federe AE + seçici · orijinal_kucuk_yigin | tümü,selective_risk,-0.19131393865094787,0,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin | cihaz,A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin | tümü,selective_risk,-0.19772214598683596,0,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · yakinsama_kalici | cihaz,A4 · Federe AE (ikili) · yakinsama_kalici | tümü,selective_risk,-0.15799478600912448,0,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · yakinsama_kalici | cihaz,A5 · Federe AE + seçici · yakinsama_kalici | tümü,selective_risk,-0.12620024127710808,0,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · yakinsama_kalici | cihaz,A6 · INT8 Federe AE + seçici · yakinsama_kalici | tümü,selective_risk,-0.116300452593224,0,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · fedprox_kalici | cihaz,A4 · Federe AE (ikili) · fedprox_kalici | tümü,selective_risk,-0.19884043015424724,0,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · fedprox_kalici | cihaz,A5 · Federe AE + seçici · fedprox_kalici | tümü,selective_risk,-0.1966012702593542,0,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · fedprox_kalici | cihaz,A6 · INT8 Federe AE + seçici · fedprox_kalici | tümü,selective_risk,-0.1865435680691402,0,10,0.001953125,0.029296875
+A4 · Federe AE (ikili) · orijinal | cihaz,A4 · Federe AE (ikili) · orijinal | tümü,selective_risk_π=%1,-0.0027860363208528573,0,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · orijinal_kucuk_yigin | cihaz,A5 · Federe AE + seçici · orijinal_kucuk_yigin | tümü,selective_risk_π=%1,0.0012872655733562972,10,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · orijinal | cihaz,A6 · INT8 Federe AE + seçici · orijinal | tümü,selective_risk_π=%1,-0.002218385484818036,0,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · orijinal | cihaz,A5 · Federe AE + seçici · orijinal | tümü,selective_risk_π=%1,-0.0019373483161367958,0,10,0.001953125,0.029296875
+A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin | cihaz,A6 · INT8 Federe AE + seçici · orijinal_kucuk_yigin | tümü,selective_risk_π=%1,0.0014905148001077648,10,10,0.001953125,0.029296875
+A5 · Federe AE + seçici · yakinsama_kalici | cihaz,A5 · Federe AE + seçici · yakinsama_kalici | tümü,selective_risk_π=%1,0.0015050696410672856,8,10,0.10546875,1.0
+A6 · INT8 Federe AE + seçici · yakinsama_kalici | cihaz,A6 · INT8 Federe AE + seçici · yakinsama_kalici | tümü,selective_risk_π=%1,0.0014457649571874608,8,10,0.10546875,1.0
+A4 · Federe AE (ikili) · fedprox_kalici | cihaz,A4 · Federe AE (ikili) · fedprox_kalici | tümü,selective_risk_π=%1,-0.0005631183831808287,3,10,0.16015625,1.0
+A6 · INT8 Federe AE + seçici · fedprox_kalici | cihaz,A6 · INT8 Federe AE + seçici · fedprox_kalici | tümü,selective_risk_π=%1,0.0007855573712618423,6,10,0.193359375,1.0
+A4 · Federe AE (ikili) · orijinal_kucuk_yigin | cihaz,A4 · Federe AE (ikili) · orijinal_kucuk_yigin | tümü,selective_risk_π=%1,-0.0003777691422383508,2,10,0.193359375,1.0
+A5 · Federe AE + seçici · fedprox_kalici | cihaz,A5 · Federe AE + seçici · fedprox_kalici | tümü,selective_risk_π=%1,0.0007215452461147938,7,10,0.232421875,1.0
+A2 · AE (ikili) | cihaz,A2 · AE (ikili) | tümü,selective_risk_π=%1,-0.0007112863849095213,3,10,0.275390625,1.0
+A3q · INT8 AE + seçici (merkezi) | cihaz,A3q · INT8 AE + seçici (merkezi) | tümü,selective_risk_π=%1,0.0009409069550486206,5,10,0.322265625,1.0
+A3 · AE + seçici | cihaz,A3 · AE + seçici | tümü,selective_risk_π=%1,0.0003706469524322357,5,10,0.76953125,1.0
+A4 · Federe AE (ikili) · yakinsama_kalici | cihaz,A4 · Federe AE (ikili) · yakinsama_kalici | tümü,selective_risk_π=%1,-0.00011379799483131388,5,10,0.76953125,1.0

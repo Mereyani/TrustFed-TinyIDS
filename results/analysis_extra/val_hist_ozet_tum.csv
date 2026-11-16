@@ -1,0 +1,241 @@
+küme,tohum,senaryo,protokol,tur,durma,val_loss_en_iyi,son_10_tur_göreli_iyileşme,son_50_tur_göreli_iyileşme,val_hist_yok
+F3 (53),0,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.0016298295182976647,0.012509416642950938,0.0833224175348636,
+final_f3,0,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f3,0,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),0,Dirichlet0.1,yakinsama_kalici,239,early_stopping,0.0013860256224431451,0.006005281089008818,0.05475618045854477,
+F3 (53),0,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.001722091635769349,0.014260691888026962,0.09209683038241913,
+final_f3,0,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f3,0,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),0,Dirichlet1.0,yakinsama_kalici,219,early_stopping,0.0012103650369827369,0.011163669858871341,0.08041696288619174,
+F3 (53),0,IID,fedprox_kalici,300,epoch_cap,0.0016087252329401649,0.016146641667785087,0.09338271120868469,
+final_f3,0,IID,orijinal,40,fixed_rounds,,,,True
+final_f3,0,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),0,IID,yakinsama_kalici,300,epoch_cap,0.001100356719792547,0.010315715792491804,0.061672531360607505,
+F3 (53),1,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.002185166449482074,0.016893399451546748,0.08409501159927564,
+final_f3,1,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f3,1,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),1,Dirichlet0.1,yakinsama_kalici,172,relative_plateau,0.0012941935451871308,0.0034107436114611893,0.12486614869527114,
+F3 (53),1,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.002348411572542348,0.012231733492634305,0.06870311333361753,
+final_f3,1,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f3,1,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),1,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.0013936350841408278,0.00954322783560778,0.0564387312430567,
+F3 (53),1,IID,fedprox_kalici,300,epoch_cap,0.0020653226116344554,0.013437256830774683,0.08068949439100842,
+final_f3,1,IID,orijinal,40,fixed_rounds,,,,True
+final_f3,1,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),1,IID,yakinsama_kalici,300,epoch_cap,0.00117609786590463,0.01225707712121176,0.06804088883911537,
+F3 (53),2,Dirichlet0.1,fedprox_kalici,249,relative_plateau,0.004364652774442641,0.004963452443378012,0.041411257439299715,
+final_f3,2,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f3,2,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),2,Dirichlet0.1,yakinsama_kalici,163,relative_plateau,0.0032268494038605747,0.004445309848765129,0.05824052947637055,
+F3 (53),2,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.001729836157811419,0.018252862335983045,0.08186644893545944,
+final_f3,2,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f3,2,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),2,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.0010866838265148956,0.011889238910913003,0.05777803279427195,
+F3 (53),2,IID,fedprox_kalici,300,epoch_cap,0.0015529198340993057,0.015157519364384179,0.10325057130370546,
+final_f3,2,IID,orijinal,40,fixed_rounds,,,,True
+final_f3,2,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),2,IID,yakinsama_kalici,300,epoch_cap,0.0010540525720563387,0.01317119765300306,0.07415989923981212,
+F3 (53),3,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.002775101271611949,0.02254934933984743,0.10398027151014165,
+final_f3,3,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f3,3,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),3,Dirichlet0.1,yakinsama_kalici,85,relative_plateau,0.006423801009432984,0.003559060734579496,0.4485322167104176,
+F3 (53),3,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0017704602983802111,0.020337299595357985,0.10147357897385118,
+final_f3,3,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f3,3,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),3,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.001269604963010549,0.017425218581924293,0.16012701756887768,
+F3 (53),3,IID,fedprox_kalici,300,epoch_cap,0.0017795214830220935,0.017021951749298637,0.08871138530419011,
+final_f3,3,IID,orijinal,40,fixed_rounds,,,,True
+final_f3,3,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),3,IID,yakinsama_kalici,300,epoch_cap,0.0011897609403751714,0.010534851059498368,0.07077923368177683,
+F3 (53),4,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.002573285481580076,0.01459132835918368,0.07883185737224616,
+final_f3,4,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f3,4,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),4,Dirichlet0.1,yakinsama_kalici,232,relative_plateau,0.0022629295064484304,0.004804824014529787,0.06258563764312018,
+F3 (53),4,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0021621563341017096,0.010884776712412825,0.05243220666298497,
+final_f3,4,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f3,4,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),4,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.0015369558192671886,0.0075068516138008445,0.049926124535308425,
+F3 (53),4,IID,fedprox_kalici,300,epoch_cap,0.0019490403053164023,0.013696348094036056,0.06732648634509529,
+final_f3,4,IID,orijinal,40,fixed_rounds,,,,True
+final_f3,4,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),4,IID,yakinsama_kalici,300,epoch_cap,0.0012614846877476442,0.01607676918889425,0.08621831012573815,
+F3 (53),5,Dirichlet0.1,fedprox_kalici,224,relative_plateau,0.004453833946677435,0.003656432312986388,0.05218846320755262,
+final_f3,5,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f3,5,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),5,Dirichlet0.1,yakinsama_kalici,94,relative_plateau,0.004354953504259336,0.003051345742909588,0.2130234741529509,
+F3 (53),5,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0017123679944432162,0.012429209660128289,0.0734453939268675,
+final_f3,5,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f3,5,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),5,Dirichlet1.0,yakinsama_kalici,261,relative_plateau,0.001285442994853439,0.003548912270376696,0.04552864356274606,
+F3 (53),5,IID,fedprox_kalici,300,epoch_cap,0.001623762745664729,0.018242689210291412,0.08471349560168824,
+final_f3,5,IID,orijinal,40,fixed_rounds,,,,True
+final_f3,5,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),5,IID,yakinsama_kalici,300,epoch_cap,0.0011649616681811527,0.005989850623736912,0.04099333498237806,
+F3 (53),6,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.002275218650914162,0.010560891770828081,0.05140283494569382,
+final_f3,6,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f3,6,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),6,Dirichlet0.1,yakinsama_kalici,61,relative_plateau,0.0019877828519177317,0.0038582052650178796,0.4006564231275573,
+F3 (53),6,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0013454763467691518,0.013457749388214929,0.0749623739806912,
+final_f3,6,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f3,6,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),6,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.0009249519565603042,0.011776228948990603,0.05973689654291947,
+F3 (53),6,IID,fedprox_kalici,300,epoch_cap,0.0016709230654638296,0.01385254165031067,0.06688176001026766,
+final_f3,6,IID,orijinal,40,fixed_rounds,,,,True
+final_f3,6,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),6,IID,yakinsama_kalici,300,epoch_cap,0.0009015534890759328,0.010628386481672478,0.04023133400179702,
+F3 (53),7,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.005343148276203701,0.028562211298873475,0.16149835601838744,
+final_f3,7,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f3,7,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),7,Dirichlet0.1,yakinsama_kalici,72,early_stopping,0.011187586192325141,0.014656611064426181,0.6021052731882511,
+F3 (53),7,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0025742684891031046,0.023459934678809365,0.12722935208216618,
+final_f3,7,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f3,7,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),7,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.0014842374114470698,0.013546372399560037,0.07042053051325112,
+F3 (53),7,IID,fedprox_kalici,300,epoch_cap,0.0019825357743295485,0.01643845517861565,0.07816100028996285,
+final_f3,7,IID,orijinal,40,fixed_rounds,,,,True
+final_f3,7,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),7,IID,yakinsama_kalici,300,epoch_cap,0.0014385051680457026,0.013687659852103027,0.0767521733734059,
+F3 (53),8,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.002888141914489977,0.015018585257348244,0.0769613709632406,
+final_f3,8,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f3,8,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),8,Dirichlet0.1,yakinsama_kalici,173,early_stopping,0.0017109684966365361,0.01038425316327887,0.2721094631440046,
+F3 (53),8,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0016416141585359804,0.013532637076492505,0.07692344881187459,
+final_f3,8,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f3,8,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),8,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.0008864465371678356,0.009374427900446727,0.05144053236243747,
+F3 (53),8,IID,fedprox_kalici,300,epoch_cap,0.0015282741379284098,0.01748754263511994,0.07485362048765823,
+final_f3,8,IID,orijinal,40,fixed_rounds,,,,True
+final_f3,8,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),8,IID,yakinsama_kalici,300,epoch_cap,0.0010081931130005058,0.01051083895745333,0.04891339607617831,
+F3 (53),9,Dirichlet0.1,fedprox_kalici,254,relative_plateau,0.004628397498100474,0.00414874884257414,0.0479370659953918,
+final_f3,9,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f3,9,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),9,Dirichlet0.1,yakinsama_kalici,226,relative_plateau,0.003142315819390313,0.004165382568687671,0.07269237583497071,
+F3 (53),9,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0019399225747195898,0.013967659388062353,0.07785898570495886,
+final_f3,9,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f3,9,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),9,Dirichlet1.0,yakinsama_kalici,204,relative_plateau,0.0011651991656793283,0.002521251723858321,0.08099399082823268,
+F3 (53),9,IID,fedprox_kalici,300,epoch_cap,0.0019928154099715344,0.00554512334009005,0.038140591367253916,
+final_f3,9,IID,orijinal,40,fixed_rounds,,,,True
+final_f3,9,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F3 (53),9,IID,yakinsama_kalici,300,epoch_cap,0.0012205317551696982,0.012470047335342327,0.0700023476112839,
+F4 (21),0,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.0005966294926423881,0.020300603626849472,0.11772571550410176,
+final_f4,0,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f4,0,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),0,Dirichlet0.1,yakinsama_kalici,300,epoch_cap,0.000333553489740147,0.024857021374463637,0.11797040362193685,
+F4 (21),0,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0007251069781674391,0.0300216438099248,0.13612755263826604,
+final_f4,0,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f4,0,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),0,Dirichlet1.0,yakinsama_kalici,266,early_stopping,0.00021902726431436673,0.022574737467502798,0.14193036205932624,
+F4 (21),0,IID,fedprox_kalici,300,epoch_cap,0.0007423511656055936,0.018951387532227193,0.08415807635975675,
+final_f4,0,IID,orijinal,40,fixed_rounds,,,,True
+final_f4,0,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),0,IID,yakinsama_kalici,300,epoch_cap,0.00033409914797494157,0.02484787882375447,0.11726255497716305,
+F4 (21),1,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.00034844212101969266,0.02606219748813982,0.14867764338356,
+final_f4,1,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f4,1,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),1,Dirichlet0.1,yakinsama_kalici,225,early_stopping,9.429375773857692e-05,0.011541009384846304,0.1386732292050636,
+F4 (21),1,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.00043386461762673394,0.029691666192074882,0.13365433464432624,
+final_f4,1,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f4,1,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),1,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.00020032012491931153,0.01795550163629398,0.08734257129792494,
+F4 (21),1,IID,fedprox_kalici,300,epoch_cap,0.00046181246175211195,0.01909094179303027,0.10793367070805793,
+final_f4,1,IID,orijinal,40,fixed_rounds,,,,True
+final_f4,1,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),1,IID,yakinsama_kalici,300,epoch_cap,0.00014959357606269207,0.025697311317562085,0.15902515983610044,
+F4 (21),2,Dirichlet0.1,fedprox_kalici,161,relative_plateau,0.0011009752789219523,0.004000587075326061,0.13189151157140774,
+final_f4,2,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f4,2,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),2,Dirichlet0.1,yakinsama_kalici,75,early_stopping,0.0005026776066985396,0.033438102110042243,0.33341197412496953,
+F4 (21),2,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.000514791165495746,0.014609290266919324,0.06667828831895901,
+final_f4,2,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f4,2,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),2,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.00014679328422148596,0.02100722831614777,0.12744197704745833,
+F4 (21),2,IID,fedprox_kalici,300,epoch_cap,0.0004814740228694799,0.015583955489169575,0.0912060123073633,
+final_f4,2,IID,orijinal,40,fixed_rounds,,,,True
+final_f4,2,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),2,IID,yakinsama_kalici,300,epoch_cap,0.00012583243940187167,0.03165707044724142,0.21221818573524548,
+F4 (21),3,Dirichlet0.1,fedprox_kalici,298,relative_plateau,0.00046682953147884974,0.004969551723381768,0.1091077854727478,
+final_f4,3,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f4,3,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),3,Dirichlet0.1,yakinsama_kalici,261,early_stopping,0.00017270625540887884,0.009689909146094217,0.16124818267341223,
+F4 (21),3,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0004103957810966682,0.0275223613364079,0.1271916645149083,
+final_f4,3,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f4,3,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),3,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.00012372022678730938,0.03583958257885454,0.1415674642077465,
+F4 (21),3,IID,fedprox_kalici,300,epoch_cap,0.0003412809196608962,0.030204866196364373,0.1411109965247313,
+final_f4,3,IID,orijinal,40,fixed_rounds,,,,True
+final_f4,3,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),3,IID,yakinsama_kalici,300,epoch_cap,0.00013127047491581792,0.0346677891053673,0.15653729765663227,
+F4 (21),4,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.0006082428935244766,0.03381710849432532,0.1562424922412745,
+final_f4,4,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f4,4,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),4,Dirichlet0.1,yakinsama_kalici,300,epoch_cap,0.0002574299900649204,0.01229754599221545,0.08573763325514314,
+F4 (21),4,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0006089625781042546,0.012533866312413891,0.06254374804036149,
+final_f4,4,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f4,4,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),4,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.00018132429315498313,0.03512093529384024,0.19500284545053292,
+F4 (21),4,IID,fedprox_kalici,300,epoch_cap,0.0005525376654433445,0.02313695876405877,0.12296639311453338,
+final_f4,4,IID,orijinal,40,fixed_rounds,,,,True
+final_f4,4,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),4,IID,yakinsama_kalici,300,epoch_cap,0.0002984782895654102,0.03440656209189768,0.1989825415115569,
+F4 (21),5,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.0010987409557321126,0.01801542234270998,0.08517538673942739,
+final_f4,5,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f4,5,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),5,Dirichlet0.1,yakinsama_kalici,228,relative_plateau,0.0006372517195016658,0.00422670587542017,0.08329955436523062,
+F4 (21),5,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0007025786256168651,0.02478281137049173,0.10937748442665424,
+final_f4,5,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f4,5,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),5,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.0003133426865490591,0.018170437538082423,0.11025727489572786,
+F4 (21),5,IID,fedprox_kalici,300,epoch_cap,0.0004895675991181365,0.016066899940074698,0.08031235150549436,
+final_f4,5,IID,orijinal,40,fixed_rounds,,,,True
+final_f4,5,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),5,IID,yakinsama_kalici,300,epoch_cap,0.0002621310466263254,0.032486245885435784,0.18287082531682963,
+F4 (21),6,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.000473244442141934,0.011700681795839848,0.10772168761850454,
+final_f4,6,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f4,6,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),6,Dirichlet0.1,yakinsama_kalici,187,early_stopping,0.0002951989604885849,0.005220182094721672,0.058998649894992226,
+F4 (21),6,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0003419471131857979,0.0251931163569827,0.14197928759277867,
+final_f4,6,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f4,6,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),6,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.00012530847468129877,0.033041141872917935,0.141527689702335,
+F4 (21),6,IID,fedprox_kalici,300,epoch_cap,0.00035998864041655046,0.03467068039820275,0.17279037732483746,
+final_f4,6,IID,orijinal,40,fixed_rounds,,,,True
+final_f4,6,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),6,IID,yakinsama_kalici,300,epoch_cap,0.00010283661271733686,0.019315502726461122,0.10788855363837448,
+F4 (21),7,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.0008968175746059567,0.031029277321837107,0.12306040584731787,
+final_f4,7,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f4,7,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),7,Dirichlet0.1,yakinsama_kalici,201,early_stopping,0.0005239421886162631,0.00959503000722689,0.08870850925550137,
+F4 (21),7,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0006911729835661523,0.018676160378543166,0.08530970101471588,
+final_f4,7,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f4,7,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),7,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.0002669379441008823,0.022696701325395408,0.24131012649489028,
+F4 (21),7,IID,fedprox_kalici,300,epoch_cap,0.0007086865780235974,0.013945230871700534,0.07025348323617613,
+final_f4,7,IID,orijinal,40,fixed_rounds,,,,True
+final_f4,7,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),7,IID,yakinsama_kalici,300,epoch_cap,0.00023062249975625094,0.014721642269512154,0.09095411045373694,
+F4 (21),8,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.0005323697912840287,0.030486850829353207,0.1401717091734958,
+final_f4,8,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f4,8,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),8,Dirichlet0.1,yakinsama_kalici,300,epoch_cap,0.00016802815021546593,0.045717132294193226,0.22473022005717233,
+F4 (21),8,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0005517209816234333,0.02304049038389227,0.09141926698578029,
+final_f4,8,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f4,8,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),8,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.00017362770317901841,0.021980339645030957,0.11755779135530267,
+F4 (21),8,IID,fedprox_kalici,300,epoch_cap,0.0005033258110566002,0.025505438683640743,0.1269531836105181,
+final_f4,8,IID,orijinal,40,fixed_rounds,,,,True
+final_f4,8,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),8,IID,yakinsama_kalici,300,epoch_cap,0.00014045909574254898,0.023681479182790868,0.14653030031332104,
+F4 (21),9,Dirichlet0.1,fedprox_kalici,300,epoch_cap,0.0006743078154715466,0.021277809221455043,0.10628454564074452,
+final_f4,9,Dirichlet0.1,orijinal,40,fixed_rounds,,,,True
+final_f4,9,Dirichlet0.1,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),9,Dirichlet0.1,yakinsama_kalici,300,epoch_cap,0.00016975160871672592,0.010355390735495663,0.11283137655906254,
+F4 (21),9,Dirichlet1.0,fedprox_kalici,300,epoch_cap,0.0004934960743781219,0.021817286889848967,0.10904834359343296,
+final_f4,9,Dirichlet1.0,orijinal,40,fixed_rounds,,,,True
+final_f4,9,Dirichlet1.0,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),9,Dirichlet1.0,yakinsama_kalici,300,epoch_cap,0.00011314750595661865,0.043387558779166696,0.15151598728624963,
+F4 (21),9,IID,fedprox_kalici,300,epoch_cap,0.0005223996363746481,0.024280762267838967,0.1328700860851862,
+final_f4,9,IID,orijinal,40,fixed_rounds,,,,True
+final_f4,9,IID,orijinal_kucuk_yigin,40,fixed_rounds,,,,True
+F4 (21),9,IID,yakinsama_kalici,300,epoch_cap,0.00011872830668524485,0.029038260486066756,0.18493355318611188,

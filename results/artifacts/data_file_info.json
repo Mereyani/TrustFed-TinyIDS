@@ -1,0 +1,8 @@
+{
+  "version": "B (211,043 rows, no ts)",
+  "rows": 211043,
+  "columns": 44,
+  "has_ts": false,
+  "sha256": "26ddc513552de36de6428b2e578efaed2b57504c716dfba847cc0109a64e1974",
+  "file": "/content/drive/MyDrive/TrustFed-TinyIDS-Final/data/train_test_network.csv"
+}

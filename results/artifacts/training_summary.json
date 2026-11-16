@@ -1,0 +1,82 @@
+[
+  {
+    "tohum": 0,
+    "ae_parametre": 4829,
+    "epoch": 1274,
+    "durma_nedeni": "relative_plateau",
+    "en_iyi_epoch": 1273,
+    "en_iyi_dogrulama_kaybi": 0.0007464824011549354
+  },
+  {
+    "tohum": 1,
+    "ae_parametre": 4829,
+    "epoch": 739,
+    "durma_nedeni": "relative_plateau",
+    "en_iyi_epoch": 728,
+    "en_iyi_dogrulama_kaybi": 0.0013323951279744506
+  },
+  {
+    "tohum": 2,
+    "ae_parametre": 4829,
+    "epoch": 987,
+    "durma_nedeni": "relative_plateau",
+    "en_iyi_epoch": 978,
+    "en_iyi_dogrulama_kaybi": 0.0007694971864111722
+  },
+  {
+    "tohum": 3,
+    "ae_parametre": 4829,
+    "epoch": 923,
+    "durma_nedeni": "relative_plateau",
+    "en_iyi_epoch": 922,
+    "en_iyi_dogrulama_kaybi": 0.0007978965295478702
+  },
+  {
+    "tohum": 4,
+    "ae_parametre": 4829,
+    "epoch": 1306,
+    "durma_nedeni": "relative_plateau",
+    "en_iyi_epoch": 1301,
+    "en_iyi_dogrulama_kaybi": 0.0008893466438166797
+  },
+  {
+    "tohum": 5,
+    "ae_parametre": 4829,
+    "epoch": 1500,
+    "durma_nedeni": "epoch_cap",
+    "en_iyi_epoch": 1500,
+    "en_iyi_dogrulama_kaybi": 0.0007890870328992605
+  },
+  {
+    "tohum": 6,
+    "ae_parametre": 4829,
+    "epoch": 733,
+    "durma_nedeni": "relative_plateau",
+    "en_iyi_epoch": 724,
+    "en_iyi_dogrulama_kaybi": 0.0008556758984923363
+  },
+  {
+    "tohum": 7,
+    "ae_parametre": 4829,
+    "epoch": 995,
+    "durma_nedeni": "relative_plateau",
+    "en_iyi_epoch": 993,
+    "en_iyi_dogrulama_kaybi": 0.0009802428539842367
+  },
+  {
+    "tohum": 8,
+    "ae_parametre": 4829,
+    "epoch": 868,
+    "durma_nedeni": "relative_plateau",
+    "en_iyi_epoch": 844,
+    "en_iyi_dogrulama_kaybi": 0.0006750111351720989
+  },
+  {
+    "tohum": 9,
+    "ae_parametre": 4829,
+    "epoch": 1324,
+    "durma_nedeni": "relative_plateau",
+    "en_iyi_epoch": 1315,
+    "en_iyi_dogrulama_kaybi": 0.0009035933180712163
+  }
+]

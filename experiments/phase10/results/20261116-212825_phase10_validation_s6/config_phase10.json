@@ -1,0 +1,119 @@
+{
+  "ALPHA": 0.01,
+  "BETA": 0.04,
+  "BUDGET": 1.0,
+  "WS": [
+    20,
+    50,
+    100,
+    200
+  ],
+  "RHOS": [
+    0.01,
+    0.05,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "RHO0_GRID": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.25
+  ],
+  "ADAPT_GRID": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "N_CAL_WIN": 5000,
+  "N_EVAL_WIN": 5000,
+  "N_CAL_STREAMS": 200,
+  "CAL_DAYS": 14,
+  "EVAL_STREAMS_PER_HOST": 12,
+  "EVAL_DAYS": 14,
+  "N_ATT": 300,
+  "WARMUP": 1000,
+  "MIN_HOST_ROWS": 20,
+  "N_MIN_REF": 20,
+  "WINDOW_METHODS": [
+    "W_COUNT_AU",
+    "W_COUNT_A",
+    "W_FISHER",
+    "W_TPM",
+    "W_MINP",
+    "W_HC",
+    "W_EVID"
+  ],
+  "SEQ_METHODS": [
+    "BCUSUM",
+    "EWMA_FLAG",
+    "EWMA_NLP",
+    "E_CUSUM",
+    "E_SR",
+    "E_CUSUM_MIX",
+    "E_CUSUM_LEAKY",
+    "E_SR_ADAPT",
+    "E_CUSUM_TH",
+    "E_SR_TH",
+    "E_SR_ADAPT_TH"
+  ],
+  "THEORY": {
+    "E_CUSUM_TH": "E_CUSUM",
+    "E_SR_TH": "E_SR",
+    "E_SR_ADAPT_TH": "E_SR_ADAPT"
+  },
+  "stage": "validation",
+  "seeds": [
+    6
+  ],
+  "Fs": [
+    1000
+  ],
+  "rho0s": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.25
+  ],
+  "refs": [
+    "pooled",
+    "host"
+  ],
+  "methods": [
+    "W_COUNT_AU",
+    "W_EVID",
+    "W_HC",
+    "W_FISHER",
+    "BCUSUM",
+    "E_CUSUM",
+    "E_SR",
+    "E_SR_ADAPT",
+    "E_CUSUM_LEAKY"
+  ],
+  "bin_edges": [
+    0.001,
+    0.002,
+    0.005,
+    0.01,
+    0.02,
+    0.03,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "python": "3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]",
+  "numpy": "1.26.2",
+  "pandas": "2.1.4",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "started": "20261116-212825",
+  "command": "phase10/run_phase10.py --stage validation --seeds 6 --F 1000 --methods W_COUNT_AU,W_EVID,W_HC,W_FISHER,BCUSUM,E_CUSUM,E_SR,E_SR_ADAPT,E_CUSUM_LEAKY --tag s6",
+  "finished": "20261116-213652"
+}

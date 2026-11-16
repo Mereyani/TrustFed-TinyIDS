@@ -1,0 +1,13 @@
+# Google Colab already provides all of these; this file documents the versions for local runs.
+numpy
+pandas
+scikit-learn>=1.2
+scipy
+matplotlib
+joblib
+tensorflow>=2.15
+# tests / smoke test only
+pytest
+nbclient
+nbformat
+ipykernel

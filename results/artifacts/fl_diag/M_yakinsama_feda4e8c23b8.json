@@ -1,0 +1,6 @@
+{
+  "epochs_equivalent": 1274,
+  "stopped_by": "relative_plateau",
+  "local_steps_mean": 21658,
+  "comm_MB": 0.0
+}

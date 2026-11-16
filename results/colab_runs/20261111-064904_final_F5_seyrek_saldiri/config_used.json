@@ -1,0 +1,223 @@
+{
+  "dataset_name": "TON_IoT_network",
+  "type_column": "type",
+  "normal_value": "normal",
+  "project_dir": "/content/drive/MyDrive/TrustFed-TinyIDS-Final",
+  "data_file": "data/train_test_network.csv",
+  "artifacts_dir": "artifacts",
+  "figures_dir": "figures",
+  "runs_dir": "runs",
+  "split_seed": 2027,
+  "train_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "dev_families": [
+    "backdoor",
+    "ddos",
+    "dos",
+    "injection",
+    "password",
+    "scanning"
+  ],
+  "heldout_families": [
+    "ransomware",
+    "xss",
+    "mitm"
+  ],
+  "normal_label": "normal",
+  "benign_split": {
+    "train": 0.5,
+    "val": 0.1,
+    "cal": 0.2,
+    "test": 0.2
+  },
+  "dev_attack_val_fraction": 0.5,
+  "drop_columns": [
+    "ts",
+    "src_ip",
+    "dst_ip",
+    "src_port",
+    "dst_port",
+    "dns_query",
+    "ssl_subject",
+    "ssl_issuer",
+    "http_uri",
+    "http_referrer",
+    "http_user_agent",
+    "http_orig_mime_types",
+    "http_resp_mime_types",
+    "weird_name",
+    "weird_addl",
+    "label",
+    "type"
+  ],
+  "leakage_columns": [
+    "ts",
+    "src_ip",
+    "dst_ip",
+    "src_port",
+    "dst_port"
+  ],
+  "device_feature_columns": [
+    "proto",
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "conn_state",
+    "missed_bytes",
+    "src_pkts",
+    "src_ip_bytes",
+    "dst_pkts",
+    "dst_ip_bytes"
+  ],
+  "max_categorical_cardinality": 30,
+  "correlation_threshold": 0.98,
+  "ae_variants": {
+    "ae_32_16_8": {
+      "hidden": [
+        32,
+        16,
+        8
+      ],
+      "dropout": 0.0
+    },
+    "ae_16_8_4": {
+      "hidden": [
+        16,
+        8,
+        4
+      ],
+      "dropout": 0.0
+    },
+    "ae_32_16_8_do": {
+      "hidden": [
+        32,
+        16,
+        8
+      ],
+      "dropout": 0.1
+    }
+  },
+  "ae_default": "ae_32_16_8",
+  "epochs": 1500,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "patience": 40,
+  "conv_window": 50,
+  "conv_rel_tol": 0.005,
+  "iforest_estimators": 200,
+  "alpha": 0.01,
+  "beta": 0.04,
+  "alpha_grid": [
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "beta_grid": [
+    0.01,
+    0.02,
+    0.04,
+    0.08
+  ],
+  "heuristic_k": [
+    2.0,
+    3.0
+  ],
+  "validity_resplits": 200,
+  "prevalence_grid": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "random_control_repeats": 50,
+  "bootstrap_repeats": 1000,
+  "pvalue_bins": [
+    0,
+    0.001,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "host_column": "src_ip",
+  "resolution_windows": [
+    20,
+    50,
+    100
+  ],
+  "resolution_flows_per_day": [
+    1000,
+    5000
+  ],
+  "resolution_budget_per_week": 1.0,
+  "resolution_cal_windows": 5000,
+  "resolution_eval_windows": 5000,
+  "resolution_rho": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "fl_clients": 5,
+  "fl_scenarios": [
+    "IID",
+    "Dirichlet=1.0",
+    "Dirichlet=0.1"
+  ],
+  "fl_orig_rounds": 40,
+  "fl_local_epochs": 5,
+  "fl_fedprox_mu": 0.01,
+  "fl_final_protocols": [
+    "orijinal",
+    "yakinsama_kalici",
+    "fedprox_kalici"
+  ],
+  "lofo_seeds": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "lofo_rf_trees": 200,
+  "lofo_success_points": 0.3,
+  "lofo_success_folds": 6,
+  "lofo_unlike_rf_recall": 0.5,
+  "lofo_match_margin": 0.05,
+  "sparse_rho": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "sparse_windows": [
+    20,
+    50,
+    100,
+    200,
+    500
+  ],
+  "sparse_mixed_windows": 300
+}

@@ -1,0 +1,397 @@
+{
+  "yapilandirma": {
+    "alpha": 0.01,
+    "beta": 0.04,
+    "tohumlar": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "gorulmeyecek_aileler": [
+      "ransomware",
+      "xss",
+      "mitm"
+    ]
+  },
+  "E1_gecerlilik_tohum_ortalamasi": [
+    {
+      "model": "ae",
+      "decision": "ANOMALY",
+      "budget": 0.01,
+      "mean": 0.0098,
+      "share_above_theory_q95": 0.0365
+    },
+    {
+      "model": "ae",
+      "decision": "UNCERTAIN",
+      "budget": 0.0403,
+      "mean": 0.04009,
+      "share_above_theory_q95": 0.047
+    },
+    {
+      "model": "iforest",
+      "decision": "ANOMALY",
+      "budget": 0.01,
+      "mean": 0.01,
+      "share_above_theory_q95": 0.052
+    },
+    {
+      "model": "iforest",
+      "decision": "UNCERTAIN",
+      "budget": 0.0403,
+      "mean": 0.03981,
+      "share_above_theory_q95": 0.0395
+    },
+    {
+      "model": "latent",
+      "decision": "ANOMALY",
+      "budget": 0.01,
+      "mean": 0.00998,
+      "share_above_theory_q95": 0.05
+    },
+    {
+      "model": "latent",
+      "decision": "UNCERTAIN",
+      "budget": 0.0403,
+      "mean": 0.03991,
+      "share_above_theory_q95": 0.048
+    }
+  ],
+  "E2_eslestirilmis_kapsama": [
+    {
+      "prevalence": 0.01,
+      "comparison": "B1 IF konformal band\u0131",
+      "mean_delta_sr": 0.01136,
+      "ci_low": 0.01057,
+      "ci_high": 0.01228,
+      "seeds": 10,
+      "p_raw": 0.00195,
+      "p_holm": 0.00586
+    },
+    {
+      "prevalence": 0.01,
+      "comparison": "B3 sezgisel bant (e\u011fitim hatalar\u0131)",
+      "mean_delta_sr": 0.01107,
+      "ci_low": 0.0092,
+      "ci_high": 0.01332,
+      "seeds": 10,
+      "p_raw": 0.00195,
+      "p_holm": 0.00586
+    },
+    {
+      "prevalence": 0.01,
+      "comparison": "B5 gizil skor band\u0131",
+      "mean_delta_sr": 0.00797,
+      "ci_low": 0.00699,
+      "ci_high": 0.00916,
+      "seeds": 10,
+      "p_raw": 0.00195,
+      "p_holm": 0.00586
+    },
+    {
+      "prevalence": "test k\u00fcmesi",
+      "comparison": "B1 IF konformal band\u0131",
+      "mean_delta_sr": 0.32071,
+      "ci_low": 0.29596,
+      "ci_high": 0.33817,
+      "seeds": 10,
+      "p_raw": 0.00195,
+      "p_holm": 0.00781
+    },
+    {
+      "prevalence": "test k\u00fcmesi",
+      "comparison": "B3 sezgisel bant (e\u011fitim hatalar\u0131)",
+      "mean_delta_sr": -0.17097,
+      "ci_low": -0.20339,
+      "ci_high": -0.13402,
+      "seeds": 10,
+      "p_raw": 0.00195,
+      "p_holm": 0.00781
+    },
+    {
+      "prevalence": "test k\u00fcmesi",
+      "comparison": "B5 gizil skor band\u0131",
+      "mean_delta_sr": 0.314,
+      "ci_low": 0.29803,
+      "ci_high": 0.32614,
+      "seeds": 10,
+      "p_raw": 0.00195,
+      "p_holm": 0.00781
+    },
+    {
+      "prevalence": "test k\u00fcmesi",
+      "comparison": "rastgele \u00e7ekimserlik (alt s\u0131n\u0131r)",
+      "mean_delta_sr": 0.109,
+      "ci_low": 0.10637,
+      "ci_high": 0.11099,
+      "seeds": 10,
+      "p_raw": 0.00195,
+      "p_holm": 0.00781
+    }
+  ],
+  "B3_yanlis_alarm_10_tohum": {
+    "B3_normal_ANOMALY": {
+      "mean": 0.01795,
+      "std": 0.00329
+    },
+    "konformal_normal_ANOMALY": {
+      "mean": 0.0072,
+      "std": 0.00096
+    }
+  },
+  "katmanlama_10_tohum": [
+    {
+      "sald\u0131r\u0131lar": "bilinen",
+      "yayg\u0131nl\u0131k": 0.01,
+      "rule": "binary \u03b1+\u03b2=0.05",
+      "benign_immediate_alarm": 0.0483,
+      "benign_review": 0.0,
+      "attack_immediate_alarm": 0.4219,
+      "attack_review": 0.0,
+      "attack_missed": 0.5781,
+      "precision_alarm_tier": 0.0812,
+      "precision_review_tier": NaN,
+      "alarms_per_flows": 520.1919,
+      "reviews_per_flows": 0.0
+    },
+    {
+      "sald\u0131r\u0131lar": "bilinen",
+      "yayg\u0131nl\u0131k": 0.01,
+      "rule": "binary \u03b1=0.01",
+      "benign_immediate_alarm": 0.0072,
+      "benign_review": 0.0,
+      "attack_immediate_alarm": 0.1691,
+      "attack_review": 0.0,
+      "attack_missed": 0.8309,
+      "precision_alarm_tier": 0.1927,
+      "precision_review_tier": NaN,
+      "alarms_per_flows": 88.1525,
+      "reviews_per_flows": 0.0
+    },
+    {
+      "sald\u0131r\u0131lar": "bilinen",
+      "yayg\u0131nl\u0131k": 0.01,
+      "rule": "three-way \u03b1=0.01, \u03b2=0.04",
+      "benign_immediate_alarm": 0.0072,
+      "benign_review": 0.0411,
+      "attack_immediate_alarm": 0.1691,
+      "attack_review": 0.2528,
+      "attack_missed": 0.5781,
+      "precision_alarm_tier": 0.1927,
+      "precision_review_tier": 0.0586,
+      "alarms_per_flows": 88.1525,
+      "reviews_per_flows": 432.0394
+    },
+    {
+      "sald\u0131r\u0131lar": "bilinen",
+      "yayg\u0131nl\u0131k": "test k\u00fcmesi",
+      "rule": "binary \u03b1+\u03b2=0.05",
+      "benign_immediate_alarm": 0.0483,
+      "benign_review": 0.0,
+      "attack_immediate_alarm": 0.4219,
+      "attack_review": 0.0,
+      "attack_missed": 0.5781,
+      "precision_alarm_tier": 0.9842,
+      "precision_review_tier": NaN,
+      "alarms_per_flows": 3760.2376,
+      "reviews_per_flows": 0.0
+    },
+    {
+      "sald\u0131r\u0131lar": "bilinen",
+      "yayg\u0131nl\u0131k": "test k\u00fcmesi",
+      "rule": "binary \u03b1=0.01",
+      "benign_immediate_alarm": 0.0072,
+      "benign_review": 0.0,
+      "attack_immediate_alarm": 0.1691,
+      "attack_review": 0.0,
+      "attack_missed": 0.8309,
+      "precision_alarm_tier": 0.994,
+      "precision_review_tier": NaN,
+      "alarms_per_flows": 1492.2462,
+      "reviews_per_flows": 0.0
+    },
+    {
+      "sald\u0131r\u0131lar": "bilinen",
+      "yayg\u0131nl\u0131k": "test k\u00fcmesi",
+      "rule": "three-way \u03b1=0.01, \u03b2=0.04",
+      "benign_immediate_alarm": 0.0072,
+      "benign_review": 0.0411,
+      "attack_immediate_alarm": 0.1691,
+      "attack_review": 0.2528,
+      "attack_missed": 0.5781,
+      "precision_alarm_tier": 0.994,
+      "precision_review_tier": 0.9776,
+      "alarms_per_flows": 1492.2462,
+      "reviews_per_flows": 2267.9913
+    },
+    {
+      "sald\u0131r\u0131lar": "g\u00f6r\u00fclmemi\u015f",
+      "yayg\u0131nl\u0131k": 0.01,
+      "rule": "binary \u03b1+\u03b2=0.05",
+      "benign_immediate_alarm": 0.0483,
+      "benign_review": 0.0,
+      "attack_immediate_alarm": 0.8328,
+      "attack_review": 0.0,
+      "attack_missed": 0.1672,
+      "precision_alarm_tier": 0.1484,
+      "precision_review_tier": NaN,
+      "alarms_per_flows": 561.283,
+      "reviews_per_flows": 0.0
+    },
+    {
+      "sald\u0131r\u0131lar": "g\u00f6r\u00fclmemi\u015f",
+      "yayg\u0131nl\u0131k": 0.01,
+      "rule": "binary \u03b1=0.01",
+      "benign_immediate_alarm": 0.0072,
+      "benign_review": 0.0,
+      "attack_immediate_alarm": 0.4558,
+      "attack_review": 0.0,
+      "attack_missed": 0.5442,
+      "precision_alarm_tier": 0.3882,
+      "precision_review_tier": NaN,
+      "alarms_per_flows": 116.8261,
+      "reviews_per_flows": 0.0
+    },
+    {
+      "sald\u0131r\u0131lar": "g\u00f6r\u00fclmemi\u015f",
+      "yayg\u0131nl\u0131k": 0.01,
+      "rule": "three-way \u03b1=0.01, \u03b2=0.04",
+      "benign_immediate_alarm": 0.0072,
+      "benign_review": 0.0411,
+      "attack_immediate_alarm": 0.4558,
+      "attack_review": 0.377,
+      "attack_missed": 0.1672,
+      "precision_alarm_tier": 0.3882,
+      "precision_review_tier": 0.0848,
+      "alarms_per_flows": 116.8261,
+      "reviews_per_flows": 444.4569
+    },
+    {
+      "sald\u0131r\u0131lar": "g\u00f6r\u00fclmemi\u015f",
+      "yayg\u0131nl\u0131k": "test k\u00fcmesi",
+      "rule": "binary \u03b1+\u03b2=0.05",
+      "benign_immediate_alarm": 0.0483,
+      "benign_review": 0.0,
+      "attack_immediate_alarm": 0.8328,
+      "attack_review": 0.0,
+      "attack_missed": 0.1672,
+      "precision_alarm_tier": 0.9801,
+      "precision_review_tier": NaN,
+      "alarms_per_flows": 6290.7103,
+      "reviews_per_flows": 0.0
+    },
+    {
+      "sald\u0131r\u0131lar": "g\u00f6r\u00fclmemi\u015f",
+      "yayg\u0131nl\u0131k": "test k\u00fcmesi",
+      "rule": "binary \u03b1=0.01",
+      "benign_immediate_alarm": 0.0072,
+      "benign_review": 0.0,
+      "attack_immediate_alarm": 0.4558,
+      "attack_review": 0.0,
+      "attack_missed": 0.5442,
+      "precision_alarm_tier": 0.994,
+      "precision_review_tier": NaN,
+      "alarms_per_flows": 3393.3002,
+      "reviews_per_flows": 0.0
+    },
+    {
+      "sald\u0131r\u0131lar": "g\u00f6r\u00fclmemi\u015f",
+      "yayg\u0131nl\u0131k": "test k\u00fcmesi",
+      "rule": "three-way \u03b1=0.01, \u03b2=0.04",
+      "benign_immediate_alarm": 0.0072,
+      "benign_review": 0.0411,
+      "attack_immediate_alarm": 0.4558,
+      "attack_review": 0.377,
+      "attack_missed": 0.1672,
+      "precision_alarm_tier": 0.994,
+      "precision_review_tier": 0.9623,
+      "alarms_per_flows": 3393.3002,
+      "reviews_per_flows": 2897.41
+    }
+  ],
+  "E3_gorulmemis": [
+    {
+      "family": "macro-average",
+      "anomaly_rate_collisions_as_missed": 0.1935,
+      "anomaly_rate": 0.1944,
+      "uncertain_rate": 0.5777,
+      "normal_rate": 0.228
+    },
+    {
+      "family": "mitm",
+      "anomaly_rate_collisions_as_missed": 0.0515,
+      "anomaly_rate": 0.0525,
+      "uncertain_rate": 0.395,
+      "normal_rate": 0.5526
+    },
+    {
+      "family": "ransomware",
+      "anomaly_rate_collisions_as_missed": 0.0105,
+      "anomaly_rate": 0.0121,
+      "uncertain_rate": 0.9815,
+      "normal_rate": 0.0065
+    },
+    {
+      "family": "xss",
+      "anomaly_rate_collisions_as_missed": 0.5185,
+      "anomaly_rate": 0.5185,
+      "uncertain_rate": 0.3567,
+      "normal_rate": 0.1248
+    }
+  ],
+  "profesor_metrikleri_tohum0": [
+    {
+      "sald\u0131r\u0131lar": "bilinen",
+      "precision": 0.9944,
+      "recall": 0.1843,
+      "f1": 0.311,
+      "fpr": 0.0075,
+      "pr_auc": 0.9742,
+      "roc_auc": 0.8701,
+      "coverage": 0.786,
+      "abstention": 0.214,
+      "selective_risk": 0.6455,
+      "benign_anomaly_rate": 0.0075,
+      "benign_uncertain_rate": 0.04,
+      "attack_anomaly_rate": 0.1843,
+      "attack_uncertain_rate": 0.2383,
+      "attack_missed_rate": 0.5773,
+      "precision_auto": 0.9944
+    },
+    {
+      "sald\u0131r\u0131lar": "g\u00f6r\u00fclmemi\u015f",
+      "precision": 0.9947,
+      "recall": 0.4892,
+      "f1": 0.6558,
+      "fpr": 0.0075,
+      "pr_auc": 0.9871,
+      "roc_auc": 0.9708,
+      "coverage": 0.7267,
+      "abstention": 0.2733,
+      "selective_risk": 0.1612,
+      "benign_anomaly_rate": 0.0075,
+      "benign_uncertain_rate": 0.04,
+      "attack_anomaly_rate": 0.4892,
+      "attack_uncertain_rate": 0.3552,
+      "attack_missed_rate": 0.1557,
+      "precision_auto": 0.9947
+    }
+  ],
+  "ortam": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "scipy": "1.16.3",
+    "tensorflow": "2.21.0",
+    "matplotlib": "3.10.0"
+  }
+}
