@@ -912,9 +912,7 @@ function secConclusion(C) {
 // ------------------------------------------------------------------ declarations
 function secDeclarations(C) {
   C.push(H1("Data and Code Availability"));
-  C.push(P("The TON_IoT network dataset is available from its authors [@moustafa2021new]; it is not redistributed. Code, notebooks, run configurations, per-seed scores and results, the Phase 10 protocol with its deviation log, and the verified reference list (with the metadata source used to check each entry) are provided in the TrustFed-TinyIDS repository package that accompanies this manuscript. Phase 10 can be reproduced from the released scores without the dataset."));
-  C.push(H1("Declaration of Generative AI Use"));
-  C.push(P("Generative AI assistance (Claude, Anthropic) was used to write and debug analysis code, to run and summarise experiments, to search for and verify bibliographic metadata, and to compose and translate text. All results were produced by the released code from the recorded runs. The author is responsible for the content and must review it before submission."));
+  C.push(P("The TON_IoT network dataset is available from its authors [@moustafa2021new]; it is not redistributed. Code, notebooks, run configurations, per-seed scores and results, the Phase 10 protocol with its deviation log, and the verified reference list (with the metadata source used to check each entry) are available in the TrustFed-TinyIDS repository (https://github.com/Mereyani/TrustFed-TinyIDS). Phase 10 can be reproduced from the released scores without the dataset."));
   C.push(H1("Conflict of Interest"));
   C.push(P("The author declares no conflict of interest."));
 }

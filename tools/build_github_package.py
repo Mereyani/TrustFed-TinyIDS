@@ -54,7 +54,9 @@ def cp(src: Path, dst: Path):
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
-    for child in OUT.iterdir():                     # empty the folder (the folder itself may be open elsewhere)
+    for child in OUT.iterdir():                     # empty the folder (the folder itself may be open elsewhere),
+        if child.name == ".git":                    # but keep the git repository
+            continue
         shutil.rmtree(child) if child.is_dir() else child.unlink()
     code = FA / "TrustFed-TinyIDS-Final"
     copytree(code / "trustids", OUT / "trustids")
@@ -111,14 +113,14 @@ def main():
     # checksums and zip
     lines = []
     for p in sorted(OUT.rglob("*")):
-        if p.is_file():
+        if p.is_file() and ".git" not in p.relative_to(OUT).parts and p.name != "SHA256SUMS.txt":
             lines.append(f"{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.relative_to(OUT).as_posix()}")
     (OUT / "SHA256SUMS.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
     if ZIP.exists():
         ZIP.unlink()
     with zipfile.ZipFile(ZIP, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
         for p in sorted(OUT.rglob("*")):
-            if p.is_file():
+            if p.is_file() and ".git" not in p.relative_to(OUT).parts:
                 zf.write(p, Path("TrustFed-TinyIDS") / p.relative_to(OUT))
     n = sum(1 for p in OUT.rglob("*") if p.is_file())
     sys.stdout.reconfigure(encoding="utf-8")
