@@ -2,6 +2,24 @@
 
 Each version keeps the outputs of the earlier versions; nothing was overwritten. Dates are the dates of the runs.
 
+## [Manuscript v4] 2026-11-17
+
+### Changed
+- **Repositioned as an empirical reliability and benchmarking study.** The title is *Reliability of Calibrated IoT Intrusion Detection under Federated Training, Quantization, and Host-Level Aggregation: An Empirical Study*.
+- **New main text (`docs/manuscript/v4/`), about 19 pages.**
+  - Rewritten: abstract, introduction, research questions and contributions.
+  - A Study Design section separates marginal conformal validity from operational false-alarm budgets.
+  - Results are organised by reliability dimension: nominal, federated training, quantisation and corruption, host-level aggregation.
+  - New sections: a synthesis table of when and why calibration became unreliable, threats to validity, and the conclusion.
+  - A related-work section on empirical NIDS reliability studies (16 new references, all verified).
+- **Supplementary Material (new file).** It contains the complete detailed description, the formulation of every host-level rule and every detailed table and figure from the earlier comprehensive manuscript (S1–S4). No result was deleted.
+
+### Unchanged
+- Code, raw results and protocols. No new experiment was run.
+
+### Preserved
+- The earlier manuscripts are in `docs/manuscript/previous_versions/` (v2, v3).
+
 ## [Phase 10b] 2026-11-17
 
 ### Added

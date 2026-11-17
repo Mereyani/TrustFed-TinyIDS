@@ -58,9 +58,28 @@ const cite = (keys) => `[${(Array.isArray(keys) ? keys : String(keys).split(",")
 const withCites = (text) => String(text).replace(/\[@([^\]]+)\]/g, (_, ks) => cite(ks.split(",").map((s) => s.trim().replace(/^@/, ""))));
 
 // ---------- text helpers ----------
+// ---------- document mode: "main" (manuscript) or "supp" (supplementary material) ----------
+// In "supp" mode tables/figures are numbered S1, S2, ... and section references 3.x/4.x/5.x/6.x of the
+// comprehensive report are remapped to S1.x/S2.x/S3.x/S4.x.
+let DOC_MODE = "main", PFX = "";
+const SMAP = { 3: 1, 4: 2, 5: 3, 6: 4 };
+function remapSecNum(tok) {
+  const m = /^(\d+)((?:\.\d+)*)$/.exec(tok); if (!m) return tok;
+  const maj = Number(m[1]); return SMAP[maj] ? `S${SMAP[maj]}${m[2]}` : tok;
+}
+function suppRemap(text) {
+  if (DOC_MODE !== "supp") return text;
+  text = String(text).replace(/Sections 2\.7 and 7/g, "MAINREF");
+  text = text.replace(/(Sections?) (\d+(?:\.\d+)*)((?:\s*(?:–|and|,)\s*\d+(?:\.\d+)*)*)/g,
+    (_, w, a, rest) => `${w} ${remapSecNum(a)}${rest.replace(/\d+(?:\.\d+)*/g, (t) => remapSecNum(t))}`);
+  text = text.replace(/(^|[^A-Za-z])Table (\d+)/g, "$1Table S$2").replace(/(^|[^A-Za-z])Fig\. (\d+)/g, "$1Fig. S$2");
+  return text.replace(/MAINREF/g, "Section 2.6 of the main text");
+}
+const headRemap = (t) => (DOC_MODE === "supp" ? String(t).replace(/^(\d+)((?:\.\d+)*)(\.?)(\s)/, (_, a, b, dot, sp) => `${remapSecNum(a + b)}${dot}${sp}`) : t);
+
 // runs(): citations first, then **bold** spans.
 function runs(text, base = {}) {
-  text = withCites(text);
+  text = suppRemap(withCites(text));
   const out = []; const re = /(\*\*[^*]+\*\*)/g; let last = 0, m;
   while ((m = re.exec(text))) {
     if (m.index > last) out.push(new TextRun({ text: text.slice(last, m.index), ...base }));
@@ -70,12 +89,12 @@ function runs(text, base = {}) {
   if (last < text.length) out.push(new TextRun({ text: text.slice(last), ...base }));
   return out;
 }
-const P = (t, o = {}) => new Paragraph({ children: runs(t, o.run || {}), spacing: { after: o.after ?? 120, before: o.before ?? 0, line: 276 },
+const P = (t, o = {}) => new Paragraph({ children: runs(t, o.run || {}), spacing: { after: o.after ?? 120, before: o.before ?? 0, line: DOC_MODE === "main" ? 360 : 276 },
   alignment: o.align || AlignmentType.JUSTIFIED, keepNext: o.keepNext });
-const H1 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_1, children: runs(t) });
-const H2 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_2, children: runs(t) });
-const H3 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_3, children: runs(t) });
-const B = (t) => new Paragraph({ numbering: { reference: "bul", level: 0 }, children: runs(t), spacing: { after: 70, line: 264 } });
+const H1 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_1, children: runs(headRemap(t)) });
+const H2 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_2, children: runs(headRemap(t)) });
+const H3 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_3, children: runs(headRemap(t)) });
+const B = (t) => new Paragraph({ numbering: { reference: "bul", level: 0 }, children: runs(t), spacing: { after: 70, line: DOC_MODE === "main" ? 340 : 264 } });
 // Display equation: centred, optional label "(n)" appended.
 const EQ = (t, o = {}) => new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 80, after: 120, line: 276 },
   children: [...runs(t, { italics: o.italics ?? false }), ...(o.label ? [new TextRun({ text: `    (${o.label})` })] : [])] });
@@ -97,9 +116,9 @@ function figure(file, caption, widthIn = 6.5, opts = {}) {
   const n = opts.key ? figNum(opts.key) : ++FIG;
   return [new Paragraph({ alignment: AlignmentType.CENTER, keepNext: true, spacing: { before: 120, after: 60 },
       children: [new ImageRun({ type: "png", data: fs.readFileSync(f), transformation: { width: w, height: h },
-        altText: { title: `Fig. ${n}`, description: withCites(caption).replace(/\*\*/g, ""), name: file } })] }),
+        altText: { title: `Fig. ${PFX}${n}`, description: suppRemap(withCites(caption)).replace(/\*\*/g, ""), name: file } })] }),
     new Paragraph({ spacing: { after: 160 }, alignment: AlignmentType.JUSTIFIED,
-      children: [new TextRun({ text: `Fig. ${n}. `, bold: true, size: 19, color: NAVY }), ...runs(caption, { size: 19, color: MUTED })] })];
+      children: [new TextRun({ text: `Fig. ${PFX}${n}. `, bold: true, size: 19, color: NAVY }), ...runs(caption, { size: 19, color: MUTED })] })];
 }
 const border = { style: BorderStyle.SINGLE, size: 4, color: LINE };
 const borders = { top: border, bottom: border, left: border, right: border };
@@ -112,7 +131,7 @@ function table(head, rows, widths, caption, opts = {}) {
     children: [new Paragraph({ alignment: i === 0 || opts.leftAll ? AlignmentType.LEFT : AlignmentType.CENTER, spacing: { after: 0, line: 240 },
       children: runs(String(txt), { size: 18, bold: isHead, color: isHead ? "FFFFFF" : INK }) })] });
   return [new Paragraph({ keepNext: true, spacing: { before: 160, after: 60 },
-      children: [new TextRun({ text: `Table ${n}. `, bold: true, size: 19, color: NAVY }), ...runs(caption, { size: 19, color: MUTED })] }),
+      children: [new TextRun({ text: `Table ${PFX}${n}. `, bold: true, size: 19, color: NAVY }), ...runs(caption, { size: 19, color: MUTED })] }),
     new Table({ width: { size: total, type: WidthType.DXA }, columnWidths: widths, layout: TableLayoutType.FIXED,
       rows: [new TableRow({ tableHeader: true, children: head.map((h, i) => cell(h, i, true, 0)) }),
         ...rows.map((r, ri) => new TableRow({ cantSplit: true, children: r.map((c, i) => cell(c, i, false, ri)) }))] }),

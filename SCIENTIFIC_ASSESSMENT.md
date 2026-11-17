@@ -1,4 +1,43 @@
-# Critical scientific assessment (after Phase 10b)
+# Critical scientific assessment
+
+## Manuscript v4: empirical reliability study (Option A), 2026-11-17
+
+**Positioning.** The manuscript is now an empirical study of when and why calibrated IoT intrusion detection becomes unreliable. It covers four conditions:
+- nominal;
+- federated training;
+- INT8 quantisation and input corruption;
+- host-level aggregation.
+
+No new algorithm is claimed.
+
+**Remaining limitations**
+1. **One dataset, without timestamps.** All results come from TON_IoT version B. Host-level results are simulations, and the confirmatory replications reuse the same data.
+2. **Held-out families resemble the known ones.** A supervised random forest recognises every left-out family, with 71.5–99.7% recall.
+3. **Federated training.**
+   - The runs stopped at an epoch cap while still improving.
+   - The "no significant IID difference" finding is non-significance, not equivalence.
+   - Only one FedProx μ was tried.
+4. **Few hosts and clients.**
+   - Only 4–24 benign hosts are usable.
+   - Worst-host statistics depend on 1–3 hosts.
+   - The non-IID clients are very small.
+5. **No microcontroller measurements and no adaptive attackers.**
+
+**Journal readiness**
+- **Ready for:** submission as an empirical or negative-results study to a journal that accepts single-dataset reliability studies with full disclosure, after the author has read and approved every statement.
+- **Main reviewer risks:**
+  - a single dataset;
+  - simulated host streams;
+  - a main text that is near the lower end of the page target;
+  - several 2026 references that are recent or preprints and need a final publication-status check.
+- **Before submission:**
+  - format to the chosen journal's template;
+  - consider adding a second dataset with timestamps, if feasible, which would most strengthen the paper;
+  - check the two partially verified references and the author names flagged in `docs/manuscript/references/`.
+
+---
+
+## Earlier assessment (after Phase 10b)
 
 All host-level numbers come from simulations on TON_IoT version B, a dataset without timestamps. They are for unseen families, F = 1000 flows per host-day and 10 seeds. Sources: `experiments/phase10/results/`, `experiments/phase10/results_10b/analysis/`, `RESULTS_SUMMARY.md`.
 

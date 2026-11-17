@@ -36,7 +36,8 @@ results/artifacts/        Models, per-seed scores, raw per-seed results, host ma
 results/analysis_extra/   Extra analyses (validation-loss histories of the federated runs)
 tests/                    Unit tests (conformal rule, host counter, Phase 10)
 tools/                    Notebook builder, smoke test, packaging script
-docs/manuscript/          English manuscript (Word) and the verified reference list
+docs/manuscript/v4/       Current manuscript (empirical reliability study) and its Supplementary Material
+docs/manuscript/previous_versions/  Earlier manuscript versions (v2, v3)
 docs/previous_versions/   Earlier course report (Turkish) and its value extractor
 legacy/midterm_v5.2/      Code of the earlier midterm version (phases 1–4), kept for provenance
 ```
@@ -72,8 +73,9 @@ The tables and figures are in `docs/manuscript/` and `experiments/phase10/result
 - `DATA_AVAILABILITY.md`: the dataset and what is or is not included.
 - `experiments/phase10/PROTOCOL_PHASE10.md`: the pre-specified Phase 10 protocol and its deviations.
 - `experiments/phase10/PROTOCOL_PHASE10B.md`: the confirmatory Phase 10b protocol, written before its runs, with its outcome.
+- `docs/manuscript/v4/`: the current manuscript, *Reliability of Calibrated IoT Intrusion Detection under Federated Training, Quantization, and Host-Level Aggregation: An Empirical Study*, together with the Supplementary Material, which holds every detailed table, the secondary experiments and all Phase 10/10b baselines.
 - `docs/manuscript/references/`: the reference list, each entry checked against Crossref, OpenAlex, arXiv or the publisher.
-- `docs/manuscript/en/`: the scripts that generated the manuscript, from `p10_values.json` and the earlier `values.json`. They are included for transparency and were run in the original project layout, where the reference list and `values.json` sit two folders up. To rebuild, adjust the paths at the top of `_head_en.js`.
+- `docs/manuscript/en/`: the scripts that generated the manuscript, from `p10_values.json` and the earlier `values.json`. They are included for transparency. `make_main_en.js` builds the main text, `make_supp_en.js` builds the supplement, and `make_manuscript_en.js` builds the earlier comprehensive v3. They were run in the original project layout, where the reference list and `values.json` sit two folders up. To rebuild, adjust the paths at the top of `_head_en.js`.
 - `SCIENTIFIC_ASSESSMENT.md`: a critical assessment of the Phase 10 results and of how ready the manuscript is.
 
 ## Citation
