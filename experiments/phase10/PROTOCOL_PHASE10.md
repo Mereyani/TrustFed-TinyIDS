@@ -147,3 +147,10 @@ The test run is `results/*_phase10_test_s0..s9`, analysed in `results/20261116-2
 3. `tradeoff_phase10.py`: a matched-cost **oracle** diagnostic.
    - Thresholds are tuned **on benign_test** so that the realised false escalations stay at or below 1 per host-week. The thresholds are not deployable.
    - Result: the host-conditional counter was best at W ≥ 50, apart from W = 50, ρ = 0.05. The LR e-value window and e-CUSUM were significantly lower there.
+
+## 10. Withdrawal (2026-11-17)
+
+The matched-cost oracle diagnostic of section 9, item 3 (`tradeoff_phase10.py`), set its thresholds on benign_test. It is **withdrawn** from the manuscript, because no threshold may be tuned on test data.
+
+- Its output files remain in `results/diagnostic_tradeoff/`, so that the history is complete.
+- The exploratory host-conditional counter (item 2) was calibrated on benign_val only. It is re-tested with frozen rules in Phase 10b (`PROTOCOL_PHASE10B.md`).

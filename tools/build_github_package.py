@@ -68,11 +68,14 @@ def main():
     # Phase 10
     p10 = FA / "phase10"
     for f in ["run_phase10.py", "select_phase10.py", "analyze_phase10.py", "analyze_extra_phase10.py", "tradeoff_phase10.py", "host_heterogeneity.py", "check_f5_reproduction.py", "overhead_phase10.py", "make_p10_values.py",
-              "PROTOCOL_PHASE10.md"]:
+              "PROTOCOL_PHASE10.md", "run_phase10b.py", "analyze_phase10b.py", "make_p10b_values.py",
+              "build_device_host_map.py", "PROTOCOL_PHASE10B.md"]:
         if (p10 / f).exists():
             cp(p10 / f, OUT / "experiments" / "phase10" / f)
     copytree(p10 / "results", OUT / "experiments" / "phase10" / "results")
     copytree(p10 / "logs", OUT / "experiments" / "phase10" / "logs_console", exclude_glob=())
+    copytree(p10 / "results_10b", OUT / "experiments" / "phase10" / "results_10b")       # Phase 10b (confirmatory)
+    copytree(p10 / "logs_10b", OUT / "experiments" / "phase10" / "logs_10b_console", exclude_glob=("smoke_*",))
     # Colab results of phases 1-9
     for r in COLAB_RUNS:
         copytree(FA / "colab_sonuclari" / r, OUT / "results" / "colab_runs" / r)
@@ -89,7 +92,8 @@ def main():
             cp(f, OUT / "results" / "artifacts" / d / f.name)
     z = np.load(art / "prepared" / "prepared.npz", allow_pickle=True)
     np.savez_compressed(OUT / "results" / "artifacts" / "prepared" / "dev_val_meta.npz",
-                        type_dev_val=z["type_dev_val"], mult_dev_val=z["mult_dev_val"])
+                        type_dev_val=z["type_dev_val"], mult_dev_val=z["mult_dev_val"],
+                        type_dev_test=z["type_dev_test"], mult_dev_test=z["mult_dev_test"])
     copytree(FA / "analiz_ek", OUT / "results" / "analysis_extra")
     # report builders (Turkish course report, kept as a previous version) and the English manuscript
     for f in ["make_final_values.py", "values.json"]:

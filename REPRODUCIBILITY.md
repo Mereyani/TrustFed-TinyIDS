@@ -51,6 +51,18 @@ python -I experiments/phase10/overhead_phase10.py
 
 **Order and selection.** The selection rule and the order of the stages are fixed in `experiments/phase10/PROTOCOL_PHASE10.md`. That file also lists every deviation.
 
+## Reproducing Phase 10b (confirmatory; no dataset needed)
+
+```bash
+python -I experiments/phase10/run_phase10b.py --setting MAIN --seeds 0-9      # also SWAP, DEVICE, DEDUP
+python -I experiments/phase10/analyze_phase10b.py
+```
+
+- **What was run for the reported results.** One process per (setting, seed), 40 processes, 10 in parallel. Each took about 1.5 minutes on its own and longer when run in parallel.
+- **Inputs.**
+  - The host maps of the DEVICE and DEDUP settings are `experiments/phase10/results/host_rows_device.csv.gz` and `host_rows_dedup.csv.gz`, built by `build_device_host_map.py`, which needs the dataset.
+  - The device scores are `results/artifacts/scores/device_seed*.npz`.
+
 ## Checking that the saved scores reproduce the earlier sparse-attack results
 
 `experiments/phase10/check_f5_reproduction.py` reruns the F5 module (`trustids/sparse.py`) on the saved scores for seeds 0–9 and compares the output with the stored F5 per-seed files.

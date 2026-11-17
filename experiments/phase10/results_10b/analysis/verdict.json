@@ -1,0 +1,103 @@
+{
+  "verdict_per_setting": {
+    "MAIN": {
+      "n_comparisons": 6,
+      "significant_HCOUNT_better": 5,
+      "criterion_a": true,
+      "HCOUNT_fe_mean_by_W": {
+        "50": 0.27159999999999995,
+        "100": 0.21699999999999994,
+        "200": 0.18059999999999993
+      },
+      "criterion_b": true,
+      "supported": true,
+      "HCOUNT_seeds_worst_host_over_budget_by_W": {
+        "50": 9,
+        "100": 6,
+        "200": 5
+      },
+      "EXIST_fe_mean_by_W": {
+        "50": 1.764,
+        "100": 0.9422,
+        "200": 0.5264
+      },
+      "n_seeds": 10
+    },
+    "SWAP": {
+      "n_comparisons": 6,
+      "significant_HCOUNT_better": 2,
+      "criterion_a": false,
+      "HCOUNT_fe_mean_by_W": {
+        "50": 9.035599999999999,
+        "100": 8.479800000000001,
+        "200": 8.079400000000001
+      },
+      "criterion_b": false,
+      "supported": false,
+      "HCOUNT_seeds_worst_host_over_budget_by_W": {
+        "50": 10,
+        "100": 10,
+        "200": 10
+      },
+      "EXIST_fe_mean_by_W": {
+        "50": 4.2336,
+        "100": 7.3696,
+        "200": 6.9062
+      },
+      "n_seeds": 10
+    },
+    "DEVICE": {
+      "n_comparisons": 6,
+      "significant_HCOUNT_better": 0,
+      "criterion_a": false,
+      "HCOUNT_fe_mean_by_W": {
+        "50": 5.507600000000001,
+        "100": 5.443200000000001,
+        "200": 6.601000000000001
+      },
+      "criterion_b": false,
+      "supported": false,
+      "HCOUNT_seeds_worst_host_over_budget_by_W": {
+        "50": 9,
+        "100": 8,
+        "200": 7
+      },
+      "EXIST_fe_mean_by_W": {
+        "50": 3.7520000000000002,
+        "100": 3.8010000000000006,
+        "200": 4.7886999999999995
+      },
+      "n_seeds": 10
+    },
+    "DEDUP": {
+      "n_comparisons": 6,
+      "significant_HCOUNT_better": 2,
+      "criterion_a": false,
+      "HCOUNT_fe_mean_by_W": {
+        "50": 0.266,
+        "100": 0.44939999999999997,
+        "200": 1.6422
+      },
+      "criterion_b": false,
+      "supported": false,
+      "HCOUNT_seeds_worst_host_over_budget_by_W": {
+        "50": 5,
+        "100": 5,
+        "200": 6
+      },
+      "EXIST_fe_mean_by_W": {
+        "50": 0.3863999999999999,
+        "100": 0.49420000000000003,
+        "200": 0.8315999999999999
+      },
+      "n_seeds": 10
+    }
+  },
+  "replications_supported": 0,
+  "replications_run": [
+    "SWAP",
+    "DEVICE",
+    "DEDUP"
+  ],
+  "overall": "not reproduced"
+}

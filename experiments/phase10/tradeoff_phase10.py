@@ -1,4 +1,7 @@
-"""Phase 10 DIAGNOSTIC (not part of the pre-specified protocol; added after the test stage).
+"""WITHDRAWN (2026-11-17): thresholds are set on benign_test (test data); kept only for the history of the
+analysis and not used in the manuscript (PROTOCOL_PHASE10B.md section 6).
+
+Phase 10 DIAGNOSTIC (not part of the pre-specified protocol; added after the test stage).
 
 The test stage showed that thresholds calibrated on benign_val do not keep every rule within the budget on
 benign_test. To separate "better evidence" from "looser realised alarm rate", this script sets each rule's

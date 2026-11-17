@@ -1,0 +1,92 @@
+{
+  "setting": "DEDUP",
+  "seeds": [
+    0
+  ],
+  "rules": {
+    "EXIST": [
+      "pooled",
+      "window",
+      "W_COUNT_AU"
+    ],
+    "HCOUNT": [
+      "host",
+      "window",
+      "W_COUNT_AU"
+    ],
+    "P10": [
+      "host",
+      "window",
+      "W_EVID"
+    ],
+    "CUSUM-P": [
+      "pooled",
+      "seq",
+      "BCUSUM"
+    ],
+    "CUSUM-H": [
+      "host",
+      "seq",
+      "BCUSUM"
+    ],
+    "eCUSUM-H": [
+      "host",
+      "seq",
+      "E_CUSUM"
+    ],
+    "EWMA-P": [
+      "pooled",
+      "seq",
+      "EWMA_FLAG"
+    ],
+    "EWMA-H": [
+      "host",
+      "seq",
+      "EWMA_FLAG"
+    ]
+  },
+  "budgets": [
+    [
+      0.5,
+      1000
+    ],
+    [
+      1.0,
+      1000
+    ],
+    [
+      2.0,
+      1000
+    ],
+    [
+      1.0,
+      5000
+    ]
+  ],
+  "Ws": [
+    50,
+    100,
+    200
+  ],
+  "rhos": [
+    0.05,
+    0.1,
+    0.25
+  ],
+  "rho0": 0.01,
+  "N_ATT": 300,
+  "WARMUP": 1000,
+  "N_CAL_WIN": 5000,
+  "N_CAL_STREAMS": 200,
+  "CAL_DAYS": 14,
+  "EVAL_STREAMS_PER_HOST": 12,
+  "EVAL_DAYS": 14,
+  "N_MIN_REF": 20,
+  "python": "3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]",
+  "numpy": "1.26.2",
+  "pandas": "2.1.4",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "started": "20261117-161017",
+  "command": "phase10/run_phase10b.py --setting DEDUP --seeds 0 --tag s0",
+  "finished": "20261117-161158"
+}

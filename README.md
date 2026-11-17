@@ -22,6 +22,7 @@ The framework detects unseen attacks on IoT networks with an autoencoder trained
    - with window sums, CUSUM, Shiryaev–Roberts, evidence decay and adaptive mixtures;
    - with optional host-conditional (Mondrian) p-values;
    - all calibrated to the same operational budget of 1 false escalation per host per week.
+7. **Phase 10b: confirmatory re-test.** The host-conditional counter from Phase 10 was re-tested with frozen rules in four settings. Its advantage held on the original split but **did not reproduce** in the other three. Host-level false-escalation budgets calibrated on one benign sample did not transfer to another (see `RESULTS_SUMMARY.md` and `SCIENTIFIC_ASSESSMENT.md`).
 
 ## Repository layout
 
@@ -70,6 +71,7 @@ The tables and figures are in `docs/manuscript/` and `experiments/phase10/result
 - `REPRODUCIBILITY.md`: environments, seeds and commands.
 - `DATA_AVAILABILITY.md`: the dataset and what is or is not included.
 - `experiments/phase10/PROTOCOL_PHASE10.md`: the pre-specified Phase 10 protocol and its deviations.
+- `experiments/phase10/PROTOCOL_PHASE10B.md`: the confirmatory Phase 10b protocol, written before its runs, with its outcome.
 - `docs/manuscript/references/`: the reference list, each entry checked against Crossref, OpenAlex, arXiv or the publisher.
 - `docs/manuscript/en/`: the scripts that generated the manuscript, from `p10_values.json` and the earlier `values.json`. They are included for transparency and were run in the original project layout, where the reference list and `values.json` sit two folders up. To rebuild, adjust the paths at the top of `_head_en.js`.
 - `SCIENTIFIC_ASSESSMENT.md`: a critical assessment of the Phase 10 results and of how ready the manuscript is.

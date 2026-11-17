@@ -1,84 +1,93 @@
-# Critical scientific assessment (Phase 10 and manuscript readiness)
+# Critical scientific assessment (after Phase 10b)
 
-All numbers below are unseen families, F = 1000 flows per host-day, mean of 10 seeds. They come from a simulation on TON_IoT, a dataset without timestamps. The sources are `experiments/phase10/results/` and `RESULTS_SUMMARY.md`.
+All host-level numbers come from simulations on TON_IoT version B, a dataset without timestamps. They are for unseen families, F = 1000 flows per host-day and 10 seeds. Sources: `experiments/phase10/results/`, `experiments/phase10/results_10b/analysis/`, `RESULTS_SUMMARY.md`.
 
-## 1. Did Phase 10 improve sparse-attack detection?
+## 1. What genuinely improved?
 
-**In detection, yes. At the required false-escalation cost, not for the pre-specified configuration.**
+- **Detection on the original split.**
+  - On the split where the framework was developed, evaluating each host against its own benign reference made sparse attacks much easier to detect at the mean false-escalation budget.
+  - Host-conditional counter at W = 200: 35.3% at a 5% attack share and 69.9% at 10% (Phase 10). Phase 10b, with new random streams, gave 30.7% and 68.4%.
+  - The existing counter gave 1.4–2.0% and 8.7–8.8%.
+  - The mean budget was met: 0.11–0.18 false escalations per host-week.
+- **Methodology.**
+  - Every Phase 10/10b threshold is now set on calibration data only, and the test-tuned diagnostic was withdrawn.
+  - The mathematical claims are limited to what holds: marginal, per-flow validity.
+  - The most promising configuration was re-tested under a pre-specified confirmatory protocol.
+  - The device-model replication rests on a host map that was rebuilt locally and checked against the stored Colab map.
+- **A clearer negative result.**
+  - There was no evidence that likelihood-ratio e-values, CUSUM, Shiryaev–Roberts, EWMA, evidence decay or adaptive mixtures improve on simple window counting at equal cost at the horizons studied.
+  - The anytime-valid thresholds did not control the budget.
 
-**The pre-specified configuration (P10)** combined host-conditional p-values with a likelihood-ratio e-value window.
-- At W = 200 it raised detection from 1.4% to 47.0% at a 5% attack share, and from 8.7% to 69.9% at 10%.
-- It beat the existing counter at 7 of 8 points (Wilcoxon with Holm correction).
-- It produced 1.32–1.78 false escalations per host-week on benign_test hosts for W ≥ 50, against a budget of 1. At W = 200, 7 of 10 seeds were over budget.
-- The protocol does not credit a gain obtained above budget, so the pre-specified hypothesis is **not supported**.
+## 2. Is the improvement statistically and operationally reliable?
 
-**An exploratory, post-test analysis** applied the host-conditional reference to the existing count rule.
-- Detection was 35.3% and 69.9% at W = 200.
-- False escalations averaged 0.11 per host-week.
-- The worst host was still over budget in 4 of 10 seeds.
+**No.**
 
-## 2. Are the improvements statistically and operationally meaningful?
+- **Statistically:**
+  - On the original split the gain is consistent: 5 of 6 Holm-corrected comparisons in Phase 10b, and every seed at W ≥ 100.
+  - It was **not reproduced** in any of the three replications: SWAP 2/6, DEVICE 0/6, DEDUP 2/6. The pre-specified verdict is "not reproduced".
+- **Operationally:**
+  - With the benign splits reversed (SWAP), or with a separately trained detector calibrated on one half of a split and evaluated on the other (DEVICE), every rule exceeded the budget several-fold. The existing counter was no exception: 2.9–11.9 false escalations per host-week across rules.
+  - Even on the original split, the worst benign host exceeded the budget in about half of the seeds.
+  - Detection is measured per window, not per day.
 
-**Statistically.** At the calibrated thresholds, both the P10 gains and the exploratory host-conditional-counter gains are large and consistent across seeds. At W ≥ 100, P10 beat the existing counter in all 10 seeds, and the host-conditional counter beat it in 9–10 of 10 seeds. Two caveats apply:
-- The exploratory comparison was defined after the test results were seen.
-- The equal-cost diagnostic tunes its thresholds on test data, so it is an oracle.
+## 3. What is the defensible scientific contribution?
 
-**Operationally.** The host-conditional counter is plausible for deployment:
-- it needs one stored threshold per host;
-- it stays within the mean budget;
-- it detects a third to two thirds of windows with a 5–10% attack share.
-
-It is not yet demonstrated, for three reasons:
-- worst-host budgets were violated;
-- the streams are simulated, without real timing;
-- detection is measured per window, not per day.
-
-**Negative findings.** Sequential accumulators (CUSUM, Shiryaev–Roberts, EWMA, evidence decay, adaptive mixtures) added no detection at equal cost. Their only benefit was earlier alarms. Anytime-valid theory thresholds failed when benign hosts were heterogeneous.
-
-## 3. Is there a defensible methodological contribution?
-
-**No new detector is proposed.** Every ingredient is established:
+**Not a new detector.** Every component is established:
 - Mondrian conformal calibration;
 - the maximum of p-values;
 - likelihood-ratio e-values;
-- e-CUSUM and e-SR (e-detectors);
-- Higher Criticism and the truncated product method.
+- e-detectors;
+- CUSUM, EWMA, Higher Criticism and the truncated product method.
 
-The reference search (127 verified records) found no study that applies per-host conformal calibration and sequential conformal evidence to intrusion alarms under an operational budget. Even so, combining existing techniques is not by itself novel.
+**The defensible contribution is empirical and partly negative:**
+- **(i) An evaluation protocol.**
+  - It runs a pre-specified comparison followed by a confirmatory re-test, with multiple seeds.
+  - All host-level rules share one operational false-escalation budget, and both average and worst-host behaviour are reported.
+- **(ii) A finding about calibration.** Host-level false-escalation budgets calibrated on one benign sample did not transfer to another sample of the same hosts. A plausible driver is row multiplicity combined with a de-duplicated split.
+- **(iii) Evidence on what matters.** On the original split, the reference against which p-values are computed mattered more than the accumulator, but this did not reproduce.
+- **(iv) Where the framework's guarantees stop holding:**
+  - per host;
+  - across benign samples;
+  - after INT8 conversion of the device model;
+  - for small non-IID federated clients.
 
-**The defensible contribution is empirical:**
-- a pre-specified, multi-seed comparison at equal budget;
-- the finding that the per-host reference matters more than the accumulator;
-- documented failure modes:
-  - pooled guarantees per host;
-  - transfer of calibration from validation to test;
-  - theory thresholds;
-  - INT8 thresholds for the device model;
-  - federated calibration on small non-IID clients.
+**Literature check.** A targeted re-check found per-class (not per-host) conformal calibration in IDS, per-device thresholds without conformal calibration (Hsu & Lin 2026), and per-unit Mondrian conformal anomaly detection outside security (Farouq et al. 2021). It found no IDS work that combines per-host conformal calibration with sequential accumulation. The novelty is therefore in the evaluation, not in the components.
 
-## 4. Remaining scientific weaknesses
+**Positioning.** This could support a carefully framed empirical or negative-results paper. It does not support a claim of a new or superior method.
 
-1. **No timestamps.** Host streams are random orderings, and attack windows are synthetic mixtures.
-2. **Calibration transfer failure.** This is likely worsened by de-duplication before splitting. It was not tested on temporally split data.
-3. **Few benign hosts.** Only 4–20 had calibration data, depending on W. Worst-host results hinge on two hosts.
-4. **The best configuration is exploratory.** It needs confirmation on independent data.
-5. **One dataset in which families are similar.** Leave-one-family-out shows that a supervised model recognises every held-out family.
-6. **No adaptive attacker, and no poisoning of the host reference.**
-7. **The federated models were stopped at an epoch cap while still improving.** FedProx was tried with only one value of μ.
-8. **No microcontroller measurements.** Latency was measured on Colab and laptop CPUs.
+## 4. What limitations remain?
 
-## 5. Is the manuscript ready for journal submission?
+1. **Data.**
+   - There are no timestamps and no second dataset.
+   - The three replications reuse TON_IoT, so they can falsify a result but cannot independently confirm one.
+2. **Simulated streams.**
+   - Host streams are random orderings.
+   - Attack windows are synthetic mixtures.
+3. **Few hosts.**
+   - Only 4–20 hosts are available, depending on W.
+   - Worst-host results hinge on 1–3 large hosts.
+4. **Non-blind design.** The design was not blind to test-split properties, and the host-conditional counter was found after the test results were seen. Phase 10b mitigates this but does not remove it.
+5. **Untested attackers.** Adaptive and reference-poisoning attackers were not evaluated.
+6. **Federated training.** The federated models stopped at an epoch cap while still improving, and only one FedProx μ was tried.
+7. **No microcontroller measurements.**
 
-**No.** It is a complete, honest foundation, but the following work is essential first:
+## 5. Is the paper ready for SCI/SCIE journal submission?
 
-- **Data and validity**
-  - (a) Confirm the host-conditional counter on data with real timestamps and a temporal split, preferably on a second dataset such as Edge-IIoTset (already pre-registered in the earlier proposal).
-  - (b) Pre-specify and test reference maintenance (refresh, drift detection, resistance to poisoning), and report worst-host budgets over time.
-- **Robustness and deployment**
-  - (c) Evaluate adaptive low-rate attackers.
-  - (d) Run the federated models to convergence and test more FedProx/personalisation settings.
-  - (e) Measure the full pipeline on a real microcontroller.
-- **Manuscript**
-  - (f) Shorten the manuscript to journal length, moving the per-family and full-protocol tables to supplementary material.
-  - (g) The author must review the generative-AI disclosure and every statement.
-  - (h) Check the two partially verified references and the recent 2026 items for their final publication status.
+**No.** Here is what is essential before submission:
+
+- **(a) A dataset with timestamps and host identifiers.**
+  - Use a temporal split per host: calibrate on earlier traffic, monitor later traffic.
+  - Ideally add a second network.
+  - Without this, the central host-level question cannot be answered.
+- **(b) A pre-registered design for reference maintenance.** It should cover:
+  - refresh;
+  - drift detection;
+  - poisoning resistance;
+  - per-host budgets over time.
+- **(c) A decision on the paper's focus.**
+  - Option 1: an empirical paper on calibrated IoT detection whose host-level part is presented as a negative result.
+  - Option 2: hold the host-level claim until (a) is done.
+- **(d) Shortening.** Cut the manuscript to journal length and move the large tables to supplementary material.
+- **(e) Final checks.**
+  - The author must review every statement.
+  - Confirm the current publication status of the 2026 preprints and conference items.

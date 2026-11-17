@@ -40,10 +40,7 @@ Source: `experiments/phase10/results/`. Settings: F = 1000 flows per host-day, u
 - P10 beat the existing counter at 7 of 8 points (Wilcoxon with Holm correction).
 - It exceeded the false-escalation budget on benign_test hosts, so the pre-specified hypothesis is **not supported**.
 
-**Diagnostic at equal realised cost** (test-tuned thresholds, not deployable)
-- The host-conditional count rule was the best rule: 62.5% at ρ = 0.05 and 81.4% at ρ = 0.10.
-- P10 reached 43.3% and 65.9%.
-- The existing pooled counter reached 29.0% and 71.7%.
+**Withdrawn.** An earlier matched-cost diagnostic set its thresholds on test data. It has been withdrawn.
 
 **Sequential and anytime-valid rules**
 - CUSUM, Shiryaev–Roberts, EWMA, evidence decay and adaptive e-SR detected no more than the window rules.
@@ -57,3 +54,20 @@ Source: `experiments/phase10/results/`. Settings: F = 1000 flows per host-day, u
 **Limits**
 - All host-level numbers come from a simulation: TON_IoT version B has no timestamps, so host streams are random orderings of flows.
 - Budgets calibrated on benign_val did not transfer fully to benign_test.
+
+## Phase 10b: confirmatory re-test (frozen rules, new streams)
+
+Source: `experiments/phase10/results_10b/analysis/`. All rates are at B = 1 false escalation per host-week and F = 1000.
+
+| Setting | Host-conditional counter better (Holm, of 6) | Host-conditional counter, mean false esc./wk (W 50 / 100 / 200) | Existing counter, mean false esc./wk | Verdict |
+|---|---|---|---|---|
+| S1 MAIN (original split, new streams) | 5 | 0.27 / 0.22 / 0.18 | 1.76 / 0.94 / 0.53 | supported |
+| S2 SWAP (benign splits reversed) | 2 | 9.04 / 8.48 / 8.08 | 4.23 / 7.37 / 6.91 | not supported |
+| S3 DEVICE (21-feature detector, halves of benign_test) | 0 | 5.51 / 5.44 / 6.60 | 3.75 / 3.80 / 4.79 | not supported |
+| S4 DEDUP (distinct vectors only) | 2 | 0.27 / 0.45 / 1.64 | 0.39 / 0.49 / 0.83 | not supported |
+
+**Pre-specified overall verdict: not reproduced.**
+
+- **Calibration transfer.** Host-level false-escalation budgets calibrated on one benign sample did not hold on another. In SWAP and DEVICE every rule failed the budget several-fold.
+- **Worst hosts.** The worst host exceeded the budget in at least half of the seeds for every rule and setting. The one exception was the existing counter in MAIN.
+- **Other rules.** Sequential rules did not outperform window counting.

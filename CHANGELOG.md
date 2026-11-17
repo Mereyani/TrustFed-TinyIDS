@@ -2,6 +2,31 @@
 
 Each version keeps the outputs of the earlier versions; nothing was overwritten. Dates are the dates of the runs.
 
+## [Phase 10b] 2026-11-17
+
+### Added
+- `experiments/phase10/PROTOCOL_PHASE10B.md`: a confirmatory protocol, written before any Phase 10b run. It contains:
+  - the frozen rules;
+  - four settings: MAIN, SWAP, DEVICE, DEDUP;
+  - pre-specified success criteria.
+- `run_phase10b.py`, `analyze_phase10b.py`, `make_p10b_values.py`.
+- `build_device_host_map.py`:
+  - rebuilds the row-to-host map locally (it is checked to reproduce the stored Colab map exactly);
+  - builds the 21-feature device-model map and the de-duplicated vector map.
+- `experiments/phase10/results_10b/`: raw per-seed results for 40 runs, and the analysis.
+- `docs/manuscript/previous_versions/`: the manuscript as it was before Phase 10b.
+
+### Changed
+- **Manuscript**
+  - Proposition 1 and Proposition 2 now state their assumptions exactly and limit themselves to marginal, per-flow validity. No guarantee is claimed for windows, CUSUM, Shiryaev–Roberts or calibration transfer.
+  - New Sections 5.7 and 6.13 report Phase 10b.
+  - The abstract, contributions, Discussion 7.2, Section 8 and Section 9 are rewritten. The outdated future-work list is replaced.
+- **Withdrawn:** the Phase 10 matched-cost diagnostic (`tradeoff_phase10.py`), because it set thresholds on test data. Its files are kept and marked as withdrawn.
+
+### Outcome
+- The host-conditional counter's advantage was reproduced on the original split only (MAIN). It was not reproduced in SWAP, DEVICE or DEDUP, so the pre-specified overall verdict is **"not reproduced"**.
+- In SWAP and DEVICE every rule exceeded the false-escalation budget several-fold.
+
 ## [Phase 10] 2026-11-16
 
 ### Added
